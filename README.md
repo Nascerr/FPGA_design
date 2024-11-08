@@ -17,6 +17,7 @@ Ao gravar na FPGA o projeto, algumas coisas devem ser feitas no STM32 para o ade
 
 1) Todos os GPIO's estão no modo OUTPUT com Pull Down.
 2) De acordo com a planilha, existem 2 GPIO's que devem ser alterados os seus valores para utilizar o seletor.
+3) O barrameto utilizado para a memória é o FMC. 
 
 # Arquiteruta utilizada no circuito combinacional
 
