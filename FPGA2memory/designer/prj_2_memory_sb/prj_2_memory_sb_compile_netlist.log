@@ -2,9 +2,9 @@
 ===============================================================================.
 
 Info: Global design data: 
-      Total globals:                       2 
+      Total globals:                       4 
       Globals that cannot be demoted:      0 
-      Globals considered for demotion:     2 
+      Globals considered for demotion:     4 
 
 
 Info: List of globals considered for demotion: 
@@ -12,8 +12,11 @@ Info: List of globals considered for demotion:
     ---    ----   ----   ------------- 
     16     0      0      'fpga_top_design_0/modulo/data_out_right_up7_inferred_clock_RNI6DIC_0' 
     16     0      0      'fpga_top_design_0/modulo/data_out_right_up8_inferred_clock_RNI7SRM3_0' 
+    13     0      0      'OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ_FAB_CLKINT' 
+    3      0      13     'fpga_top_design_0/modulo/decodificador1/quad117_inferred_clock_RNI034A' 
 
 Info: Demotion information: 
+      Disconnected 13 data pins from global 'fpga_top_design_0/modulo/decodificador1/quad117_inferred_clock_RNI034A'. 
 Info: CMPG4-302: Added 0 row global instances.
 Info: CMPG4-303: Deleted 0 global instances.
 

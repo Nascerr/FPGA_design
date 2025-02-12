@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Tue Oct 15 17:23:22 2024
+// Created by SmartDesign Wed Feb  5 12:31:27 2025
 // Version: 2024.1 2024.1.0.3
 //////////////////////////////////////////////////////////////////////
 
@@ -36,6 +36,7 @@ module prj_2_memory_sb(
     MCU_WE,
     ecc_sel0,
     ecc_sel1,
+    turn_on_generator,
     // Outputs
     LED1,
     LED2,
@@ -66,6 +67,9 @@ module prj_2_memory_sb(
     SRAM_OE,
     SRAM_UB,
     SRAM_WE,
+    flag0,
+    flag1,
+    flag3,
     // Inouts
     mcu_fpga_io,
     mcu_mem_io_down,
@@ -103,6 +107,7 @@ input         MCU_UB;
 input         MCU_WE;
 input         ecc_sel0;
 input         ecc_sel1;
+input         turn_on_generator;
 //--------------------------------------------------------------------
 // Output
 //--------------------------------------------------------------------
@@ -135,6 +140,9 @@ output        SRAM_LB;
 output        SRAM_OE;
 output        SRAM_UB;
 output        SRAM_WE;
+output        flag0;
+output        flag1;
+output        flag3;
 //--------------------------------------------------------------------
 // Inout
 //--------------------------------------------------------------------
@@ -146,6 +154,12 @@ inout  [15:0] mcu_mem_io_up;
 //--------------------------------------------------------------------
 wire          ecc_sel0;
 wire          ecc_sel1;
+wire   [1:1]  flag1_net_0;
+wire   [2:2]  flag3_net_0;
+wire   [0:0]  LED1_net_0;
+wire   [2:0]  lfsr_random_generator3_0_random_value;
+wire   [6:0]  lfsr_random_generator_1_random_value;
+wire   [4:0]  lfsr_random_generator_position_0_random_position;
 wire          MCU_A_0;
 wire          MCU_A_1;
 wire          MCU_A_2;
@@ -167,6 +181,7 @@ wire   [15:0] mcu_mem_io_down;
 wire   [15:0] mcu_mem_io_up;
 wire          MCU_OE;
 wire          MCU_WE;
+wire          OSC_C0_0_RCOSC_25_50MHZ_O2F;
 wire          MCU_A_14;
 wire          MCU_A_15;
 wire          MCU_A_16;
@@ -175,6 +190,7 @@ wire          MCU_A_18;
 wire          MCU_A_19;
 wire          MCU_LB;
 wire          MCU_UB;
+wire          turn_on_generator;
 wire          SRAM_A_19_net_0;
 wire          SRAM_A_18_net_0;
 wire          MCU_A_9_net_0;
@@ -202,10 +218,22 @@ wire          SRAM_UB_net_0;
 wire          MCU_A_20_net_0;
 wire          MCU_CS_net_0;
 wire          MCU_CS_net_1;
-wire          LED1_net_0;
-wire          ecc_sel0_net_0;
+wire          LED1_net_1;
+wire          flag1_net_1;
+wire          LED1_net_2;
+wire          flag1_net_2;
+wire          flag3_net_1;
 wire   [1:0]  chip_sel_net_0;
 wire   [1:0]  ecc_sel_net_0;
+wire   [0:2]  flag_out_net_0;
+//--------------------------------------------------------------------
+// TiedOff Nets
+//--------------------------------------------------------------------
+wire          GND_net;
+//--------------------------------------------------------------------
+// Constant assignments
+//--------------------------------------------------------------------
+assign GND_net = 1'b0;
 //--------------------------------------------------------------------
 // Top level output port assignments
 //--------------------------------------------------------------------
@@ -263,10 +291,22 @@ assign MCU_CS_net_0    = MCU_CS;
 assign SRAM_CS1        = MCU_CS_net_0;
 assign MCU_CS_net_1    = MCU_CS;
 assign SRAM_CS2        = MCU_CS_net_1;
-assign LED1_net_0      = ecc_sel1;
-assign LED1            = LED1_net_0;
-assign ecc_sel0_net_0  = ecc_sel0;
-assign LED2            = ecc_sel0_net_0;
+assign LED1_net_1      = LED1_net_0[0];
+assign LED1            = LED1_net_1;
+assign flag1_net_1     = flag1_net_0[1];
+assign LED2            = flag1_net_1;
+assign LED1_net_2      = LED1_net_0[0];
+assign flag0           = LED1_net_2;
+assign flag1_net_2     = flag1_net_0[1];
+assign flag1           = flag1_net_2;
+assign flag3_net_1     = flag3_net_0[2];
+assign flag3           = flag3_net_1;
+//--------------------------------------------------------------------
+// Slices assignments
+//--------------------------------------------------------------------
+assign flag1_net_0[1] = flag_out_net_0[1:1];
+assign flag3_net_0[2] = flag_out_net_0[2:2];
+assign LED1_net_0[0]  = flag_out_net_0[0:0];
 //--------------------------------------------------------------------
 // Concatenation assignments
 //--------------------------------------------------------------------
@@ -281,10 +321,53 @@ fpga_top_design fpga_top_design_0(
         .write_en         ( MCU_WE ),
         .chip_sel         ( chip_sel_net_0 ),
         .ecc_sel          ( ecc_sel_net_0 ),
+        .random_values13  ( lfsr_random_generator3_0_random_value ),
+        .random_values17  ( lfsr_random_generator_1_random_value ),
+        .random_positions ( lfsr_random_generator_position_0_random_position ),
+        .clk              ( OSC_C0_0_RCOSC_25_50MHZ_O2F ),
+        .output_en        ( MCU_OE ),
+        // Outputs
+        .flag_out         ( flag_out_net_0 ),
         // Inouts
         .mcu_fpga_io      ( mcu_fpga_io ),
         .fpga_mem_io_up   ( mcu_mem_io_up ),
         .fpga_mem_io_down ( mcu_mem_io_down ) 
+        );
+
+//--------lfsr_random_generator3
+lfsr_random_generator3 lfsr_random_generator3_0(
+        // Inputs
+        .clk          ( OSC_C0_0_RCOSC_25_50MHZ_O2F ),
+        .reset        ( turn_on_generator ),
+        .stop         ( GND_net ),
+        // Outputs
+        .random_value ( lfsr_random_generator3_0_random_value ) 
+        );
+
+//--------lfsr_random_generator
+lfsr_random_generator lfsr_random_generator_1(
+        // Inputs
+        .clk          ( OSC_C0_0_RCOSC_25_50MHZ_O2F ),
+        .reset        ( turn_on_generator ),
+        .stop         ( GND_net ),
+        // Outputs
+        .random_value ( lfsr_random_generator_1_random_value ) 
+        );
+
+//--------lfsr_random_generator_position
+lfsr_random_generator_position lfsr_random_generator_position_0(
+        // Inputs
+        .clk             ( OSC_C0_0_RCOSC_25_50MHZ_O2F ),
+        .reset           ( turn_on_generator ),
+        .stop            ( GND_net ),
+        // Outputs
+        .random_position ( lfsr_random_generator_position_0_random_position ) 
+        );
+
+//--------OSC_C0
+OSC_C0 OSC_C0_0(
+        // Outputs
+        .RCOSC_25_50MHZ_O2F ( OSC_C0_0_RCOSC_25_50MHZ_O2F ) 
         );
 
 

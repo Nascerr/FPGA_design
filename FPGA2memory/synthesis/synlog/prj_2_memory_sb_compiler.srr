@@ -8,7 +8,7 @@ Tool: Synplify Pro (R)
 Build: V-2023.09M
 Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
 OS: Windows 10 or later
-Hostname: DESKTOP-OUF4AF5
+Hostname: DESKTOP-V6FS948
 
 Implementation : synthesis
 Synopsys HDL Compiler, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:15:03, @
@@ -25,7 +25,7 @@ Tool: Synplify Pro (R)
 Build: V-2023.09M
 Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
 OS: Windows 10 or later
-Hostname: DESKTOP-OUF4AF5
+Hostname: DESKTOP-V6FS948
 
 Implementation : synthesis
 Synopsys Verilog Compiler, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:15:03, @
@@ -35,72 +35,160 @@ Synopsys Verilog Compiler, Version comp202309synp1, Build 146R, Built Jan  4 202
 
 @I::"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v" (library work)
 @I::"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
-@I::"C:\Users\Lesc\Documents\LiberoProjects\prj_FPGA_2memory\FPGA2memory\hdl\design.sv" (library work)
-@I:"C:\Users\Lesc\Documents\LiberoProjects\prj_FPGA_2memory\FPGA2memory\hdl\design.sv":"C:\Users\Lesc\Documents\LiberoProjects\prj_FPGA_2memory\FPGA2memory\hdl\ecc_design.sv" (library work)
-@I:"C:\Users\Lesc\Documents\LiberoProjects\prj_FPGA_2memory\FPGA2memory\hdl\ecc_design.sv":"C:\Users\Lesc\Documents\LiberoProjects\prj_FPGA_2memory\FPGA2memory\hdl\TBEC_RSC_encoder.sv" (library work)
-@I:"C:\Users\Lesc\Documents\LiberoProjects\prj_FPGA_2memory\FPGA2memory\hdl\ecc_design.sv":"C:\Users\Lesc\Documents\LiberoProjects\prj_FPGA_2memory\FPGA2memory\hdl\TBEC_RSC_decoder.sv" (library work)
-@I:"C:\Users\Lesc\Documents\LiberoProjects\prj_FPGA_2memory\FPGA2memory\hdl\ecc_design.sv":"C:\Users\Lesc\Documents\LiberoProjects\prj_FPGA_2memory\FPGA2memory\hdl\MRSC_encoder.sv" (library work)
-@I:"C:\Users\Lesc\Documents\LiberoProjects\prj_FPGA_2memory\FPGA2memory\hdl\ecc_design.sv":"C:\Users\Lesc\Documents\LiberoProjects\prj_FPGA_2memory\FPGA2memory\hdl\MRSC_decoder.sv" (library work)
-@I::"C:\Users\Lesc\Documents\LiberoProjects\prj_FPGA_2memory\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v" (library work)
+@I::"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\Actel\SgCore\OSC\2.0.101\osc_comps.v" (library work)
+@W: CG100 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":4:13:4:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":14:13:14:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":27:13:27:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":43:13:43:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":55:13:55:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":67:13:67:25|User defined pragma syn_black_box detected
+
+@I::"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v" (library work)
+@I::"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\work\OSC_C0\OSC_C0.v" (library work)
+@I::"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\TBEC_RSC_encoder13.sv" (library work)
+@I::"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\TBEC_RSC_encoder17.sv" (library work)
+@I::"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\design.sv" (library work)
+@I:"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\design.sv":"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\ecc_design.sv" (library work)
+@I:"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\ecc_design.sv":"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\TBEC_RSC_encoder.sv" (library work)
+@I:"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\ecc_design.sv":"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\TBEC_RSC_decoder.sv" (library work)
+@I:"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\ecc_design.sv":"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\MRSC_encoder.sv" (library work)
+@I:"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\ecc_design.sv":"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\MRSC_decoder.sv" (library work)
+@I::"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\lfsr_random_generator3.sv" (library work)
+@I::"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\lfsr_random_generator_position.sv" (library work)
+@I::"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\lfsr_random_generator.sv" (library work)
+@I::"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v" (library work)
 Verilog syntax check successful!
-File C:\Users\Lesc\Documents\LiberoProjects\prj_FPGA_2memory\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v changed - recompiling
+File C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\design.sv changed - recompiling
+File C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\ecc_design.sv changed - recompiling
+File C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\TBEC_RSC_decoder.sv changed - recompiling
+File C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v changed - recompiling
 Selecting top level module prj_2_memory_sb
-@N: CG364 :"C:\Users\Lesc\Documents\LiberoProjects\prj_FPGA_2memory\FPGA2memory\hdl\TBEC_RSC_encoder.sv":3:7:3:22|Synthesizing module TBEC_RSC_encoder in library work.
+@N: CG364 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\TBEC_RSC_encoder.sv":3:7:3:22|Synthesizing module TBEC_RSC_encoder in library work.
 Running optimization stage 1 on TBEC_RSC_encoder .......
-Finished optimization stage 1 on TBEC_RSC_encoder (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 90MB)
-@N: CG364 :"C:\Users\Lesc\Documents\LiberoProjects\prj_FPGA_2memory\FPGA2memory\hdl\TBEC_RSC_decoder.sv":2:7:2:22|Synthesizing module TBEC_RSC_decoder in library work.
-@W: CG133 :"C:\Users\Lesc\Documents\LiberoProjects\prj_FPGA_2memory\FPGA2memory\hdl\TBEC_RSC_decoder.sv":8:12:8:15|Object flag is declared but not assigned. Either assign a value or remove the declaration.
+Finished optimization stage 1 on TBEC_RSC_encoder (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 91MB)
+@N: CG364 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\TBEC_RSC_decoder.sv":2:7:2:22|Synthesizing module TBEC_RSC_decoder in library work.
 Running optimization stage 1 on TBEC_RSC_decoder .......
+@A: CL110 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\TBEC_RSC_decoder.sv":47:2:47:3|Too many clocks (> 8) for set/reset analysis of flag, try moving enabling expressions outside always block
+@W: CL118 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\TBEC_RSC_decoder.sv":47:2:47:3|Latch generated from always block for signal flag[0:2]; possible missing assignment in an if or case statement.
+@W: CL217 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\TBEC_RSC_decoder.sv":47:2:47:3|always_comb does not infer combinatorial logic
 Finished optimization stage 1 on TBEC_RSC_decoder (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 96MB)
-@N: CG364 :"C:\Users\Lesc\Documents\LiberoProjects\prj_FPGA_2memory\FPGA2memory\hdl\MRSC_encoder.sv":1:7:1:18|Synthesizing module MRSC_encoder in library work.
+@N: CG364 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\MRSC_encoder.sv":1:7:1:18|Synthesizing module MRSC_encoder in library work.
 Running optimization stage 1 on MRSC_encoder .......
 Finished optimization stage 1 on MRSC_encoder (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 96MB)
-@N: CG364 :"C:\Users\Lesc\Documents\LiberoProjects\prj_FPGA_2memory\FPGA2memory\hdl\MRSC_decoder.sv":2:7:2:18|Synthesizing module MRSC_decoder in library work.
-@W: CG133 :"C:\Users\Lesc\Documents\LiberoProjects\prj_FPGA_2memory\FPGA2memory\hdl\MRSC_decoder.sv":13:14:13:18|Object sumSP is declared but not assigned. Either assign a value or remove the declaration.
-@W: CG133 :"C:\Users\Lesc\Documents\LiberoProjects\prj_FPGA_2memory\FPGA2memory\hdl\MRSC_decoder.sv":13:20:13:25|Object sumSDi is declared but not assigned. Either assign a value or remove the declaration.
-@W: CG133 :"C:\Users\Lesc\Documents\LiberoProjects\prj_FPGA_2memory\FPGA2memory\hdl\MRSC_decoder.sv":4:12:4:14|Object red is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\MRSC_decoder.sv":2:7:2:18|Synthesizing module MRSC_decoder in library work.
+@W: CG133 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\MRSC_decoder.sv":13:14:13:18|Object sumSP is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\MRSC_decoder.sv":13:20:13:25|Object sumSDi is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\MRSC_decoder.sv":4:12:4:14|Object red is declared but not assigned. Either assign a value or remove the declaration.
 Running optimization stage 1 on MRSC_decoder .......
 Finished optimization stage 1 on MRSC_decoder (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 96MB)
-@N: CG364 :"C:\Users\Lesc\Documents\LiberoProjects\prj_FPGA_2memory\FPGA2memory\hdl\ecc_design.sv":8:7:8:16|Synthesizing module ecc_design in library work.
+@N: CG364 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\TBEC_RSC_encoder13.sv":3:7:3:24|Synthesizing module TBEC_RSC_encoder13 in library work.
+Running optimization stage 1 on TBEC_RSC_encoder13 .......
+Finished optimization stage 1 on TBEC_RSC_encoder13 (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 96MB)
+@N: CG364 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\TBEC_RSC_encoder17.sv":3:7:3:24|Synthesizing module TBEC_RSC_encoder17 in library work.
+Running optimization stage 1 on TBEC_RSC_encoder17 .......
+Finished optimization stage 1 on TBEC_RSC_encoder17 (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 96MB)
+@N: CG364 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\ecc_design.sv":8:7:8:16|Synthesizing module ecc_design in library work.
+@W: CG133 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\ecc_design.sv":25:15:25:29|Object decoder_output3 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\ecc_design.sv":28:15:28:29|Object decoder_output4 is declared but not assigned. Either assign a value or remove the declaration.
 Running optimization stage 1 on ecc_design .......
-@W: CL118 :"C:\Users\Lesc\Documents\LiberoProjects\prj_FPGA_2memory\FPGA2memory\hdl\ecc_design.sv":35:4:35:7|Latch generated from always block for signal data_out_right_up[0:15]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Lesc\Documents\LiberoProjects\prj_FPGA_2memory\FPGA2memory\hdl\ecc_design.sv":35:4:35:7|Latch generated from always block for signal data_out_right_down[0:15]; possible missing assignment in an if or case statement.
-@W: CL217 :"C:\Users\Lesc\Documents\LiberoProjects\prj_FPGA_2memory\FPGA2memory\hdl\ecc_design.sv":35:4:35:7|always_comb does not infer combinatorial logic
-@W: CL217 :"C:\Users\Lesc\Documents\LiberoProjects\prj_FPGA_2memory\FPGA2memory\hdl\ecc_design.sv":35:4:35:7|always_comb does not infer combinatorial logic
-Finished optimization stage 1 on ecc_design (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 96MB)
-@N: CG364 :"C:\Users\Lesc\Documents\LiberoProjects\prj_FPGA_2memory\FPGA2memory\hdl\design.sv":3:7:3:21|Synthesizing module fpga_top_design in library work.
+@W: CL168 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\ecc_design.sv":41:21:41:34|Removing instance codificador1_7 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\ecc_design.sv":37:15:37:28|Removing instance decodificador2 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\ecc_design.sv":36:15:36:26|Removing instance codificador2 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL118 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\ecc_design.sv":45:4:45:7|Latch generated from always block for signal data_out_right_up[0:15]; possible missing assignment in an if or case statement.
+@W: CL118 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\ecc_design.sv":45:4:45:7|Latch generated from always block for signal data_out_right_down[0:15]; possible missing assignment in an if or case statement.
+@W: CL217 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\ecc_design.sv":45:4:45:7|always_comb does not infer combinatorial logic
+@W: CL217 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\ecc_design.sv":45:4:45:7|always_comb does not infer combinatorial logic
+Finished optimization stage 1 on ecc_design (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 96MB)
+@N: CG364 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\design.sv":3:7:3:21|Synthesizing module fpga_top_design in library work.
+@N: CG179 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\design.sv":41:20:41:27|Removing redundant assignment.
 Running optimization stage 1 on fpga_top_design .......
-Finished optimization stage 1 on fpga_top_design (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 96MB)
-@N: CG364 :"C:\Users\Lesc\Documents\LiberoProjects\prj_FPGA_2memory\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v":9:7:9:21|Synthesizing module prj_2_memory_sb in library work.
+Finished optimization stage 1 on fpga_top_design (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 99MB)
+@N: CG364 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\lfsr_random_generator3.sv":1:7:1:28|Synthesizing module lfsr_random_generator3 in library work.
+Running optimization stage 1 on lfsr_random_generator3 .......
+Finished optimization stage 1 on lfsr_random_generator3 (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 99MB)
+@N: CG364 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\lfsr_random_generator.sv":1:7:1:27|Synthesizing module lfsr_random_generator in library work.
+Running optimization stage 1 on lfsr_random_generator .......
+Finished optimization stage 1 on lfsr_random_generator (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 99MB)
+@N: CG364 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\lfsr_random_generator_position.sv":1:7:1:36|Synthesizing module lfsr_random_generator_position in library work.
+Running optimization stage 1 on lfsr_random_generator_position .......
+Finished optimization stage 1 on lfsr_random_generator_position (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 99MB)
+@N: CG364 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":51:7:51:24|Synthesizing module RCOSC_25_50MHZ_FAB in library work.
+Running optimization stage 1 on RCOSC_25_50MHZ_FAB .......
+Finished optimization stage 1 on RCOSC_25_50MHZ_FAB (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 99MB)
+@N: CG364 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":11:7:11:20|Synthesizing module RCOSC_25_50MHZ in library work.
+Running optimization stage 1 on RCOSC_25_50MHZ .......
+Finished optimization stage 1 on RCOSC_25_50MHZ (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 99MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":362:7:362:12|Synthesizing module CLKINT in library work.
+Running optimization stage 1 on CLKINT .......
+Finished optimization stage 1 on CLKINT (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 99MB)
+@N: CG364 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v":5:7:5:25|Synthesizing module OSC_C0_OSC_C0_0_OSC in library work.
+Running optimization stage 1 on OSC_C0_OSC_C0_0_OSC .......
+@W: CL318 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v":15:7:15:24|*Output RCOSC_25_50MHZ_CCC has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v":17:7:17:20|*Output RCOSC_1MHZ_CCC has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v":18:7:18:20|*Output RCOSC_1MHZ_O2F has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v":19:7:19:16|*Output XTLOSC_CCC has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v":20:7:20:16|*Output XTLOSC_O2F has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+Finished optimization stage 1 on OSC_C0_OSC_C0_0_OSC (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 99MB)
+@N: CG364 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\work\OSC_C0\OSC_C0.v":33:7:33:12|Synthesizing module OSC_C0 in library work.
+Running optimization stage 1 on OSC_C0 .......
+Finished optimization stage 1 on OSC_C0 (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 99MB)
+@N: CG364 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v":9:7:9:21|Synthesizing module prj_2_memory_sb in library work.
 Running optimization stage 1 on prj_2_memory_sb .......
-Finished optimization stage 1 on prj_2_memory_sb (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 96MB)
+Finished optimization stage 1 on prj_2_memory_sb (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 99MB)
 Running optimization stage 2 on prj_2_memory_sb .......
-Finished optimization stage 2 on prj_2_memory_sb (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 96MB)
+Finished optimization stage 2 on prj_2_memory_sb (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 99MB)
+Running optimization stage 2 on OSC_C0 .......
+Finished optimization stage 2 on OSC_C0 (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 99MB)
+Running optimization stage 2 on OSC_C0_OSC_C0_0_OSC .......
+@N: CL159 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v":14:7:14:9|Input XTL is unused.
+Finished optimization stage 2 on OSC_C0_OSC_C0_0_OSC (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 99MB)
+Running optimization stage 2 on CLKINT .......
+Finished optimization stage 2 on CLKINT (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 99MB)
+Running optimization stage 2 on RCOSC_25_50MHZ .......
+Finished optimization stage 2 on RCOSC_25_50MHZ (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 99MB)
+Running optimization stage 2 on RCOSC_25_50MHZ_FAB .......
+Finished optimization stage 2 on RCOSC_25_50MHZ_FAB (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 99MB)
+Running optimization stage 2 on lfsr_random_generator_position .......
+Finished optimization stage 2 on lfsr_random_generator_position (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 99MB)
+Running optimization stage 2 on lfsr_random_generator .......
+Finished optimization stage 2 on lfsr_random_generator (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+Running optimization stage 2 on lfsr_random_generator3 .......
+Finished optimization stage 2 on lfsr_random_generator3 (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
 Running optimization stage 2 on fpga_top_design .......
-Finished optimization stage 2 on fpga_top_design (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 96MB)
+Finished optimization stage 2 on fpga_top_design (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
 Running optimization stage 2 on ecc_design .......
-Finished optimization stage 2 on ecc_design (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 96MB)
+@N: CL159 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\ecc_design.sv":16:42:16:56|Input random_values17 is unused.
+Finished optimization stage 2 on ecc_design (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+Running optimization stage 2 on TBEC_RSC_encoder17 .......
+Finished optimization stage 2 on TBEC_RSC_encoder17 (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+Running optimization stage 2 on TBEC_RSC_encoder13 .......
+Finished optimization stage 2 on TBEC_RSC_encoder13 (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
 Running optimization stage 2 on MRSC_decoder .......
-Finished optimization stage 2 on MRSC_decoder (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 96MB)
+Finished optimization stage 2 on MRSC_decoder (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 101MB)
 Running optimization stage 2 on MRSC_encoder .......
-Finished optimization stage 2 on MRSC_encoder (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 96MB)
+Finished optimization stage 2 on MRSC_encoder (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 101MB)
 Running optimization stage 2 on TBEC_RSC_decoder .......
-Finished optimization stage 2 on TBEC_RSC_decoder (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 96MB)
+Finished optimization stage 2 on TBEC_RSC_decoder (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 101MB)
 Running optimization stage 2 on TBEC_RSC_encoder .......
-Finished optimization stage 2 on TBEC_RSC_encoder (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 96MB)
+Finished optimization stage 2 on TBEC_RSC_encoder (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 101MB)
 
 For a summary of runtime per design unit, please see file:
 ==========================================================
-@L: C:\Users\Lesc\Documents\LiberoProjects\prj_FPGA_2memory\FPGA2memory\synthesis\synwork\layer0.duruntime
+@L: C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\synthesis\synwork\layer0.duruntime
 
 
 
-At c_ver Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 94MB peak: 96MB)
+At c_ver Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 100MB peak: 101MB)
 
-Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
 
 Process completed successfully.
-# Tue Oct 15 17:23:34 2024
+# Wed Feb  5 12:31:39 2025
 
 ###########################################################]
 ###########################################################[
@@ -114,34 +202,34 @@ Tool: Synplify Pro (R)
 Build: V-2023.09M
 Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
 OS: Windows 10 or later
-Hostname: DESKTOP-OUF4AF5
+Hostname: DESKTOP-V6FS948
 
 Implementation : synthesis
 Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:15:03, @
 
 @N|Running in 64-bit mode
-File C:\Users\Lesc\Documents\LiberoProjects\prj_FPGA_2memory\FPGA2memory\synthesis\synwork\layer0.srs changed - recompiling
+File C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\synthesis\synwork\layer0.srs changed - recompiling
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 91MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Oct 15 17:23:34 2024
+# Wed Feb  5 12:31:39 2025
 
 ###########################################################]
 
 For a summary of runtime and memory usage for all design units, please see file:
 ==========================================================
-@L: C:\Users\Lesc\Documents\LiberoProjects\prj_FPGA_2memory\FPGA2memory\synthesis\synwork\prj_2_memory_sb_comp.rt.csv
+@L: C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\synthesis\synwork\prj_2_memory_sb_comp.rt.csv
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 22MB peak: 23MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 30MB peak: 30MB)
 
-Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
 
 Process completed successfully.
-# Tue Oct 15 17:23:34 2024
+# Wed Feb  5 12:31:39 2025
 
 ###########################################################]

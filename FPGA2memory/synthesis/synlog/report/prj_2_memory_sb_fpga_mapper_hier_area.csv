@@ -1,9 +1,12 @@
 
 . Module name, SLE, CFG, ARI1, BUFFER, MACC, RAM1K18, RAM64X18, GLOBAL, IO
-. prj_2_memory_sb, 32, 324, 0, 0, 0, 0, 0, 2, 105
-.	. fpga_top_design, 32, 324, 0, 0, 0, 0, 0, 2, 0
-.	.	. ecc_design, 32, 316, 0, 0, 0, 0, 0, 2, 0
-.	.	.	. MRSC_decoder, 0, 44, 0, 0, 0, 0, 0, 0, 0
-.	.	.	. MRSC_encoder, 0, 3, 0, 0, 0, 0, 0, 0, 0
-.	.	.	. TBEC_RSC_decoder, 0, 116, 0, 0, 0, 0, 0, 0, 0
-.	.	.	. TBEC_RSC_encoder, 0, 5, 0, 0, 0, 0, 0, 0, 0
+. prj_2_memory_sb, 48, 321, 0, 0, 0, 0, 0, 4, 109
+.	. OSC_C0, 0, 0, 0, 0, 0, 0, 0, 1, 0
+.	.	. OSC_C0_OSC_C0_0_OSC, 0, 0, 0, 0, 0, 0, 0, 1, 0
+.	. fpga_top_design, 38, 316, 0, 0, 0, 0, 0, 3, 0
+.	.	. ecc_design, 35, 309, 0, 0, 0, 0, 0, 3, 0
+.	.	.	. TBEC_RSC_decoder, 3, 124, 0, 0, 0, 0, 0, 1, 0
+.	.	.	. TBEC_RSC_encoder, 0, 8, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. TBEC_RSC_encoder13, 0, 42, 0, 0, 0, 0, 0, 0, 0
+.	. lfsr_random_generator3, 5, 3, 0, 0, 0, 0, 0, 0, 0
+.	. lfsr_random_generator_position, 5, 1, 0, 0, 0, 0, 0, 0, 0

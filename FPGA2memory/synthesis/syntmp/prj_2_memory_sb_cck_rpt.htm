@@ -1,5 +1,5 @@
 <html><body><samp><pre>
-<!@TC:1729023811>
+<!@TC:1738769495>
 
 Copyright (C) 1994-2023 Synopsys, Inc.
 This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
@@ -10,16 +10,16 @@ Tool: Synplify Pro (R)
 Build: V-2023.09M
 Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
 OS: Windows 10 or later
-Hostname: DESKTOP-OUF4AF5
+Hostname: DESKTOP-V6FS948
 
 Implementation : synthesis
 
-# Written on Tue Oct 15 17:23:38 2024
+# Written on Wed Feb  5 12:31:41 2025
 
 ##### DESIGN INFO #######################################################
 
 Top View:                "prj_2_memory_sb"
-Constraint File(s):      "C:\Users\Lesc\Documents\LiberoProjects\prj_FPGA_2memory\FPGA2memory\designer\prj_2_memory_sb\synthesis.fdc"
+Constraint File(s):      "C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\designer\prj_2_memory_sb\synthesis.fdc"
 
 
 
@@ -36,18 +36,24 @@ Found 0 issues in 0 out of 0 constraints
 Clock Relationships
 *******************
 
-Starting                                         Ending                                           |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-ecc_design|data_out_right_up7_inferred_clock     ecc_design|data_out_right_up7_inferred_clock     |     10.000           |     No paths         |     No paths         |     No paths                         
-ecc_design|data_out_right_up7_inferred_clock     ecc_design|data_out_right_up8_inferred_clock     |     Diff grp         |     No paths         |     No paths         |     No paths                         
-ecc_design|data_out_right_up8_inferred_clock     ecc_design|data_out_right_up7_inferred_clock     |     Diff grp         |     No paths         |     No paths         |     No paths                         
-ecc_design|data_out_right_up8_inferred_clock     ecc_design|data_out_right_up8_inferred_clock     |     10.000           |     No paths         |     No paths         |     No paths                         
-=============================================================================================================================================================================================================
+Starting                                                       Ending                                                         |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     |     10.000           |     No paths         |     No paths         |     No paths                         
+OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     ecc_design|data_out_right_up7_inferred_clock                   |     Diff grp         |     No paths         |     No paths         |     No paths                         
+OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     ecc_design|data_out_right_up8_inferred_clock                   |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ecc_design|data_out_right_up7_inferred_clock                   ecc_design|data_out_right_up7_inferred_clock                   |     10.000           |     No paths         |     No paths         |     No paths                         
+ecc_design|data_out_right_up7_inferred_clock                   ecc_design|data_out_right_up8_inferred_clock                   |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ecc_design|data_out_right_up7_inferred_clock                   TBEC_RSC_decoder|quad117_inferred_clock                        |     No paths         |     No paths         |     Diff grp         |     No paths                         
+ecc_design|data_out_right_up8_inferred_clock                   ecc_design|data_out_right_up7_inferred_clock                   |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ecc_design|data_out_right_up8_inferred_clock                   ecc_design|data_out_right_up8_inferred_clock                   |     10.000           |     No paths         |     No paths         |     No paths                         
+ecc_design|data_out_right_up8_inferred_clock                   TBEC_RSC_decoder|quad117_inferred_clock                        |     No paths         |     No paths         |     Diff grp         |     No paths                         
+TBEC_RSC_decoder|quad117_inferred_clock                        OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     |     No paths         |     No paths         |     No paths         |     Diff grp                         
+=========================================================================================================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
 
 
-<a name=UnconstrainedStartEndPointsCCK38></a>Unconstrained Start/End Points</a>
+<a name=UnconstrainedStartEndPointsCCK42></a>Unconstrained Start/End Points</a>
 ******************************
 
 p:LED1
@@ -107,6 +113,9 @@ p:SRAM_UB
 p:SRAM_WE
 p:ecc_sel0
 p:ecc_sel1
+p:flag0
+p:flag1
+p:flag3
 p:mcu_mem_io_down[0] (bidir end point)
 p:mcu_mem_io_down[0] (bidir start point)
 p:mcu_mem_io_down[1] (bidir end point)
@@ -171,27 +180,28 @@ p:mcu_mem_io_up[14] (bidir end point)
 p:mcu_mem_io_up[14] (bidir start point)
 p:mcu_mem_io_up[15] (bidir end point)
 p:mcu_mem_io_up[15] (bidir start point)
+p:turn_on_generator
 
 
-<a name=InapplicableconstraintsCCK39></a>Inapplicable constraints</a>
+<a name=InapplicableconstraintsCCK43></a>Inapplicable constraints</a>
 ************************
 
 (none)
 
 
-<a name=ApplicableConstraintsWithIssuesCCK40></a>Applicable constraints with issues</a>
+<a name=ApplicableConstraintsWithIssuesCCK44></a>Applicable constraints with issues</a>
 **********************************
 
 (none)
 
 
-<a name=ConstraintsWithMatchingWildcardExpressionsCCK41></a>Constraints with matching wildcard expressions</a>
+<a name=ConstraintsWithMatchingWildcardExpressionsCCK45></a>Constraints with matching wildcard expressions</a>
 **********************************************
 
 (none)
 
 
-<a name=LibraryReportCCK42></a>Library Report</a>
+<a name=LibraryReportCCK46></a>Library Report</a>
 **************
 
 

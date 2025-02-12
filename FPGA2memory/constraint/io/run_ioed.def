@@ -1,8 +1,8 @@
 data HELP_TYPE_DES 2
 data DESIGN prj_2_memory_sb
-data HPATH 'C:/Users/Lesc/Documents/LiberoProjects/prj_FPGA_2memory/FPGA2memory/designer/prj_2_memory_sb'
-data CPATH 'C:/Users/Lesc/Documents/LiberoProjects/prj_FPGA_2memory/FPGA2memory/constraint/io'
-data CDIR 'C:/Users/Lesc/Documents/LiberoProjects/prj_FPGA_2memory/FPGA2memory/constraint'
+data HPATH 'C:/Users/Lucas/Desktop/Projeto_CubeSat-dev_hdl_fpga/FPGA2memory/designer/prj_2_memory_sb'
+data CPATH 'C:/Users/Lucas/Desktop/Projeto_CubeSat-dev_hdl_fpga/FPGA2memory/constraint/io'
+data CDIR 'C:/Users/Lucas/Desktop/Projeto_CubeSat-dev_hdl_fpga/FPGA2memory/constraint'
 data NLV_HIDE_OPTION_DLG 1
 data REGION_DEFCOLOR_EMPTY 2143322112
 data REGION_DEFCOLOR_INCLUSIVE 2147442270
@@ -22,14 +22,15 @@ data VCCI_2.5_VOLTR COM
 data VCCI_3.3_VOLTR COM
 data FLOW_TYPE NEW
 data PLANNER_IOMODE 1
-data AFL 'C:/Users/Lesc/Documents/LiberoProjects/prj_FPGA_2memory/FPGA2memory/designer/prj_2_memory_sb/COMPILE/prj_2_memory_sb.afl'
-data ADL 'C:/Users/Lesc/Documents/LiberoProjects/prj_FPGA_2memory/FPGA2memory/designer/prj_2_memory_sb/prj_2_memory_sb.adl'
-data LOC 'C:/Users/Lesc/Documents/LiberoProjects/prj_FPGA_2memory/FPGA2memory/designer/prj_2_memory_sb/COMPILE/prj_2_memory_sb.loc'
-data SEG 'C:/Users/Lesc/Documents/LiberoProjects/prj_FPGA_2memory/FPGA2memory/designer/prj_2_memory_sb/COMPILE/prj_2_memory_sb.seg'
+data AFL 'C:/Users/Lucas/Desktop/Projeto_CubeSat-dev_hdl_fpga/FPGA2memory/designer/prj_2_memory_sb/prj_2_memory_sb.afl'
+data ADL 'C:/Users/Lucas/Desktop/Projeto_CubeSat-dev_hdl_fpga/FPGA2memory/designer/prj_2_memory_sb/prj_2_memory_sb.adl'
+data LOC 'C:/Users/Lucas/Desktop/Projeto_CubeSat-dev_hdl_fpga/FPGA2memory/designer/prj_2_memory_sb/prj_2_memory_sb.loc'
+data SEG 'C:/Users/Lucas/Desktop/Projeto_CubeSat-dev_hdl_fpga/FPGA2memory/designer/prj_2_memory_sb/prj_2_memory_sb.seg'
+data NMAT_PDC 'C:/Users/Lucas/Desktop/Projeto_CubeSat-dev_hdl_fpga/FPGA2memory/designer/prj_2_memory_sb/prj_2_memory_sb.nmatinit.pdc'
 
-data IO_PDC_0 'C:/Users/Lesc/Documents/LiberoProjects/prj_FPGA_2memory/FPGA2memory/constraint/io/user.pdc'
-data TARGET_IOPDC  'C:/Users/Lesc/Documents/LiberoProjects/prj_FPGA_2memory/FPGA2memory/constraint/io/user.pdc'
-data TARGET_FPPDC  'C:/Users/Lesc/Documents/LiberoProjects/prj_FPGA_2memory/FPGA2memory/constraint/fp/user.pdc'
+data IO_PDC_0 'C:/Users/Lucas/Desktop/Projeto_CubeSat-dev_hdl_fpga/FPGA2memory/constraint/io/user.pdc'
+data TARGET_IOPDC  'C:/Users/Lucas/Desktop/Projeto_CubeSat-dev_hdl_fpga/FPGA2memory/constraint/io/user.pdc'
+data TARGET_FPPDC  'C:/Users/Lucas/Desktop/Projeto_CubeSat-dev_hdl_fpga/FPGA2memory/constraint/fp/user.pdc'
 data TARGET_DEVICES_FOR_MIGRATION 'PA4M2500 '
 data RESTRICTPROBEPINS 0
 data RESTRICTSPIPINS 0

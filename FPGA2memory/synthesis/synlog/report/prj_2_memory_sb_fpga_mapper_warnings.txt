@@ -1,4 +1,9 @@
+@W: BN132 :"c:\users\lucas\desktop\projeto_cubesat-dev_hdl_fpga\fpga2memory\hdl\tbec_rsc_decoder.sv":71:11:71:25|Removing user instance fpga_top_design_0.modulo.decodificador1.un1_quad1_a_4_1 because it is equivalent to instance fpga_top_design_0.modulo.decodificador1.flag10_4_1. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
 @W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: MT420 |Found inferred clock OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock with period 10.00ns. Please declare a user-defined clock on net OSC_C0_0.OSC_C0_0.N_RCOSC_25_50MHZ_CLKOUT.
 @W: MT420 |Found inferred clock ecc_design|data_out_right_up7_inferred_clock with period 10.00ns. Please declare a user-defined clock on net fpga_top_design_0.modulo.data_out_right_up7.
 @W: MT420 |Found inferred clock ecc_design|data_out_right_up8_inferred_clock with period 10.00ns. Please declare a user-defined clock on net fpga_top_design_0.modulo.data_out_right_up8.
+@W: MT420 |Found inferred clock TBEC_RSC_decoder|quad117_inferred_clock with period 10.00ns. Please declare a user-defined clock on net fpga_top_design_0.modulo.decodificador1.quad117_0.

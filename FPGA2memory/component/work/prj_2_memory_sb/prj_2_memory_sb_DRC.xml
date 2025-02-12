@@ -6,15 +6,22 @@
     <status>C:\Microchip\Libero_SoC_v2024.1\Designer/data/drcreport\warn.png</status>
     <StatusMessage>Warning</StatusMessage>
     <message>Floating Driver</message>
-    <detail>Floating output pin prj_2_memory_sb:MCU_CS</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/prj_2_memory_sb/pins/prj_2_memory_sb:MCU_CS</crossprobe>
+    <detail>Floating output pin prj_2_memory_sb:ecc_sel1</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/prj_2_memory_sb/pins/prj_2_memory_sb:ecc_sel1</crossprobe>
   </drc>
   <drc>
-    <status>C:\Microchip\Libero_SoC_v2024.1\Designer/data/drcreport\error.png</status>
-    <StatusMessage>Error</StatusMessage>
-    <message>Undriven Pin</message>
-    <detail>Unconnected top level output port prj_2_memory_sb:SRAM_CS</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/prj_2_memory_sb/pins/prj_2_memory_sb:SRAM_CS</crossprobe>
+    <status>C:\Microchip\Libero_SoC_v2024.1\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin prj_2_memory_sb:ecc_sel0</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/prj_2_memory_sb/pins/prj_2_memory_sb:ecc_sel0</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2024.1\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin prj_2_memory_sb:ecc_sel2</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/prj_2_memory_sb/pins/prj_2_memory_sb:ecc_sel2</crossprobe>
   </drc>
   <drc>
     <status>C:\Microchip\Libero_SoC_v2024.1\Designer/data/drcreport\error.png</status>
@@ -27,7 +34,7 @@
     <status>C:\Microchip\Libero_SoC_v2024.1\Designer/data/drcreport\error.png</status>
     <StatusMessage>Error</StatusMessage>
     <message>Undriven Pin</message>
-    <detail>Unconnected input pin fpga_top_design_0:chip_sel</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/prj_2_memory_sb/pins/fpga_top_design_0:chip_sel</crossprobe>
+    <detail>Unconnected input pin fpga_top_design_0:ecc_sel[2:0]</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/prj_2_memory_sb/pins/fpga_top_design_0:ecc_sel</crossprobe>
   </drc>
 </drcreport>

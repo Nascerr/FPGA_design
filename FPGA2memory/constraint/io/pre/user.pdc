@@ -6,7 +6,7 @@
 
 # Family: SmartFusion2 , Die: M2S025T , Package: 256 VF
 
-# Date generated: Tue Oct 15 17:23:19 2024 
+# Date generated: Wed Feb  5 12:50:01 2025 
 
 
 # 
@@ -26,13 +26,13 @@
 # 
 
 set_io LED1            \
-    -pinname F3        \
+    -pinname L1        \
     -fixed yes         \
     -DIRECTION OUTPUT
 
 
 set_io LED2            \
-    -pinname F4        \
+    -pinname K1        \
     -fixed yes         \
     -DIRECTION OUTPUT
 
@@ -188,7 +188,7 @@ set_io MCU_UB         \
 
 
 set_io MCU_WE         \
-    -pinname H5       \
+    -pinname F3       \
     -fixed yes        \
     -DIRECTION INPUT
 
@@ -367,6 +367,24 @@ set_io ecc_sel1       \
     -DIRECTION INPUT
 
 
+set_io flag0           \
+    -pinname H16       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io flag1           \
+    -pinname J16       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io flag3           \
+    -pinname F5        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
 set_io {mcu_fpga_io[0]}  \
     -pinname M10         \
     -fixed yes           \
@@ -386,7 +404,7 @@ set_io {mcu_fpga_io[2]}  \
 
 
 set_io {mcu_fpga_io[3]}  \
-    -pinname J5          \
+    -pinname F4          \
     -fixed yes           \
     -DIRECTION INOUT
 
@@ -653,6 +671,12 @@ set_io {mcu_mem_io_up[15]}  \
     -pinname B11            \
     -fixed yes              \
     -DIRECTION INOUT
+
+
+set_io turn_on_generator  \
+    -pinname G5           \
+    -fixed yes            \
+    -DIRECTION INPUT
 
 
 

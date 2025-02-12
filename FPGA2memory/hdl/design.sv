@@ -5,7 +5,13 @@ module fpga_top_design( inout wire [15:0] mcu_fpga_io,
                         inout wire [15:0] fpga_mem_io_down,
                         input logic 	    write_en,
                         input logic [1:0]    chip_sel,
-                        input logic [1:0]   ecc_sel);
+                        input logic [1:0]   ecc_sel,
+                        input logic [2:0]	    random_values13,
+                        input logic [6:0]       random_values17,
+                        input logic [4:0]       random_positions,
+                        output logic [0:2] flag_out,
+                        input logic clk,
+                        input logic output_en);
 
  
   logic [15:0] encoder_input;
@@ -14,7 +20,7 @@ module fpga_top_design( inout wire [15:0] mcu_fpga_io,
   logic [15:0] decoder_input_up;
   logic [15:0] encoder_output_down;
   logic [15:0] decoder_input_down;
-  
+  logic [0:2] flag;
   
   //buffer tristate MCU-FPGA
   assign mcu_fpga_io = (write_en == 0 && (chip_sel [1] == 0 || chip_sel[0] == 0))? 16'bz: decoder_output;
@@ -25,8 +31,18 @@ module fpga_top_design( inout wire [15:0] mcu_fpga_io,
   assign fpga_mem_io_down = (write_en == 0 && (chip_sel [1] == 0 || chip_sel[0] == 0))? encoder_output_down : 16'bz;
   assign decoder_input_up = (write_en == 0 && (chip_sel [1] == 0 || chip_sel[0] == 0))? 16'bz : fpga_mem_io_up;
   assign decoder_input_down = (write_en == 0 && (chip_sel [1] == 0 || chip_sel[0] == 0))? 16'bz : fpga_mem_io_down;
-
   
+always_ff @(posedge clk) begin
+    if (write_en == 0 && (chip_sel[1] == 0 || chip_sel[0] == 0)) begin
+        flag_out <= 3'b000; // Prioridade para escrita
+    end else if (output_en == 0 && (chip_sel[1] == 0 || chip_sel[0] == 0)) begin
+        flag_out <= flag; // Leitura
+    end else begin
+        flag_out <= flag_out; // Mant�m o valor
+    end
+end
+
+
 
   
  ecc_design modulo(.data_in_left(encoder_input), // entrada FPGA pelo processador
@@ -35,7 +51,11 @@ module fpga_top_design( inout wire [15:0] mcu_fpga_io,
                     .data_in_right_up(decoder_input_up), // entrada memória 1
                     .data_in_right_down(decoder_input_down), // entrada memória 2
                     .data_out_left(decoder_output), // saida FPGA para o processador
-                    .sel(ecc_sel));  
+                    .sel(ecc_sel),
+                    .random_values13(random_values13),
+                    .random_values17(random_values17),
+                    .random_positions(random_positions),
+                    .flag(flag));  
    
                                                                              
     

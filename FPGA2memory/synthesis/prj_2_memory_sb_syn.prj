@@ -1,18 +1,26 @@
 #--  Synopsys, Inc.
 #--  Version V-2023.09M
-#--  Project file C:\Users\Lesc\Documents\LiberoProjects\prj_FPGA_2memory\FPGA2memory\synthesis\prj_2_memory_sb_syn.prj
-#--  Written on Tue Oct 15 17:23:51 2024
+#--  Project file C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\synthesis\prj_2_memory_sb_syn.prj
+#--  Written on Wed Feb  5 12:31:48 2025
 
 
 #project files
-add_file -include "C:/Users/Lesc/Documents/LiberoProjects/prj_FPGA_2memory/FPGA2memory/hdl/TBEC_RSC_encoder.sv"
-add_file -include "C:/Users/Lesc/Documents/LiberoProjects/prj_FPGA_2memory/FPGA2memory/hdl/TBEC_RSC_decoder.sv"
-add_file -include "C:/Users/Lesc/Documents/LiberoProjects/prj_FPGA_2memory/FPGA2memory/hdl/MRSC_encoder.sv"
-add_file -include "C:/Users/Lesc/Documents/LiberoProjects/prj_FPGA_2memory/FPGA2memory/hdl/MRSC_decoder.sv"
-add_file -include "C:/Users/Lesc/Documents/LiberoProjects/prj_FPGA_2memory/FPGA2memory/hdl/ecc_design.sv"
-add_file -verilog -vlog_std sysv "C:/Users/Lesc/Documents/LiberoProjects/prj_FPGA_2memory/FPGA2memory/hdl/design.sv"
-add_file -verilog "C:/Users/Lesc/Documents/LiberoProjects/prj_FPGA_2memory/FPGA2memory/component/work/prj_2_memory_sb/prj_2_memory_sb.v"
-add_file -fpga_constraint "C:/Users/Lesc/Documents/LiberoProjects/prj_FPGA_2memory/FPGA2memory/designer/prj_2_memory_sb/synthesis.fdc"
+add_file -include "C:/Users/Lucas/Desktop/Projeto_CubeSat-dev_hdl_fpga/FPGA2memory/hdl/TBEC_RSC_encoder.sv"
+add_file -include "C:/Users/Lucas/Desktop/Projeto_CubeSat-dev_hdl_fpga/FPGA2memory/hdl/TBEC_RSC_decoder.sv"
+add_file -include "C:/Users/Lucas/Desktop/Projeto_CubeSat-dev_hdl_fpga/FPGA2memory/hdl/MRSC_encoder.sv"
+add_file -include "C:/Users/Lucas/Desktop/Projeto_CubeSat-dev_hdl_fpga/FPGA2memory/hdl/MRSC_decoder.sv"
+add_file -include "C:/Users/Lucas/Desktop/Projeto_CubeSat-dev_hdl_fpga/FPGA2memory/hdl/ecc_design.sv"
+add_file -verilog "C:/Users/Lucas/Desktop/Projeto_CubeSat-dev_hdl_fpga/FPGA2memory/component/Actel/SgCore/OSC/2.0.101/osc_comps.v"
+add_file -verilog "C:/Users/Lucas/Desktop/Projeto_CubeSat-dev_hdl_fpga/FPGA2memory/component/work/OSC_C0/OSC_C0_0/OSC_C0_OSC_C0_0_OSC.v"
+add_file -verilog "C:/Users/Lucas/Desktop/Projeto_CubeSat-dev_hdl_fpga/FPGA2memory/component/work/OSC_C0/OSC_C0.v"
+add_file -verilog -vlog_std sysv "C:/Users/Lucas/Desktop/Projeto_CubeSat-dev_hdl_fpga/FPGA2memory/hdl/TBEC_RSC_encoder13.sv"
+add_file -verilog -vlog_std sysv "C:/Users/Lucas/Desktop/Projeto_CubeSat-dev_hdl_fpga/FPGA2memory/hdl/TBEC_RSC_encoder17.sv"
+add_file -verilog -vlog_std sysv "C:/Users/Lucas/Desktop/Projeto_CubeSat-dev_hdl_fpga/FPGA2memory/hdl/design.sv"
+add_file -verilog -vlog_std sysv "C:/Users/Lucas/Desktop/Projeto_CubeSat-dev_hdl_fpga/FPGA2memory/hdl/lfsr_random_generator3.sv"
+add_file -verilog -vlog_std sysv "C:/Users/Lucas/Desktop/Projeto_CubeSat-dev_hdl_fpga/FPGA2memory/hdl/lfsr_random_generator_position.sv"
+add_file -verilog -vlog_std sysv "C:/Users/Lucas/Desktop/Projeto_CubeSat-dev_hdl_fpga/FPGA2memory/hdl/lfsr_random_generator.sv"
+add_file -verilog "C:/Users/Lucas/Desktop/Projeto_CubeSat-dev_hdl_fpga/FPGA2memory/component/work/prj_2_memory_sb/prj_2_memory_sb.v"
+add_file -fpga_constraint "C:/Users/Lucas/Desktop/Projeto_CubeSat-dev_hdl_fpga/FPGA2memory/designer/prj_2_memory_sb/synthesis.fdc"
 
 
 #implementation: "synthesis"
