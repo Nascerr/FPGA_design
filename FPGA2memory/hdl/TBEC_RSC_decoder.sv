@@ -1,11 +1,11 @@
 
-module TBEC_RSC_decoder(input logic[0:31] data_in, output logic [0:15] data_out);
+module TBEC_RSC_decoder(input logic[0:31] data_in, output logic [0:15] data_out, output logic [0:2] flag);
 logic [0:3] signal [0:3];
 logic [0:15]red;
 logic [0:1] linsin [0:3];
 logic [0:3] SP;
 logic [0:3] SDi;
-logic [0:2] flag;
+
 
   always_comb
 begin
@@ -43,14 +43,14 @@ integer quad2;
 	
 	sumSL=1*linsin[1][0] + 1*linsin[1][1]+ 1*linsin[2][0]+ 1*linsin[2][1]+1*linsin[3][0] + 1*linsin[3][1]+ 1*linsin[0][0]+ 1*linsin[0][1];
 	
-  	//flag = 3'b000;
+
   if((((SP[0:3] !=4'b0000) & (SDi[0:3] !=4'b0000)) |  sumSL>1) & !((sumSDi==0) & (sumSP==1) & (sumSL>=2)))// condiï¿½ï¿½o para erros em quadrantes
 	begin	
 		quad1=1*SP[0]+1*SP[1]+1*SDi[0]+1*SDi[1];
 		quad2=1*SP[2]+1*SP[3]+1*SDi[2]+1*SDi[3];
 		if(quad1 > quad2)// Erro no primeiro quadrante
 		begin
-          //flag = flag | 3'b100;
+           flag =3'b001;
 			for(b=0;b<4;b=b+1)
 			begin
 				if(linsin[b][0:1]!=2'b00)
@@ -60,7 +60,7 @@ integer quad2;
 		
 		else if(quad1 < quad2)// Erro no segundo quadrante
 		begin
-           //flag = flag | 3'b001;
+           flag =3'b100;
 			for(b=0;b<4;b=b+1)
 			begin
 				if(linsin[b][0:1]!=2'b00)
@@ -70,7 +70,7 @@ integer quad2;
 		
 		else if((quad1 == quad2)&({SP[0],SP[1],SDi[0],SDi[1]} !=4'b0000)) // Erro no quadrante central
 		begin
-               //flag = flag | 3'b010;
+               flag =3'b010;
 				for(b=0;b<4;b=b+1)
 				begin
 					if(linsin[b][0:1]!=2'b00)
@@ -78,6 +78,10 @@ integer quad2;
 				end
 
 		end
+        else
+            begin
+                flag = 3'b000;
+            end
 	end
 end
 assign data_out={signal[0][0:3],signal[1][0:3],signal[2][0:3],signal[3][0:3]};

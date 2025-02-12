@@ -83,7 +83,7 @@ set_compile_info \
 set_compile_info \
     -category {"Source Files"} \
     -name {"Source"} \
-    -value {"C:\Users\Lesc\Documents\LiberoProjects\prj_FPGA_2memory\FPGA2memory\synthesis\prj_2_memory_sb.vm"}
+    -value {"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\synthesis\prj_2_memory_sb.vm"}
 set_compile_info \
     -category {"Options"} \
     -name {"Enable Single Event Transient mitigation"} \
@@ -97,7 +97,7 @@ set_compile_info \
     -name {"Limit the number of high fanout nets to display to"} \
     -value {"10"}
 compile \
-    -desdir {C:\Users\Lesc\Documents\LiberoProjects\prj_FPGA_2memory\FPGA2memory\designer\prj_2_memory_sb} \
+    -desdir {C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\designer\prj_2_memory_sb} \
     -design prj_2_memory_sb \
     -fam SmartFusion2 \
     -die PA4M2500 \

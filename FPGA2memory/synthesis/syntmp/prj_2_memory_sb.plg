@@ -1,16 +1,26 @@
 @P:  Worst Slack : NA
-@P:  ecc_design|data_out_right_up7_inferred_clock - Estimated Frequency : NA
-@P:  ecc_design|data_out_right_up7_inferred_clock - Requested Frequency : 100.0 MHz
-@P:  ecc_design|data_out_right_up7_inferred_clock - Estimated Period : NA
-@P:  ecc_design|data_out_right_up7_inferred_clock - Requested Period : 10.000
-@P:  ecc_design|data_out_right_up7_inferred_clock - Slack : NA
-@P:  ecc_design|data_out_right_up8_inferred_clock - Estimated Frequency : NA
-@P:  ecc_design|data_out_right_up8_inferred_clock - Requested Frequency : 100.0 MHz
-@P:  ecc_design|data_out_right_up8_inferred_clock - Estimated Period : NA
-@P:  ecc_design|data_out_right_up8_inferred_clock - Requested Period : 10.000
-@P:  ecc_design|data_out_right_up8_inferred_clock - Slack : NA
+@P:  OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock - Estimated Frequency : NA
+@P:  OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock - Estimated Period : NA
+@P:  OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock - Requested Period : 10.000
+@P:  OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock - Slack : NA
+@P:  TBEC_RSC_decoder|quad117_inferred_clock - Estimated Frequency : NA
+@P:  TBEC_RSC_decoder|quad117_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  TBEC_RSC_decoder|quad117_inferred_clock - Estimated Period : NA
+@P:  TBEC_RSC_decoder|quad117_inferred_clock - Requested Period : 10.000
+@P:  TBEC_RSC_decoder|quad117_inferred_clock - Slack : NA
+@P:  ecc_design|data_out_right_up9_inferred_clock - Estimated Frequency : NA
+@P:  ecc_design|data_out_right_up9_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  ecc_design|data_out_right_up9_inferred_clock - Estimated Period : NA
+@P:  ecc_design|data_out_right_up9_inferred_clock - Requested Period : 10.000
+@P:  ecc_design|data_out_right_up9_inferred_clock - Slack : NA
+@P:  ecc_design|un1_sel_2_inferred_clock - Estimated Frequency : NA
+@P:  ecc_design|un1_sel_2_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  ecc_design|un1_sel_2_inferred_clock - Estimated Period : NA
+@P:  ecc_design|un1_sel_2_inferred_clock - Requested Period : 10.000
+@P:  ecc_design|un1_sel_2_inferred_clock - Slack : NA
 @P: prj_2_memory_sb Part : m2s025tvf400std
-@P: prj_2_memory_sb Register bits  : 32 
+@P: prj_2_memory_sb Register bits  : 38 
 @P: prj_2_memory_sb DSP Blocks  : 0
-@P: prj_2_memory_sb I/O primitives : 105
-@P:  CPU Time : 0h:00m:12s
+@P: prj_2_memory_sb I/O primitives : 109
+@P:  CPU Time : 0h:00m:06s

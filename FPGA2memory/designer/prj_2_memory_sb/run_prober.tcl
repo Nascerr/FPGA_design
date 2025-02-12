@@ -1,5 +1,5 @@
 probe \
-    -desdir {C:\Users\Lesc\Documents\LiberoProjects\prj_FPGA_2memory\FPGA2memory\designer\prj_2_memory_sb} \
+    -desdir {C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\designer\prj_2_memory_sb} \
     -design prj_2_memory_sb \
     -fam SmartFusion2 \
     -die PA4M2500 \

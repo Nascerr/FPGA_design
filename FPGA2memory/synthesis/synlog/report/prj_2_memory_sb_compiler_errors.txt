@@ -1,2 +1,2 @@
-@E: CG389 :"C:\Users\Lesc\Documents\LiberoProjects\prj_FPGA_2memory\FPGA2memory\hdl\design.sv":32:12:32:17|Reference to undefined module Ecc_design
+@E: CG410 :"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\design.sv":60:26:60:29|Only one assignment is legal on flag
 

@@ -1,5 +1,5 @@
 <html><body><samp><pre>
-<!@TC:1729023811>
+<!@TC:1739384535>
 
 Copyright (C) 1994-2023 Synopsys, Inc.
 This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
@@ -10,16 +10,16 @@ Tool: Synplify Pro (R)
 Build: V-2023.09M
 Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
 OS: Windows 10 or later
-Hostname: DESKTOP-OUF4AF5
+Hostname: DESKTOP-V6FS948
 
 Implementation : synthesis
 
-# Written on Tue Oct 15 17:23:38 2024
+# Written on Wed Feb 12 15:22:20 2025
 
 ##### DESIGN INFO #######################################################
 
 Top View:                "prj_2_memory_sb"
-Constraint File(s):      "C:\Users\Lesc\Documents\LiberoProjects\prj_FPGA_2memory\FPGA2memory\designer\prj_2_memory_sb\synthesis.fdc"
+Constraint File(s):      "C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\designer\prj_2_memory_sb\synthesis.fdc"
 
 
 
@@ -36,13 +36,16 @@ Found 0 issues in 0 out of 0 constraints
 Clock Relationships
 *******************
 
-Starting                                         Ending                                           |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-ecc_design|data_out_right_up7_inferred_clock     ecc_design|data_out_right_up7_inferred_clock     |     10.000           |     No paths         |     No paths         |     No paths                         
-ecc_design|data_out_right_up7_inferred_clock     ecc_design|data_out_right_up8_inferred_clock     |     Diff grp         |     No paths         |     No paths         |     No paths                         
-ecc_design|data_out_right_up8_inferred_clock     ecc_design|data_out_right_up7_inferred_clock     |     Diff grp         |     No paths         |     No paths         |     No paths                         
-ecc_design|data_out_right_up8_inferred_clock     ecc_design|data_out_right_up8_inferred_clock     |     10.000           |     No paths         |     No paths         |     No paths                         
-=============================================================================================================================================================================================================
+Starting                                         Ending                                                         |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ecc_design|un1_sel_2_inferred_clock              ecc_design|un1_sel_2_inferred_clock                            |     10.000           |     No paths         |     No paths         |     No paths                         
+ecc_design|un1_sel_2_inferred_clock              ecc_design|data_out_right_up9_inferred_clock                   |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ecc_design|un1_sel_2_inferred_clock              TBEC_RSC_decoder|quad117_inferred_clock                        |     No paths         |     No paths         |     Diff grp         |     No paths                         
+ecc_design|data_out_right_up9_inferred_clock     ecc_design|un1_sel_2_inferred_clock                            |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ecc_design|data_out_right_up9_inferred_clock     ecc_design|data_out_right_up9_inferred_clock                   |     10.000           |     No paths         |     No paths         |     No paths                         
+ecc_design|data_out_right_up9_inferred_clock     TBEC_RSC_decoder|quad117_inferred_clock                        |     No paths         |     No paths         |     Diff grp         |     No paths                         
+TBEC_RSC_decoder|quad117_inferred_clock          OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     |     No paths         |     No paths         |     No paths         |     Diff grp                         
+===========================================================================================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
 
@@ -107,6 +110,10 @@ p:SRAM_UB
 p:SRAM_WE
 p:ecc_sel0
 p:ecc_sel1
+p:ecc_sel2
+p:flag0
+p:flag1
+p:flag3
 p:mcu_mem_io_down[0] (bidir end point)
 p:mcu_mem_io_down[0] (bidir start point)
 p:mcu_mem_io_down[1] (bidir end point)

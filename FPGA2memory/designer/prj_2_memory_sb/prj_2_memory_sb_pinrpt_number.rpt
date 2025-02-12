@@ -1,5 +1,5 @@
 ----------------------------------------------------------------
--Pin Report - Date: Tue Oct 15 17:24:27 2024 Pinchecksum: NOT-AVAILABLE
+-Pin Report - Date: Wed Feb 12 15:32:29 2025 Pinchecksum: NOT-AVAILABLE
 -Product: Designer
 -Release: v2024.1
 -Version: 2024.1.0.3
@@ -93,9 +93,9 @@ E15     mcu_mem_io_down[6]   DDRIO38NB0/MDDR_ADDR9                       Fixed  
 E16     mcu_mem_io_down[10]  DDRIO40NB0/MDDR_ADDR6                       Fixed       LVCMOS25  Inout      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          SLOW  ---           4                  5                 
 F1                           VSS                                         Reserved    
 F2                           MSIO97NB7                                   Unassigned  
-F3      LED1                 MSIO96NB7                                   Fixed       LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
-F4      LED2                 MSIO96PB7/GB6/CCC_NW1_CLKI1                 Special     LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
-F5                           MSIO95NB7                                   Unassigned  
+F3      MCU_WE               MSIO96NB7                                   Fixed       LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
+F4      mcu_fpga_io[3]       MSIO96PB7/GB6/CCC_NW1_CLKI1                 Special     LVCMOS25  Inout      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          SLOW  ---           4                  5                 
+F5      flag3                MSIO95NB7                                   Fixed       LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
 F6                           VDDI7                                       Reserved    
 F7                           VSS                                         Reserved    
 F8                           VDDI0                                       Reserved    
@@ -111,7 +111,7 @@ G1                           MSIO97PB7/GB2/CCC_NW0_CLKI1                 Special
 G2      MCU_A_20             MSIO98NB7                                   Fixed       LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
 G3      MCU_A_19             MSIO98PB7/CCC_NW1_CLKI0                     Special     LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
 G4                           VSS                                         Reserved    
-G5                           MSIO95PB7                                   Unassigned  
+G5      ecc_sel2             MSIO95PB7                                   Fixed       LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
 G6                           VSS                                         Reserved    
 G7                           VDD                                         Reserved    
 G8                           VSS                                         Reserved    
@@ -127,7 +127,7 @@ H1                           MSIOD103PB6/CCC_SW0_CLKI0                   Special
 H2                           VDDI7                                       Reserved    
 H3      MCU_LB               MSIO99PB7/CCC_NW0_CLKI0                     Special     LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
 H4      MCU_OE               MSIO99NB7                                   Fixed       LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
-H5      MCU_WE               MSIOD100PB6/GB5/CCC_SW1_CLKI1               Special     LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
+H5                           MSIOD100PB6/GB5/CCC_SW1_CLKI1               Special     
 H6                           VDDI6                                       Reserved    
 H7                           VSS                                         Reserved    
 H8                           VDD                                         Reserved    
@@ -138,12 +138,12 @@ H12                          MSIO27NB1/MMUART_1_TXD/GPIO_24_B            Unassig
 H13                          MSIO28NB1/MMUART_1_RXD/GPIO_26_B            Unassigned  
 H14                          MSIO15PB2/SPI_0_SS6/GPIO_21_A               Unassigned  
 H15                          MSIO14PB2/SPI_0_SS4/GPIO_19_A               Unassigned  
-H16                          MSIO11NB2/I2C_1_SCL/GPIO_1_A/CCC_NE1_CLKI0  Special     
+H16     flag0                MSIO11NB2/I2C_1_SCL/GPIO_1_A/CCC_NE1_CLKI0  Special     LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
 J1                           MSIOD118PB5/SERDES_0_REFCLK0_P              Unassigned  
 J2                           MSIOD118NB5/SERDES_0_REFCLK0_N              Unassigned  
 J3                           MSIOD102PB6/CCC_SW1_CLKI0                   Special     
 J4                           VSS                                         Reserved    
-J5      mcu_fpga_io[3]       MSIOD101PB6/GB1/CCC_SW0_CLKI1               Special     LVCMOS25  Inout      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          SLOW  ---           4                  5                 
+J5                           MSIOD101PB6/GB1/CCC_SW0_CLKI1               Special     
 J6                           VSS                                         Reserved    
 J7                           VDD                                         Reserved    
 J8                           VSS                                         Reserved    
@@ -154,8 +154,8 @@ J12     ecc_sel0             MSIO13NB2/SPI_0_SS0/GPIO_7_A                Fixed  
 J13                          MSIO12NB2/SPI_0_SDI/GPIO_5_A                Unassigned  
 J14                          MSIO12PB2/SPI_0_CLK                         Unassigned  
 J15                          VDDI2                                       Reserved    
-J16                          MSIO11PB2/I2C_1_SDA/GPIO_0_A/CCC_NE0_CLKI0  Special     
-K1                           MSIOD119NB5/SERDES_0_REFCLK1_N              Unassigned  
+J16     flag1                MSIO11PB2/I2C_1_SDA/GPIO_0_A/CCC_NE0_CLKI0  Special     LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
+K1      LED2                 MSIOD119NB5/SERDES_0_REFCLK1_N              Fixed       LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
 K2                           VDDI5                                       Reserved    
 K3                           SERDES_0_L23_REXT                           Reserved    
 K4                           SERDES_0_PLL_VSSA                           Reserved    
@@ -171,7 +171,7 @@ K13                          VSS                                         Reserve
 K14                          MSIO6PB2/USB_DATA6_B                        Unassigned  
 K15     MCU_UB               MSIO6NB2                                    Fixed       LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
 K16     MCU_A_7              MSIO4PB2/USB_DATA2_B                        Fixed       LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
-L1                           MSIOD119PB5/SERDES_0_REFCLK1_P              Unassigned  
+L1      LED1                 MSIOD119PB5/SERDES_0_REFCLK1_P              Fixed       LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
 L2                           SERDES_0_L01_REXT                           Reserved    
 L3                           SERDES_0_L01_VDDAPLL                        Reserved    
 L4                           SERDES_0_L01_REFRET                         Reserved    
