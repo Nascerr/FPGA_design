@@ -5,7 +5,7 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 *******************************************************************************************-->
 <report_table display_priority="2" name="Timing Summary">
 <report_link name="Detailed report">
-<data>C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\synthesis\synlog\prj_2_memory_sb_fpga_mapper.srr</data>
+<data>C:\Users\Lucas\Desktop\nova_pasta\FPGA_design\FPGA2memory\synthesis\synlog\prj_2_memory_sb_fpga_mapper.srr</data>
 <title>START OF TIMING REPORT</title>
 </report_link>
 <row>
@@ -21,7 +21,19 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <data>7.709</data>
 </row>
 <row>
-<data>TBEC_RSC_decoder|quad117_inferred_clock</data>
+<data>TBEC_RSC_decoder|un1_quad118_2_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>TBEC_RSC_decoder|un1_quad118_3_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>TBEC_RSC_decoder|un1_quad118_inferred_clock</data>
 <data>100.0 MHz</data>
 <data>NA</data>
 <data>NA</data>

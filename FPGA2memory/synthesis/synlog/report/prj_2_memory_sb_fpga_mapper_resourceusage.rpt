@@ -2,13 +2,13 @@ Resource Usage Report for prj_2_memory_sb
 
 Mapping to part: m2s025tvf400std
 Cell usage:
-CLKINT          4 uses
+CLKINT          3 uses
 RCOSC_25_50MHZ  1 use
 RCOSC_25_50MHZ_FAB  1 use
-CFG1           4 uses
-CFG2           36 uses
-CFG3           73 uses
-CFG4           208 uses
+CFG1           7 uses
+CFG2           39 uses
+CFG3           95 uses
+CFG4           217 uses
 
 
 Sequential Cells: 
@@ -23,9 +23,9 @@ INBUF          29 uses
 OUTBUF         32 uses
 
 
-Global Clock Buffers: 4
+Global Clock Buffers: 3
 
-Total LUTs:    321
+Total LUTs:    358
 
 Extra resources required for RAM and MACC interface logic during P&R:
 
@@ -34,5 +34,5 @@ RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
 MACC     Interface Logic : SLEs = 0; LUTs = 0;
 
 Total number of SLEs after P&R:  48 + 0 + 0 + 0 = 48;
-Total number of LUTs after P&R:  321 + 0 + 0 + 0 = 321;
+Total number of LUTs after P&R:  358 + 0 + 0 + 0 = 358;
 

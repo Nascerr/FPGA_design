@@ -1,6 +1,6 @@
 <project name="prj_2_memory_sb" version="1.2">
     <ProjectDirectory>
-        C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\designer\prj_2_memory_sb\prj_2_memory_sb_fp
+        C:\Users\Lucas\Desktop\nova_pasta\FPGA_design\FPGA2memory\designer\prj_2_memory_sb\prj_2_memory_sb_fp
     </ProjectDirectory>
     <View>
         ChainView
@@ -9,7 +9,7 @@
         M2S025T
     </LiberoTargetDevice>
     <LogFile>
-        C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\designer\prj_2_memory_sb\prj_2_memory_sb_fp\prj_2_memory_sb.log
+        C:\Users\Lucas\Desktop\nova_pasta\FPGA_design\FPGA2memory\designer\prj_2_memory_sb\prj_2_memory_sb_fp\prj_2_memory_sb.log
     </LogFile>
     <SerializationOption>
         Skip

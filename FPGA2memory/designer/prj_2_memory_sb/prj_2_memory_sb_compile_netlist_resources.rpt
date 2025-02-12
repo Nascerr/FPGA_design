@@ -1,6 +1,6 @@
 Resource Report
 Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
-Date: Wed Feb  5 12:31:52 2025
+Date: Wed Feb 12 16:13:29 2025
 
 Device Selection
 +--------------------------------+----------------+
@@ -20,11 +20,11 @@ Device Selection
 +--------------------------------+----------------+
 
 Source Files
-+---------+----------------------------------------------------------------------------------------------+
-| Topcell | prj_2_memory_sb                                                                              |
-| Format  | Verilog                                                                                      |
-| Source  | C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\synthesis\prj_2_memory_sb.vm |
-+---------+----------------------------------------------------------------------------------------------+
++---------+----------------------------------------------------------------------------------------+
+| Topcell | prj_2_memory_sb                                                                        |
+| Format  | Verilog                                                                                |
+| Source  | C:\Users\Lucas\Desktop\nova_pasta\FPGA_design\FPGA2memory\synthesis\prj_2_memory_sb.vm |
++---------+----------------------------------------------------------------------------------------+
 
 Options
 +----------------------------------------------------+-------+
@@ -37,7 +37,7 @@ Resource Usage
 +---------------------------+------+-------+------------+
 | Type                      | Used | Total | Percentage |
 +---------------------------+------+-------+------------+
-| 4LUT                      | 320  | 27696 | 1.16       |
+| 4LUT                      | 354  | 27696 | 1.28       |
 | DFF                       | 48   | 27696 | 0.17       |
 | I/O Register              | 0    | 414   | 0.00       |
 | User I/O                  | 109  | 138   | 78.99      |
@@ -46,7 +46,7 @@ Resource Usage
 | RAM64x18                  | 0    | 34    | 0.00       |
 | RAM1K18                   | 0    | 31    | 0.00       |
 | MACC                      | 0    | 34    | 0.00       |
-| Chip Globals              | 4    | 16    | 25.00      |
+| Chip Globals              | 3    | 16    | 18.75      |
 | CCC                       | 0    | 6     | 0.00       |
 | RCOSC_25_50MHZ            | 1    | 1     | 100.00     |
 | RCOSC_1MHZ                | 0    | 1     | 0.00       |
@@ -60,11 +60,11 @@ Detailed Logic Resource Usage
 +--------------------------+------+-----+
 | Type                     | 4LUT | DFF |
 +--------------------------+------+-----+
-| Fabric Logic             | 320  | 48  |
+| Fabric Logic             | 354  | 48  |
 | RAM64x18 Interface Logic | 0    | 0   |
 | RAM1K18 Interface Logic  | 0    | 0   |
 | MACC Interface Logic     | 0    | 0   |
-| Total Used               | 320  | 48  |
+| Total Used               | 354  | 48  |
 +--------------------------+------+-----+
 
 I/O Function
@@ -86,22 +86,19 @@ I/O Technology
 +--------------+--------+------+-------+--------+---------------+
 
 Nets assigned to chip global resources
-+--------+---------+----------------------------------------------------------------------------------------+
-| Fanout | Type    | Name                                                                                   |
-+--------+---------+----------------------------------------------------------------------------------------+
-| 16     | INT_NET | Net   : fpga_top_design_0/modulo/data_out_right_up8_i_0                                |
-|        |         | Driver: fpga_top_design_0/modulo/data_out_right_up8_inferred_clock_RNI7SRM3_0/U0_RGB1  |
-|        |         | Source: NETLIST                                                                        |
-| 16     | INT_NET | Net   : fpga_top_design_0/modulo/data_out_right_up7_i_0                                |
-|        |         | Driver: fpga_top_design_0/modulo/data_out_right_up7_inferred_clock_RNI6DIC_0/U0_RGB1   |
-|        |         | Source: NETLIST                                                                        |
-| 13     | INT_NET | Net   : OSC_C0_0_RCOSC_25_50MHZ_O2F                                                    |
-|        |         | Driver: OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1                          |
-|        |         | Source: NETLIST                                                                        |
-| 3      | INT_NET | Net   : fpga_top_design_0/modulo/quad117                                               |
-|        |         | Driver: fpga_top_design_0/modulo/decodificador1/quad117_inferred_clock_RNI034A/U0_RGB1 |
-|        |         | Source: NETLIST                                                                        |
-+--------+---------+----------------------------------------------------------------------------------------+
++--------+---------+---------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                  |
++--------+---------+---------------------------------------------------------------------------------------+
+| 16     | INT_NET | Net   : fpga_top_design_0/modulo/data_out_right_up8_i                                 |
+|        |         | Driver: fpga_top_design_0/modulo/data_out_right_up8_inferred_clock_RNI7SRM3_0/U0_RGB1 |
+|        |         | Source: NETLIST                                                                       |
+| 16     | INT_NET | Net   : fpga_top_design_0/modulo/data_out_right_up7_i_0                               |
+|        |         | Driver: fpga_top_design_0/modulo/data_out_right_up7_inferred_clock_RNI6DIC_0/U0_RGB1  |
+|        |         | Source: NETLIST                                                                       |
+| 13     | INT_NET | Net   : OSC_C0_0_RCOSC_25_50MHZ_O2F                                                   |
+|        |         | Driver: OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1                         |
+|        |         | Source: NETLIST                                                                       |
++--------+---------+---------------------------------------------------------------------------------------+
 
 Nets assigned to row global resources
 +--------+------+------+
@@ -110,54 +107,54 @@ Nets assigned to row global resources
 +--------+------+------+
 
 High fanout nets
-+--------+---------+-------------------------------------------------------------+
-| Fanout | Type    | Name                                                        |
-+--------+---------+-------------------------------------------------------------+
-| 124    | INT_NET | Net   : fpga_top_design_0_mcu_fpga_io_1                     |
-|        |         | Driver: fpga_top_design_0/mcu_fpga_io_1                     |
-| 70     | INT_NET | Net   : ecc_sel1_c                                          |
-|        |         | Driver: ecc_sel1_ibuf                                       |
-| 53     | INT_NET | Net   : ecc_sel0_c                                          |
-|        |         | Driver: ecc_sel0_ibuf                                       |
-| 33     | INT_NET | Net   : lfsr_random_generator_position_0_random_position[4] |
-|        |         | Driver: lfsr_random_generator_position_0/lfsr[4]            |
-| 25     | INT_NET | Net   : lfsr_random_generator_position_0_random_position[2] |
-|        |         | Driver: lfsr_random_generator_position_0/lfsr[2]            |
-| 24     | INT_NET | Net   : lfsr_random_generator_position_0_random_position[3] |
-|        |         | Driver: lfsr_random_generator_position_0/lfsr[3]            |
-| 24     | INT_NET | Net   : lfsr_random_generator_position_0_random_position[0] |
-|        |         | Driver: lfsr_random_generator_position_0/lfsr[0]            |
-| 23     | INT_NET | Net   : lfsr_random_generator_position_0_random_position[1] |
-|        |         | Driver: lfsr_random_generator_position_0/lfsr[1]            |
-| 18     | INT_NET | Net   : fpga_top_design_0/modulo/data_out_right_up8_Z       |
-|        |         | Driver: fpga_top_design_0/modulo/data_out_right_up8         |
-| 16     | INT_NET | Net   : fpga_top_design_0_mcu_fpga_io_1_i                   |
-|        |         | Driver: fpga_top_design_0/mcu_fpga_io_1_RNIF86G             |
-+--------+---------+-------------------------------------------------------------+
++--------+---------+---------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                |
++--------+---------+---------------------------------------------------------------------+
+| 130    | INT_NET | Net   : fpga_top_design_0_mcu_fpga_io_1                             |
+|        |         | Driver: fpga_top_design_0/mcu_fpga_io_1                             |
+| 55     | INT_NET | Net   : ecc_sel1_c                                                  |
+|        |         | Driver: ecc_sel1_ibuf                                               |
+| 53     | INT_NET | Net   : ecc_sel0_c                                                  |
+|        |         | Driver: ecc_sel0_ibuf                                               |
+| 35     | INT_NET | Net   : lfsr_random_generator_position_0_random_position[4]         |
+|        |         | Driver: lfsr_random_generator_position_0/lfsr[4]                    |
+| 28     | INT_NET | Net   : fpga_top_design_0_modulo_data_out_right_up8                 |
+|        |         | Driver: fpga_top_design_0/modulo/data_m1_0_a2_0                     |
+| 23     | INT_NET | Net   : lfsr_random_generator_position_0_random_position[2]         |
+|        |         | Driver: lfsr_random_generator_position_0/lfsr[2]                    |
+| 22     | INT_NET | Net   : lfsr_random_generator_position_0_random_position[3]         |
+|        |         | Driver: lfsr_random_generator_position_0/lfsr[3]                    |
+| 21     | INT_NET | Net   : lfsr_random_generator_position_0_random_position[1]         |
+|        |         | Driver: lfsr_random_generator_position_0/lfsr[1]                    |
+| 21     | INT_NET | Net   : lfsr_random_generator_position_0_random_position[0]         |
+|        |         | Driver: lfsr_random_generator_position_0/lfsr[0]                    |
+| 21     | INT_NET | Net   : fpga_top_design_0_modulo_decodificador1_quad117             |
+|        |         | Driver: fpga_top_design_0/modulo/decodificador1/un1_SP_3_RNIRNR6B11 |
++--------+---------+---------------------------------------------------------------------+
 
 High fanout nets (through buffer trees)
-+--------+---------+-------------------------------------------------------------+
-| Fanout | Type    | Name                                                        |
-+--------+---------+-------------------------------------------------------------+
-| 124    | INT_NET | Net   : fpga_top_design_0_mcu_fpga_io_1                     |
-|        |         | Driver: fpga_top_design_0/mcu_fpga_io_1                     |
-| 70     | INT_NET | Net   : ecc_sel1_c                                          |
-|        |         | Driver: ecc_sel1_ibuf                                       |
-| 53     | INT_NET | Net   : ecc_sel0_c                                          |
-|        |         | Driver: ecc_sel0_ibuf                                       |
-| 33     | INT_NET | Net   : lfsr_random_generator_position_0_random_position[4] |
-|        |         | Driver: lfsr_random_generator_position_0/lfsr[4]            |
-| 25     | INT_NET | Net   : lfsr_random_generator_position_0_random_position[2] |
-|        |         | Driver: lfsr_random_generator_position_0/lfsr[2]            |
-| 24     | INT_NET | Net   : lfsr_random_generator_position_0_random_position[3] |
-|        |         | Driver: lfsr_random_generator_position_0/lfsr[3]            |
-| 24     | INT_NET | Net   : lfsr_random_generator_position_0_random_position[0] |
-|        |         | Driver: lfsr_random_generator_position_0/lfsr[0]            |
-| 23     | INT_NET | Net   : lfsr_random_generator_position_0_random_position[1] |
-|        |         | Driver: lfsr_random_generator_position_0/lfsr[1]            |
-| 18     | INT_NET | Net   : fpga_top_design_0/modulo/data_out_right_up8_Z       |
-|        |         | Driver: fpga_top_design_0/modulo/data_out_right_up8         |
-| 16     | INT_NET | Net   : fpga_top_design_0_mcu_fpga_io_1_i                   |
-|        |         | Driver: fpga_top_design_0/mcu_fpga_io_1_RNIF86G             |
-+--------+---------+-------------------------------------------------------------+
++--------+---------+---------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                |
++--------+---------+---------------------------------------------------------------------+
+| 130    | INT_NET | Net   : fpga_top_design_0_mcu_fpga_io_1                             |
+|        |         | Driver: fpga_top_design_0/mcu_fpga_io_1                             |
+| 55     | INT_NET | Net   : ecc_sel1_c                                                  |
+|        |         | Driver: ecc_sel1_ibuf                                               |
+| 53     | INT_NET | Net   : ecc_sel0_c                                                  |
+|        |         | Driver: ecc_sel0_ibuf                                               |
+| 35     | INT_NET | Net   : lfsr_random_generator_position_0_random_position[4]         |
+|        |         | Driver: lfsr_random_generator_position_0/lfsr[4]                    |
+| 28     | INT_NET | Net   : fpga_top_design_0_modulo_data_out_right_up8                 |
+|        |         | Driver: fpga_top_design_0/modulo/data_m1_0_a2_0                     |
+| 23     | INT_NET | Net   : lfsr_random_generator_position_0_random_position[2]         |
+|        |         | Driver: lfsr_random_generator_position_0/lfsr[2]                    |
+| 22     | INT_NET | Net   : lfsr_random_generator_position_0_random_position[3]         |
+|        |         | Driver: lfsr_random_generator_position_0/lfsr[3]                    |
+| 21     | INT_NET | Net   : lfsr_random_generator_position_0_random_position[1]         |
+|        |         | Driver: lfsr_random_generator_position_0/lfsr[1]                    |
+| 21     | INT_NET | Net   : lfsr_random_generator_position_0_random_position[0]         |
+|        |         | Driver: lfsr_random_generator_position_0/lfsr[0]                    |
+| 21     | INT_NET | Net   : fpga_top_design_0_modulo_decodificador1_quad117             |
+|        |         | Driver: fpga_top_design_0/modulo/decodificador1/un1_SP_3_RNIRNR6B11 |
++--------+---------+---------------------------------------------------------------------+
 

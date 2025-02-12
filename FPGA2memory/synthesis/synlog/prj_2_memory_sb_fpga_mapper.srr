@@ -1,4 +1,4 @@
-# Wed Feb  5 12:31:42 2025
+# Wed Feb 12 16:13:20 2025
 
 
 Copyright (C) 1994-2023 Synopsys, Inc.
@@ -31,28 +31,27 @@ Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0
 Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 199MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 190MB peak: 199MB)
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 199MB)
 
 
 Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
 
 
-Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 246MB peak: 246MB)
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 247MB peak: 247MB)
 
-@N: MO111 :"c:\users\lucas\desktop\projeto_cubesat-dev_hdl_fpga\fpga2memory\component\work\osc_c0\osc_c0_0\osc_c0_osc_c0_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\users\lucas\desktop\projeto_cubesat-dev_hdl_fpga\fpga2memory\component\work\osc_c0\osc_c0_0\osc_c0_osc_c0_0_osc.v":19:7:19:16|Tristate driver XTLOSC_CCC (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) on net XTLOSC_CCC (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\users\lucas\desktop\projeto_cubesat-dev_hdl_fpga\fpga2memory\component\work\osc_c0\osc_c0_0\osc_c0_osc_c0_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\users\lucas\desktop\projeto_cubesat-dev_hdl_fpga\fpga2memory\component\work\osc_c0\osc_c0_0\osc_c0_osc_c0_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\users\lucas\desktop\projeto_cubesat-dev_hdl_fpga\fpga2memory\component\work\osc_c0\osc_c0_0\osc_c0_osc_c0_0_osc.v":15:7:15:24|Tristate driver RCOSC_25_50MHZ_CCC (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) on net RCOSC_25_50MHZ_CCC (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\lucas\desktop\nova_pasta\fpga_design\fpga2memory\component\work\osc_c0\osc_c0_0\osc_c0_osc_c0_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\lucas\desktop\nova_pasta\fpga_design\fpga2memory\component\work\osc_c0\osc_c0_0\osc_c0_osc_c0_0_osc.v":19:7:19:16|Tristate driver XTLOSC_CCC (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) on net XTLOSC_CCC (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\lucas\desktop\nova_pasta\fpga_design\fpga2memory\component\work\osc_c0\osc_c0_0\osc_c0_osc_c0_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\lucas\desktop\nova_pasta\fpga_design\fpga2memory\component\work\osc_c0\osc_c0_0\osc_c0_osc_c0_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\lucas\desktop\nova_pasta\fpga_design\fpga2memory\component\work\osc_c0\osc_c0_0\osc_c0_osc_c0_0_osc.v":15:7:15:24|Tristate driver RCOSC_25_50MHZ_CCC (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) on net RCOSC_25_50MHZ_CCC (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) has its enable tied to GND.
 
 Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 251MB peak: 251MB)
 
-@W: BN132 :"c:\users\lucas\desktop\projeto_cubesat-dev_hdl_fpga\fpga2memory\hdl\tbec_rsc_decoder.sv":71:11:71:25|Removing user instance fpga_top_design_0.modulo.decodificador1.un1_quad1_a_4_1 because it is equivalent to instance fpga_top_design_0.modulo.decodificador1.flag10_4_1. To keep the instance, apply constraint syn_preserve=1 on the instance.
 
 Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 252MB peak: 252MB)
 
 
-Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 262MB peak: 262MB)
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 265MB peak: 265MB)
 
 
 Available hyper_sources - for debug and ip models
@@ -60,72 +59,70 @@ Available hyper_sources - for debug and ip models
 
 NConnInternalConnection caching is on
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 262MB peak: 262MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 266MB peak: 266MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 262MB peak: 263MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 267MB peak: 267MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 265MB peak: 265MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 263MB peak: 268MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 265MB peak: 266MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 263MB peak: 268MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 266MB peak: 266MB)
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 263MB peak: 268MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 272MB peak: 286MB)
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 302MB peak: 302MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:02s		   -14.65ns		 318 /        13
-   2		0h:00m:02s		   -14.14ns		 291 /        13
-   3		0h:00m:02s		   -13.46ns		 286 /        13
-   4		0h:00m:02s		   -13.22ns		 283 /        13
-   5		0h:00m:02s		   -12.93ns		 283 /        13
-   6		0h:00m:02s		   -12.93ns		 283 /        13
-   7		0h:00m:02s		   -12.93ns		 283 /        13
+   1		0h:00m:02s		   -15.34ns		 376 /        13
+   2		0h:00m:02s		   -15.05ns		 333 /        13
+   3		0h:00m:02s		   -14.14ns		 329 /        13
+   4		0h:00m:02s		   -14.10ns		 329 /        13
+   5		0h:00m:02s		   -14.10ns		 327 /        13
 
-   8		0h:00m:03s		   -12.76ns		 311 /        13
-   9		0h:00m:03s		   -12.50ns		 314 /        13
-  10		0h:00m:03s		   -12.43ns		 316 /        13
-  11		0h:00m:03s		   -12.32ns		 316 /        13
-  12		0h:00m:03s		   -11.97ns		 317 /        13
-  13		0h:00m:03s		   -12.01ns		 317 /        13
-  14		0h:00m:04s		   -11.85ns		 318 /        13
+   6		0h:00m:03s		   -13.12ns		 361 /        13
+   7		0h:00m:03s		   -12.78ns		 366 /        13
+   8		0h:00m:04s		   -12.59ns		 367 /        13
+   9		0h:00m:04s		   -12.56ns		 371 /        13
+  10		0h:00m:04s		   -12.56ns		 371 /        13
 
 
-  15		0h:00m:04s		   -11.99ns		 317 /        13
-  16		0h:00m:04s		   -11.74ns		 318 /        13
-  17		0h:00m:04s		   -11.61ns		 319 /        13
-  18		0h:00m:04s		   -11.95ns		 323 /        13
-@N: FP130 |Promoting Net fpga_top_design_0.modulo.data_out_right_up7_i_0 on CLKINT  I_95 
-@N: FP130 |Promoting Net fpga_top_design_0.modulo.data_out_right_up8_i_0 on CLKINT  I_96 
-@N: FP130 |Promoting Net fpga_top_design_0.modulo.decodificador1.quad117 on CLKINT  I_97 
+  11		0h:00m:04s		   -12.55ns		 363 /        13
+  12		0h:00m:04s		   -12.51ns		 364 /        13
+  13		0h:00m:04s		   -12.49ns		 365 /        13
+  14		0h:00m:04s		   -12.30ns		 367 /        13
+  15		0h:00m:04s		   -12.18ns		 367 /        13
+  16		0h:00m:05s		   -12.33ns		 366 /        13
+  17		0h:00m:05s		   -12.18ns		 367 /        13
+@N: FP130 |Promoting Net fpga_top_design_0.modulo.data_out_right_up7_i_0 on CLKINT  I_138 
+@N: FP130 |Promoting Net fpga_top_design_0.modulo.data_out_right_up8_i on CLKINT  I_139 
 
 Added 0 Buffers
 Added 0 Cells via replication
 	Added 0 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 283MB peak: 286MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 321MB peak: 322MB)
 
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 283MB peak: 286MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 321MB peak: 322MB)
 
 
-Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 284MB peak: 286MB)
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 321MB peak: 322MB)
 
 
-Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 284MB peak: 286MB)
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 321MB peak: 322MB)
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:05s; Memory used current: 234MB peak: 286MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 273MB peak: 322MB)
 
-Writing Analyst data base C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\synthesis\synwork\prj_2_memory_sb_m.srm
+Writing Analyst data base C:\Users\Lucas\Desktop\nova_pasta\FPGA_design\FPGA2memory\synthesis\synwork\prj_2_memory_sb_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 282MB peak: 286MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 319MB peak: 322MB)
 
 Writing Verilog Simulation files
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
@@ -134,23 +131,27 @@ Writing Verilog Simulation files
 @W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
 @W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
 @W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
 
-Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 283MB peak: 286MB)
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 320MB peak: 322MB)
 
 
-Finished Writing Netlists (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 283MB peak: 286MB)
+Finished Writing Netlists (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 320MB peak: 322MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 281MB peak: 286MB)
+Start final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 318MB peak: 322MB)
 
 @W: MT420 |Found inferred clock OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock with period 10.00ns. Please declare a user-defined clock on net OSC_C0_0.OSC_C0_0.N_RCOSC_25_50MHZ_CLKOUT.
 @W: MT420 |Found inferred clock ecc_design|data_out_right_up7_inferred_clock with period 10.00ns. Please declare a user-defined clock on net fpga_top_design_0.modulo.data_out_right_up7.
 @W: MT420 |Found inferred clock ecc_design|data_out_right_up8_inferred_clock with period 10.00ns. Please declare a user-defined clock on net fpga_top_design_0.modulo.data_out_right_up8.
-@W: MT420 |Found inferred clock TBEC_RSC_decoder|quad117_inferred_clock with period 10.00ns. Please declare a user-defined clock on net fpga_top_design_0.modulo.decodificador1.quad117_0.
+@W: MT420 |Found inferred clock TBEC_RSC_decoder|un1_quad118_3_inferred_clock with period 10.00ns. Please declare a user-defined clock on net fpga_top_design_0.modulo.decodificador1.un1_quad118_3.
+@W: MT420 |Found inferred clock TBEC_RSC_decoder|un1_quad118_2_inferred_clock with period 10.00ns. Please declare a user-defined clock on net fpga_top_design_0.modulo.decodificador1.un1_quad118_2.
+@W: MT420 |Found inferred clock TBEC_RSC_decoder|un1_quad118_inferred_clock with period 10.00ns. Please declare a user-defined clock on net fpga_top_design_0.modulo.decodificador1.un1_quad118.
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Wed Feb  5 12:31:48 2025
+# Timing report written on Wed Feb 12 16:13:26 2025
 #
 
 
@@ -158,7 +159,7 @@ Top view:               prj_2_memory_sb
 Requested Frequency:    100.0 MHz
 Wire load mode:         top
 Paths requested:        5
-Constraint File(s):    C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\designer\prj_2_memory_sb\synthesis.fdc
+Constraint File(s):    C:\Users\Lucas\Desktop\nova_pasta\FPGA_design\FPGA2memory\designer\prj_2_memory_sb\synthesis.fdc
                        
 @N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
 
@@ -176,7 +177,9 @@ Worst slack in design: 7.709
 Starting Clock                                                 Frequency     Frequency     Period        Period        Slack     Type         Group     
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     100.0 MHz     436.5 MHz     10.000        2.291         7.709     inferred     (multiple)
-TBEC_RSC_decoder|quad117_inferred_clock                        100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)
+TBEC_RSC_decoder|un1_quad118_2_inferred_clock                  100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)
+TBEC_RSC_decoder|un1_quad118_3_inferred_clock                  100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)
+TBEC_RSC_decoder|un1_quad118_inferred_clock                    100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)
 ecc_design|data_out_right_up7_inferred_clock                   100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)
 ecc_design|data_out_right_up8_inferred_clock                   100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)
 ========================================================================================================================================================
@@ -196,7 +199,9 @@ Starting                                                    Ending              
 OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock  OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock  |  10.000      7.709  |  No paths    -      |  No paths    -      |  No paths    -    
 OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock  ecc_design|data_out_right_up7_inferred_clock                |  No paths    -      |  No paths    -      |  Diff grp    -      |  No paths    -    
 OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock  ecc_design|data_out_right_up8_inferred_clock                |  No paths    -      |  No paths    -      |  Diff grp    -      |  No paths    -    
-TBEC_RSC_decoder|quad117_inferred_clock                     OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock  |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+TBEC_RSC_decoder|un1_quad118_3_inferred_clock               OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock  |  No paths    -      |  No paths    -      |  No paths    -      |  Diff grp    -    
+TBEC_RSC_decoder|un1_quad118_2_inferred_clock               OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock  |  No paths    -      |  No paths    -      |  No paths    -      |  Diff grp    -    
+TBEC_RSC_decoder|un1_quad118_inferred_clock                 OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock  |  No paths    -      |  No paths    -      |  No paths    -      |  Diff grp    -    
 ==============================================================================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
@@ -225,11 +230,11 @@ Instance                                     Reference                          
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 lfsr_random_generator3_0.lfsr[1]             OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       lfsr[1]                                                 0.108       7.709
 lfsr_random_generator3_0.lfsr[0]             OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       lfsr[0]                                                 0.108       7.773
-lfsr_random_generator_position_0.lfsr[4]     OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       lfsr_random_generator_position_0_random_position[4]     0.108       7.988
-lfsr_random_generator_position_0.lfsr[1]     OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       lfsr_random_generator_position_0_random_position[1]     0.108       8.018
-lfsr_random_generator_position_0.lfsr[2]     OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       lfsr_random_generator_position_0_random_position[2]     0.087       8.433
-lfsr_random_generator_position_0.lfsr[0]     OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       lfsr_random_generator_position_0_random_position[0]     0.087       8.443
-lfsr_random_generator_position_0.lfsr[3]     OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       lfsr_random_generator_position_0_random_position[3]     0.087       8.443
+lfsr_random_generator_position_0.lfsr[4]     OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       lfsr_random_generator_position_0_random_position[4]     0.108       7.969
+lfsr_random_generator_position_0.lfsr[1]     OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       lfsr_random_generator_position_0_random_position[1]     0.108       8.036
+lfsr_random_generator_position_0.lfsr[2]     OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       lfsr_random_generator_position_0_random_position[2]     0.087       8.452
+lfsr_random_generator_position_0.lfsr[3]     OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       lfsr_random_generator_position_0_random_position[3]     0.087       8.461
+lfsr_random_generator_position_0.lfsr[0]     OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       lfsr_random_generator_position_0_random_position[0]     0.087       8.470
 ======================================================================================================================================================================================================
 
 
@@ -241,13 +246,13 @@ Instance                                         Reference                      
                                                  Clock                                                                                                                                                     
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 lfsr_random_generator3_0.random_value_reg[0]     OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       random_value_reg_2[0]                                   9.745        7.709
-lfsr_random_generator_position_0.lfsr[0]         OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       lfsr_2[0]                                               9.745        7.988
+lfsr_random_generator_position_0.lfsr[0]         OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       lfsr_2[0]                                               9.745        7.969
 lfsr_random_generator3_0.lfsr[0]                 OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       lfsr_2[0]                                               9.745        8.161
 lfsr_random_generator3_0.random_value_reg[2]     OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       random_value_reg10                                      9.745        8.430
-lfsr_random_generator_position_0.lfsr[3]         OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       lfsr_random_generator_position_0_random_position[2]     9.745        8.433
-lfsr_random_generator_position_0.lfsr[1]         OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       lfsr_random_generator_position_0_random_position[0]     9.745        8.443
-lfsr_random_generator_position_0.lfsr[4]         OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       lfsr_random_generator_position_0_random_position[3]     9.745        8.443
-lfsr_random_generator_position_0.lfsr[2]         OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       lfsr_random_generator_position_0_random_position[1]     9.745        8.452
+lfsr_random_generator_position_0.lfsr[3]         OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       lfsr_random_generator_position_0_random_position[2]     9.745        8.452
+lfsr_random_generator_position_0.lfsr[4]         OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       lfsr_random_generator_position_0_random_position[3]     9.745        8.461
+lfsr_random_generator_position_0.lfsr[1]         OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       lfsr_random_generator_position_0_random_position[0]     9.745        8.470
+lfsr_random_generator_position_0.lfsr[2]         OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       lfsr_random_generator_position_0_random_position[1]     9.745        8.470
 lfsr_random_generator3_0.lfsr[1]                 OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       lfsr[0]                                                 9.745        8.843
 lfsr_random_generator3_0.random_value_reg[1]     OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       lfsr[1]                                                 9.745        8.843
 ===========================================================================================================================================================================================================
@@ -296,23 +301,23 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 
 Timing exceptions that could not be applied
 
-Finished final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 282MB peak: 286MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 319MB peak: 322MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 282MB peak: 286MB)
+Finished timing report (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 319MB peak: 322MB)
 
 ---------------------------------------
 Resource Usage Report for prj_2_memory_sb 
 
 Mapping to part: m2s025tvf400std
 Cell usage:
-CLKINT          4 uses
+CLKINT          3 uses
 RCOSC_25_50MHZ  1 use
 RCOSC_25_50MHZ_FAB  1 use
-CFG1           4 uses
-CFG2           36 uses
-CFG3           73 uses
-CFG4           208 uses
+CFG1           7 uses
+CFG2           39 uses
+CFG3           95 uses
+CFG4           217 uses
 
 
 Sequential Cells: 
@@ -327,9 +332,9 @@ INBUF          29 uses
 OUTBUF         32 uses
 
 
-Global Clock Buffers: 4
+Global Clock Buffers: 3
 
-Total LUTs:    321
+Total LUTs:    358
 
 Extra resources required for RAM and MACC interface logic during P&R:
 
@@ -338,13 +343,13 @@ RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
 MACC     Interface Logic : SLEs = 0; LUTs = 0;
 
 Total number of SLEs after P&R:  48 + 0 + 0 + 0 = 48;
-Total number of LUTs after P&R:  321 + 0 + 0 + 0 = 321;
+Total number of LUTs after P&R:  358 + 0 + 0 + 0 = 358;
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 127MB peak: 286MB)
+At Mapper Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 128MB peak: 322MB)
 
-Process took 0h:00m:05s realtime, 0h:00m:06s cputime
-# Wed Feb  5 12:31:48 2025
+Process took 0h:00m:06s realtime, 0h:00m:06s cputime
+# Wed Feb 12 16:13:26 2025
 
 ###########################################################]

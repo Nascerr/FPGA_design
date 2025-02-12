@@ -1,6 +1,6 @@
-open_project -project {C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\designer\prj_2_memory_sb\prj_2_memory_sb_fp\prj_2_memory_sb.pro}
+open_project -project {C:\Users\Lucas\Desktop\nova_pasta\FPGA_design\FPGA2memory\designer\prj_2_memory_sb\prj_2_memory_sb_fp\prj_2_memory_sb.pro}
 enable_device -name {M2S025T} -enable 1
-set_programming_file -name {M2S025T} -file {C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\designer\prj_2_memory_sb\prj_2_memory_sb.ppd}
+set_programming_file -name {M2S025T} -file {C:\Users\Lucas\Desktop\nova_pasta\FPGA_design\FPGA2memory\designer\prj_2_memory_sb\prj_2_memory_sb.ppd}
 set_programming_action -action {PROGRAM} -name {M2S025T} 
 run_selected_actions
 save_project

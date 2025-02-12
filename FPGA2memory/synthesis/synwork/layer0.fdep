@@ -1,42 +1,42 @@
-#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\Lucas\\Desktop\\Projeto_CubeSat-dev_hdl_fpga\\FPGA2memory\\synthesis\\synwork\\prj_2_memory_sb_comp.srs|-top|prj_2_memory_sb|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|C:\\Users\\Lucas\\Desktop\\Projeto_CubeSat-dev_hdl_fpga\\FPGA2memory\\hdl|-I|C:\\Users\\Lucas\\Desktop\\Projeto_CubeSat-dev_hdl_fpga\\FPGA2memory\\hdl|-I|C:\\Users\\Lucas\\Desktop\\Projeto_CubeSat-dev_hdl_fpga\\FPGA2memory\\hdl|-I|C:\\Users\\Lucas\\Desktop\\Projeto_CubeSat-dev_hdl_fpga\\FPGA2memory\\hdl|-I|C:\\Users\\Lucas\\Desktop\\Projeto_CubeSat-dev_hdl_fpga\\FPGA2memory\\hdl|-I|C:\\Users\\Lucas\\Desktop\\Projeto_CubeSat-dev_hdl_fpga\\FPGA2memory\\synthesis\\|-I|C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib|-sysv|-devicelib|C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work"
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\Lucas\\Desktop\\nova_pasta\\FPGA_design\\FPGA2memory\\synthesis\\synwork\\prj_2_memory_sb_comp.srs|-top|prj_2_memory_sb|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|C:\\Users\\Lucas\\Desktop\\nova_pasta\\FPGA_design\\FPGA2memory\\hdl|-I|C:\\Users\\Lucas\\Desktop\\nova_pasta\\FPGA_design\\FPGA2memory\\hdl|-I|C:\\Users\\Lucas\\Desktop\\nova_pasta\\FPGA_design\\FPGA2memory\\hdl|-I|C:\\Users\\Lucas\\Desktop\\nova_pasta\\FPGA_design\\FPGA2memory\\hdl|-I|C:\\Users\\Lucas\\Desktop\\nova_pasta\\FPGA_design\\FPGA2memory\\hdl|-I|C:\\Users\\Lucas\\Desktop\\nova_pasta\\FPGA_design\\FPGA2memory\\synthesis\\|-I|C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib|-sysv|-devicelib|C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work"
 #CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\bin64\\c_ver.exe":1704385142
 #CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\generic\\smartfusion2.v":1704384662
 #CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\hypermods.v":1704384280
 #CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\umr_capim.v":1704384514
 #CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1704384280
 #CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1704384280
-#CUR:"C:\\Users\\Lucas\\Desktop\\Projeto_CubeSat-dev_hdl_fpga\\FPGA2memory\\component\\Actel\\SgCore\\OSC\\2.0.101\\osc_comps.v":1731009354
-#CUR:"C:\\Users\\Lucas\\Desktop\\Projeto_CubeSat-dev_hdl_fpga\\FPGA2memory\\component\\work\\OSC_C0\\OSC_C0_0\\OSC_C0_OSC_C0_0_OSC.v":1731009354
-#CUR:"C:\\Users\\Lucas\\Desktop\\Projeto_CubeSat-dev_hdl_fpga\\FPGA2memory\\component\\work\\OSC_C0\\OSC_C0.v":1731009354
-#CUR:"C:\\Users\\Lucas\\Desktop\\Projeto_CubeSat-dev_hdl_fpga\\FPGA2memory\\hdl\\TBEC_RSC_encoder13.sv":1731009354
-#CUR:"C:\\Users\\Lucas\\Desktop\\Projeto_CubeSat-dev_hdl_fpga\\FPGA2memory\\hdl\\TBEC_RSC_encoder17.sv":1731009354
-#CUR:"C:\\Users\\Lucas\\Desktop\\Projeto_CubeSat-dev_hdl_fpga\\FPGA2memory\\hdl\\design.sv":1738769419
-#CUR:"C:\\Users\\Lucas\\Desktop\\Projeto_CubeSat-dev_hdl_fpga\\FPGA2memory\\hdl\\ecc_design.sv":1738769388
-#CUR:"C:\\Users\\Lucas\\Desktop\\Projeto_CubeSat-dev_hdl_fpga\\FPGA2memory\\hdl\\TBEC_RSC_encoder.sv":1731009354
-#CUR:"C:\\Users\\Lucas\\Desktop\\Projeto_CubeSat-dev_hdl_fpga\\FPGA2memory\\hdl\\TBEC_RSC_decoder.sv":1738769373
-#CUR:"C:\\Users\\Lucas\\Desktop\\Projeto_CubeSat-dev_hdl_fpga\\FPGA2memory\\hdl\\MRSC_encoder.sv":1731009354
-#CUR:"C:\\Users\\Lucas\\Desktop\\Projeto_CubeSat-dev_hdl_fpga\\FPGA2memory\\hdl\\MRSC_decoder.sv":1731009354
-#CUR:"C:\\Users\\Lucas\\Desktop\\Projeto_CubeSat-dev_hdl_fpga\\FPGA2memory\\hdl\\lfsr_random_generator3.sv":1731009354
-#CUR:"C:\\Users\\Lucas\\Desktop\\Projeto_CubeSat-dev_hdl_fpga\\FPGA2memory\\hdl\\lfsr_random_generator_position.sv":1731009354
-#CUR:"C:\\Users\\Lucas\\Desktop\\Projeto_CubeSat-dev_hdl_fpga\\FPGA2memory\\hdl\\lfsr_random_generator.sv":1731009354
-#CUR:"C:\\Users\\Lucas\\Desktop\\Projeto_CubeSat-dev_hdl_fpga\\FPGA2memory\\component\\work\\prj_2_memory_sb\\prj_2_memory_sb.v":1738769487
+#CUR:"C:\\Users\\Lucas\\Desktop\\nova_pasta\\FPGA_design\\FPGA2memory\\component\\Actel\\SgCore\\OSC\\2.0.101\\osc_comps.v":1739387365
+#CUR:"C:\\Users\\Lucas\\Desktop\\nova_pasta\\FPGA_design\\FPGA2memory\\component\\work\\OSC_C0\\OSC_C0_0\\OSC_C0_OSC_C0_0_OSC.v":1739387365
+#CUR:"C:\\Users\\Lucas\\Desktop\\nova_pasta\\FPGA_design\\FPGA2memory\\component\\work\\OSC_C0\\OSC_C0.v":1739387365
+#CUR:"C:\\Users\\Lucas\\Desktop\\nova_pasta\\FPGA_design\\FPGA2memory\\hdl\\TBEC_RSC_encoder13.sv":1739387365
+#CUR:"C:\\Users\\Lucas\\Desktop\\nova_pasta\\FPGA_design\\FPGA2memory\\hdl\\TBEC_RSC_encoder17.sv":1739387365
+#CUR:"C:\\Users\\Lucas\\Desktop\\nova_pasta\\FPGA_design\\FPGA2memory\\hdl\\design.sv":1739387365
+#CUR:"C:\\Users\\Lucas\\Desktop\\nova_pasta\\FPGA_design\\FPGA2memory\\hdl\\ecc_design.sv":1739387365
+#CUR:"C:\\Users\\Lucas\\Desktop\\nova_pasta\\FPGA_design\\FPGA2memory\\hdl\\TBEC_RSC_encoder.sv":1739387365
+#CUR:"C:\\Users\\Lucas\\Desktop\\nova_pasta\\FPGA_design\\FPGA2memory\\hdl\\TBEC_RSC_decoder.sv":1739387568
+#CUR:"C:\\Users\\Lucas\\Desktop\\nova_pasta\\FPGA_design\\FPGA2memory\\hdl\\MRSC_encoder.sv":1739387365
+#CUR:"C:\\Users\\Lucas\\Desktop\\nova_pasta\\FPGA_design\\FPGA2memory\\hdl\\MRSC_decoder.sv":1739387365
+#CUR:"C:\\Users\\Lucas\\Desktop\\nova_pasta\\FPGA_design\\FPGA2memory\\hdl\\lfsr_random_generator3.sv":1739387365
+#CUR:"C:\\Users\\Lucas\\Desktop\\nova_pasta\\FPGA_design\\FPGA2memory\\hdl\\lfsr_random_generator_position.sv":1739387365
+#CUR:"C:\\Users\\Lucas\\Desktop\\nova_pasta\\FPGA_design\\FPGA2memory\\hdl\\lfsr_random_generator.sv":1739387365
+#CUR:"C:\\Users\\Lucas\\Desktop\\nova_pasta\\FPGA_design\\FPGA2memory\\component\\work\\prj_2_memory_sb\\prj_2_memory_sb.v":1739387365
 #numinternalfiles:5
 #defaultlanguage:verilog
-0			"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\Actel\SgCore\OSC\2.0.101\osc_comps.v" verilog
-1			"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v" verilog
-2			"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\work\OSC_C0\OSC_C0.v" verilog
-3			"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\TBEC_RSC_encoder13.sv" verilog
-4			"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\TBEC_RSC_encoder17.sv" verilog
-5			"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\design.sv" verilog
-6		*	"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\ecc_design.sv" verilog
-7		*	"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\TBEC_RSC_encoder.sv" verilog
-8		*	"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\TBEC_RSC_decoder.sv" verilog
-9		*	"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\MRSC_encoder.sv" verilog
-10		*	"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\MRSC_decoder.sv" verilog
-11			"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\lfsr_random_generator3.sv" verilog
-12			"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\lfsr_random_generator_position.sv" verilog
-13			"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\lfsr_random_generator.sv" verilog
-14			"C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v" verilog
+0			"C:\Users\Lucas\Desktop\nova_pasta\FPGA_design\FPGA2memory\component\Actel\SgCore\OSC\2.0.101\osc_comps.v" verilog
+1			"C:\Users\Lucas\Desktop\nova_pasta\FPGA_design\FPGA2memory\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v" verilog
+2			"C:\Users\Lucas\Desktop\nova_pasta\FPGA_design\FPGA2memory\component\work\OSC_C0\OSC_C0.v" verilog
+3			"C:\Users\Lucas\Desktop\nova_pasta\FPGA_design\FPGA2memory\hdl\TBEC_RSC_encoder13.sv" verilog
+4			"C:\Users\Lucas\Desktop\nova_pasta\FPGA_design\FPGA2memory\hdl\TBEC_RSC_encoder17.sv" verilog
+5			"C:\Users\Lucas\Desktop\nova_pasta\FPGA_design\FPGA2memory\hdl\design.sv" verilog
+6		*	"C:\Users\Lucas\Desktop\nova_pasta\FPGA_design\FPGA2memory\hdl\ecc_design.sv" verilog
+7		*	"C:\Users\Lucas\Desktop\nova_pasta\FPGA_design\FPGA2memory\hdl\TBEC_RSC_encoder.sv" verilog
+8		*	"C:\Users\Lucas\Desktop\nova_pasta\FPGA_design\FPGA2memory\hdl\TBEC_RSC_decoder.sv" verilog
+9		*	"C:\Users\Lucas\Desktop\nova_pasta\FPGA_design\FPGA2memory\hdl\MRSC_encoder.sv" verilog
+10		*	"C:\Users\Lucas\Desktop\nova_pasta\FPGA_design\FPGA2memory\hdl\MRSC_decoder.sv" verilog
+11			"C:\Users\Lucas\Desktop\nova_pasta\FPGA_design\FPGA2memory\hdl\lfsr_random_generator3.sv" verilog
+12			"C:\Users\Lucas\Desktop\nova_pasta\FPGA_design\FPGA2memory\hdl\lfsr_random_generator_position.sv" verilog
+13			"C:\Users\Lucas\Desktop\nova_pasta\FPGA_design\FPGA2memory\hdl\lfsr_random_generator.sv" verilog
+14			"C:\Users\Lucas\Desktop\nova_pasta\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v" verilog
 #Dependency Lists(Uses List)
 0 -1
 1 0

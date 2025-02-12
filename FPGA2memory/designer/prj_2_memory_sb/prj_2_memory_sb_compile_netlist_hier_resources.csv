@@ -1,11 +1,11 @@
 Detailed Resource Usage
 Module Name,Fabric 4LUT,Fabric DFF,Single-Ended I/O,Chip Globals,RCOSC_50MHZ
 OSC_C0_0/OSC_C0_0/Primitives,0,0,0,1,1
-Primitives/Primitives,0,0,109,0,0
-fpga_top_design_0/Primitives,7,3,0,0,0
-fpga_top_design_0/modulo/Primitives,135,32,0,2,0
-fpga_top_design_0/modulo/codificador1/Primitives,8,0,0,0,0
-fpga_top_design_0/modulo/codificador1_3/Primitives,42,0,0,0,0
-fpga_top_design_0/modulo/decodificador1/Primitives,124,3,0,1,0
+Primitives/Primitives,6,0,109,0,0
+fpga_top_design_0/Primitives,11,3,0,0,0
+fpga_top_design_0/modulo/Primitives,120,32,0,2,0
+fpga_top_design_0/modulo/codificador1/Primitives,4,0,0,0,0
+fpga_top_design_0/modulo/codificador1_3/Primitives,60,0,0,0,0
+fpga_top_design_0/modulo/decodificador1/Primitives,149,3,0,0,0
 lfsr_random_generator3_0/Primitives,3,5,0,0,0
 lfsr_random_generator_position_0/Primitives,1,5,0,0,0

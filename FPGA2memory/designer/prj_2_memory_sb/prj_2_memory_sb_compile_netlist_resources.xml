@@ -3,7 +3,7 @@
 <doc>
 <title>Resource Report</title>
 <text>Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)</text>
-<text>Date: Wed Feb  5 12:31:52 2025
+<text>Date: Wed Feb 12 16:13:29 2025
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -76,7 +76,7 @@
 </row>
 <row>
  <cell>Source</cell>
- <cell>C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\synthesis\prj_2_memory_sb.vm</cell>
+ <cell>C:\Users\Lucas\Desktop\nova_pasta\FPGA_design\FPGA2memory\synthesis\prj_2_memory_sb.vm</cell>
 </row>
 </table>
 <section><name>Options</name></section>
@@ -106,9 +106,9 @@
 </header>
 <row>
  <cell>4LUT</cell>
- <cell>320</cell>
+ <cell>354</cell>
  <cell>27696</cell>
- <cell>1.16</cell>
+ <cell>1.28</cell>
 </row>
 <row>
  <cell>DFF</cell>
@@ -160,9 +160,9 @@
 </row>
 <row>
  <cell>Chip Globals</cell>
- <cell>4</cell>
+ <cell>3</cell>
  <cell>16</cell>
- <cell>25.00</cell>
+ <cell>18.75</cell>
 </row>
 <row>
  <cell>CCC</cell>
@@ -216,7 +216,7 @@
 </header>
 <row>
  <cell>Fabric Logic</cell>
- <cell>320</cell>
+ <cell>354</cell>
  <cell>48</cell>
 </row>
 <row>
@@ -236,7 +236,7 @@
 </row>
 <row>
  <cell>Total Used</cell>
- <cell>320</cell>
+ <cell>354</cell>
  <cell>48</cell>
 </row>
 </table>
@@ -308,7 +308,7 @@
 <row>
  <cell>16</cell>
  <cell>INT_NET</cell>
- <cell>Net   : fpga_top_design_0/modulo/data_out_right_up8_i_0</cell>
+ <cell>Net   : fpga_top_design_0/modulo/data_out_right_up8_i</cell>
 </row>
 <row>
  <cell></cell>
@@ -350,21 +350,6 @@
  <cell></cell>
  <cell>Source: NETLIST</cell>
 </row>
-<row>
- <cell>3</cell>
- <cell>INT_NET</cell>
- <cell>Net   : fpga_top_design_0/modulo/quad117</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: fpga_top_design_0/modulo/decodificador1/quad117_inferred_clock_RNI034A/U0_RGB1</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Source: NETLIST</cell>
-</row>
 </table>
 <section><name>Nets assigned to row global resources</name></section>
 <table>
@@ -382,7 +367,7 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>124</cell>
+ <cell>130</cell>
  <cell>INT_NET</cell>
  <cell>Net   : fpga_top_design_0_mcu_fpga_io_1</cell>
 </row>
@@ -392,7 +377,7 @@
  <cell>Driver: fpga_top_design_0/mcu_fpga_io_1</cell>
 </row>
 <row>
- <cell>70</cell>
+ <cell>55</cell>
  <cell>INT_NET</cell>
  <cell>Net   : ecc_sel1_c</cell>
 </row>
@@ -412,7 +397,7 @@
  <cell>Driver: ecc_sel0_ibuf</cell>
 </row>
 <row>
- <cell>33</cell>
+ <cell>35</cell>
  <cell>INT_NET</cell>
  <cell>Net   : lfsr_random_generator_position_0_random_position[4]</cell>
 </row>
@@ -422,7 +407,17 @@
  <cell>Driver: lfsr_random_generator_position_0/lfsr[4]</cell>
 </row>
 <row>
- <cell>25</cell>
+ <cell>28</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : fpga_top_design_0_modulo_data_out_right_up8</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: fpga_top_design_0/modulo/data_m1_0_a2_0</cell>
+</row>
+<row>
+ <cell>23</cell>
  <cell>INT_NET</cell>
  <cell>Net   : lfsr_random_generator_position_0_random_position[2]</cell>
 </row>
@@ -432,7 +427,7 @@
  <cell>Driver: lfsr_random_generator_position_0/lfsr[2]</cell>
 </row>
 <row>
- <cell>24</cell>
+ <cell>22</cell>
  <cell>INT_NET</cell>
  <cell>Net   : lfsr_random_generator_position_0_random_position[3]</cell>
 </row>
@@ -442,17 +437,7 @@
  <cell>Driver: lfsr_random_generator_position_0/lfsr[3]</cell>
 </row>
 <row>
- <cell>24</cell>
- <cell>INT_NET</cell>
- <cell>Net   : lfsr_random_generator_position_0_random_position[0]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: lfsr_random_generator_position_0/lfsr[0]</cell>
-</row>
-<row>
- <cell>23</cell>
+ <cell>21</cell>
  <cell>INT_NET</cell>
  <cell>Net   : lfsr_random_generator_position_0_random_position[1]</cell>
 </row>
@@ -462,24 +447,24 @@
  <cell>Driver: lfsr_random_generator_position_0/lfsr[1]</cell>
 </row>
 <row>
- <cell>18</cell>
+ <cell>21</cell>
  <cell>INT_NET</cell>
- <cell>Net   : fpga_top_design_0/modulo/data_out_right_up8_Z</cell>
+ <cell>Net   : lfsr_random_generator_position_0_random_position[0]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: fpga_top_design_0/modulo/data_out_right_up8</cell>
+ <cell>Driver: lfsr_random_generator_position_0/lfsr[0]</cell>
 </row>
 <row>
- <cell>16</cell>
+ <cell>21</cell>
  <cell>INT_NET</cell>
- <cell>Net   : fpga_top_design_0_mcu_fpga_io_1_i</cell>
+ <cell>Net   : fpga_top_design_0_modulo_decodificador1_quad117</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: fpga_top_design_0/mcu_fpga_io_1_RNIF86G</cell>
+ <cell>Driver: fpga_top_design_0/modulo/decodificador1/un1_SP_3_RNIRNR6B11</cell>
 </row>
 </table>
 <section><name>High fanout nets (through buffer trees)</name></section>
@@ -490,7 +475,7 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>124</cell>
+ <cell>130</cell>
  <cell>INT_NET</cell>
  <cell>Net   : fpga_top_design_0_mcu_fpga_io_1</cell>
 </row>
@@ -500,7 +485,7 @@
  <cell>Driver: fpga_top_design_0/mcu_fpga_io_1</cell>
 </row>
 <row>
- <cell>70</cell>
+ <cell>55</cell>
  <cell>INT_NET</cell>
  <cell>Net   : ecc_sel1_c</cell>
 </row>
@@ -520,7 +505,7 @@
  <cell>Driver: ecc_sel0_ibuf</cell>
 </row>
 <row>
- <cell>33</cell>
+ <cell>35</cell>
  <cell>INT_NET</cell>
  <cell>Net   : lfsr_random_generator_position_0_random_position[4]</cell>
 </row>
@@ -530,7 +515,17 @@
  <cell>Driver: lfsr_random_generator_position_0/lfsr[4]</cell>
 </row>
 <row>
- <cell>25</cell>
+ <cell>28</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : fpga_top_design_0_modulo_data_out_right_up8</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: fpga_top_design_0/modulo/data_m1_0_a2_0</cell>
+</row>
+<row>
+ <cell>23</cell>
  <cell>INT_NET</cell>
  <cell>Net   : lfsr_random_generator_position_0_random_position[2]</cell>
 </row>
@@ -540,7 +535,7 @@
  <cell>Driver: lfsr_random_generator_position_0/lfsr[2]</cell>
 </row>
 <row>
- <cell>24</cell>
+ <cell>22</cell>
  <cell>INT_NET</cell>
  <cell>Net   : lfsr_random_generator_position_0_random_position[3]</cell>
 </row>
@@ -550,17 +545,7 @@
  <cell>Driver: lfsr_random_generator_position_0/lfsr[3]</cell>
 </row>
 <row>
- <cell>24</cell>
- <cell>INT_NET</cell>
- <cell>Net   : lfsr_random_generator_position_0_random_position[0]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: lfsr_random_generator_position_0/lfsr[0]</cell>
-</row>
-<row>
- <cell>23</cell>
+ <cell>21</cell>
  <cell>INT_NET</cell>
  <cell>Net   : lfsr_random_generator_position_0_random_position[1]</cell>
 </row>
@@ -570,24 +555,24 @@
  <cell>Driver: lfsr_random_generator_position_0/lfsr[1]</cell>
 </row>
 <row>
- <cell>18</cell>
+ <cell>21</cell>
  <cell>INT_NET</cell>
- <cell>Net   : fpga_top_design_0/modulo/data_out_right_up8_Z</cell>
+ <cell>Net   : lfsr_random_generator_position_0_random_position[0]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: fpga_top_design_0/modulo/data_out_right_up8</cell>
+ <cell>Driver: lfsr_random_generator_position_0/lfsr[0]</cell>
 </row>
 <row>
- <cell>16</cell>
+ <cell>21</cell>
  <cell>INT_NET</cell>
- <cell>Net   : fpga_top_design_0_mcu_fpga_io_1_i</cell>
+ <cell>Net   : fpga_top_design_0_modulo_decodificador1_quad117</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: fpga_top_design_0/mcu_fpga_io_1_RNIF86G</cell>
+ <cell>Driver: fpga_top_design_0/modulo/decodificador1/un1_SP_3_RNIRNR6B11</cell>
 </row>
 </table>
 </doc>
