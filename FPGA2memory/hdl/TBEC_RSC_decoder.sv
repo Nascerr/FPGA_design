@@ -5,7 +5,9 @@ logic [0:15]red;
 logic [0:1] linsin [0:3];
 logic [0:3] SP;
 logic [0:3] SDi;
-
+logic bit1;
+logic bit2;
+logic bit3;
 
   always_comb
 begin
@@ -50,7 +52,7 @@ integer quad2;
 		quad2=1*SP[2]+1*SP[3]+1*SDi[2]+1*SDi[3];
 		if(quad1 > quad2)// Erro no primeiro quadrante
 		begin
-           flag =3'b001;
+           bit1 = 1;
 			for(b=0;b<4;b=b+1)
 			begin
 				if(linsin[b][0:1]!=2'b00)
@@ -60,7 +62,7 @@ integer quad2;
 		
 		else if(quad1 < quad2)// Erro no segundo quadrante
 		begin
-           flag =3'b100;
+           bit2 = 1;
 			for(b=0;b<4;b=b+1)
 			begin
 				if(linsin[b][0:1]!=2'b00)
@@ -70,7 +72,7 @@ integer quad2;
 		
 		else if((quad1 == quad2)&({SP[0],SP[1],SDi[0],SDi[1]} !=4'b0000)) // Erro no quadrante central
 		begin
-               flag =3'b010;
+               bit3 = 1;
 				for(b=0;b<4;b=b+1)
 				begin
 					if(linsin[b][0:1]!=2'b00)
@@ -80,10 +82,12 @@ integer quad2;
 		end
         else
             begin
-                flag = 3'b000;
+                bit1 = 0;
+                bit2 = 0;
+                bit3 = 0;
             end
 	end
 end
 assign data_out={signal[0][0:3],signal[1][0:3],signal[2][0:3],signal[3][0:3]};
-
+assign flag = {bit1,bit2,bit3};
 endmodule
