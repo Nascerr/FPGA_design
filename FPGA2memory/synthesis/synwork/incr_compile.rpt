@@ -8,79 +8,58 @@ Tool: Synplify Pro (R)
 Build: V-2023.09M
 Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
 OS: Windows 10 or later
-Hostname: DESKTOP-V6FS948
+Hostname: LAPTOP-MLN7VOA0
 
 Implementation : synthesis
 Synopsys HDL compiler and linker, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:15:03, @
 
-Modified Files: 3
+Modified Files: 1
 FID:  path (prevtimestamp, timestamp)
-30       C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-02-12 15:14:55, 2025-02-12 15:22:12)
-37       C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\design.sv (2025-02-12 15:09:27, 2025-02-12 15:18:35)
-38       C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\ecc_design.sv (2025-02-12 15:13:55, 2025-02-12 15:20:01)
+50       C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\design.sv (2025-05-15 17:47:57, 2025-05-15 18:01:46)
 
 *******************************************************************
-Modules that may have changed as a result of file changes: 15
+Modules that may have changed as a result of file changes: 6
 MID:  lib.cell.view
 0        work.MRSC_decoder.verilog may have changed because the following files changed:
-                        C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-02-12 15:14:55, 2025-02-12 15:22:12) <-- (may instantiate this module)
-                        C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\design.sv (2025-02-12 15:09:27, 2025-02-12 15:18:35) <-- (may instantiate this module)
-                        C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\ecc_design.sv (2025-02-12 15:13:55, 2025-02-12 15:20:01) <-- (may instantiate this module)
+                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\design.sv (2025-05-15 17:47:57, 2025-05-15 18:01:46) <-- (may instantiate this module)
 1        work.MRSC_encoder.verilog may have changed because the following files changed:
-                        C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-02-12 15:14:55, 2025-02-12 15:22:12) <-- (may instantiate this module)
-                        C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\design.sv (2025-02-12 15:09:27, 2025-02-12 15:18:35) <-- (may instantiate this module)
-                        C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\ecc_design.sv (2025-02-12 15:13:55, 2025-02-12 15:20:01) <-- (may instantiate this module)
-7        work.OSC_C0.verilog may have changed because the following files changed:
-                        C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-02-12 15:14:55, 2025-02-12 15:22:12) <-- (may instantiate this module)
-8        work.OSC_C0_OSC_C0_0_OSC.verilog may have changed because the following files changed:
-                        C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-02-12 15:14:55, 2025-02-12 15:22:12) <-- (may instantiate this module)
-9        work.RCOSC_1MHZ.verilog may have changed because the following files changed:
-                        C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-02-12 15:14:55, 2025-02-12 15:22:12) <-- (may instantiate this module)
-10       work.RCOSC_1MHZ_FAB.verilog may have changed because the following files changed:
-                        C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-02-12 15:14:55, 2025-02-12 15:22:12) <-- (may instantiate this module)
-11       work.RCOSC_25_50MHZ.verilog may have changed because the following files changed:
-                        C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-02-12 15:14:55, 2025-02-12 15:22:12) <-- (may instantiate this module)
-12       work.RCOSC_25_50MHZ_FAB.verilog may have changed because the following files changed:
-                        C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-02-12 15:14:55, 2025-02-12 15:22:12) <-- (may instantiate this module)
+                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\design.sv (2025-05-15 17:47:57, 2025-05-15 18:01:46) <-- (may instantiate this module)
 2        work.TBEC_RSC_decoder.verilog may have changed because the following files changed:
-                        C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-02-12 15:14:55, 2025-02-12 15:22:12) <-- (may instantiate this module)
-                        C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\design.sv (2025-02-12 15:09:27, 2025-02-12 15:18:35) <-- (may instantiate this module)
-                        C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\ecc_design.sv (2025-02-12 15:13:55, 2025-02-12 15:20:01) <-- (may instantiate this module)
+                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\design.sv (2025-05-15 17:47:57, 2025-05-15 18:01:46) <-- (may instantiate this module)
 3        work.TBEC_RSC_encoder.verilog may have changed because the following files changed:
-                        C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-02-12 15:14:55, 2025-02-12 15:22:12) <-- (may instantiate this module)
-                        C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\design.sv (2025-02-12 15:09:27, 2025-02-12 15:18:35) <-- (may instantiate this module)
-                        C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\ecc_design.sv (2025-02-12 15:13:55, 2025-02-12 15:20:01) <-- (may instantiate this module)
-15       work.XTLOSC.verilog may have changed because the following files changed:
-                        C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-02-12 15:14:55, 2025-02-12 15:22:12) <-- (may instantiate this module)
-16       work.XTLOSC_FAB.verilog may have changed because the following files changed:
-                        C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-02-12 15:14:55, 2025-02-12 15:22:12) <-- (may instantiate this module)
+                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\design.sv (2025-05-15 17:47:57, 2025-05-15 18:01:46) <-- (may instantiate this module)
 4        work.ecc_design.verilog may have changed because the following files changed:
-                        C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-02-12 15:14:55, 2025-02-12 15:22:12) <-- (may instantiate this module)
-                        C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\design.sv (2025-02-12 15:09:27, 2025-02-12 15:18:35) <-- (may instantiate this module)
-                        C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\ecc_design.sv (2025-02-12 15:13:55, 2025-02-12 15:20:01) <-- (module definition)
+                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\design.sv (2025-05-15 17:47:57, 2025-05-15 18:01:46) <-- (may instantiate this module)
 5        work.fpga_top_design.verilog may have changed because the following files changed:
-                        C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-02-12 15:14:55, 2025-02-12 15:22:12) <-- (may instantiate this module)
-                        C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\design.sv (2025-02-12 15:09:27, 2025-02-12 15:18:35) <-- (module definition)
-                        C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\ecc_design.sv (2025-02-12 15:13:55, 2025-02-12 15:20:01) <-- (may instantiate this module)
-6        work.prj_2_memory_sb.verilog may have changed because the following files changed:
-                        C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-02-12 15:14:55, 2025-02-12 15:22:12) <-- (module definition)
+                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\design.sv (2025-05-15 17:47:57, 2025-05-15 18:01:46) <-- (module definition)
 
 *******************************************************************
-Unmodified files: 12
+Unmodified files: 14
 FID:  path (timestamp)
 0        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v (2024-01-04 13:11:02)
 1        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\hypermods.v (2024-01-04 13:04:40)
 2        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\scemi_objects.v (2024-01-04 13:04:40)
 3        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\scemi_pipes.svh (2024-01-04 13:04:40)
 4        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\umr_capim.v (2024-01-04 13:08:34)
-27       C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\Actel\SgCore\OSC\2.0.101\osc_comps.v (2024-11-07 16:55:54)
-28       C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\work\OSC_C0\OSC_C0.v (2024-11-07 16:55:54)
-29       C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v (2024-11-07 16:55:54)
-31       C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\MRSC_decoder.sv (2024-11-07 16:55:54)
-32       C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\MRSC_encoder.sv (2024-11-07 16:55:54)
-33       C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\TBEC_RSC_decoder.sv (2025-02-05 12:29:33)
-34       C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\hdl\TBEC_RSC_encoder.sv (2024-11-07 16:55:54)
+42       C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\Actel\SgCore\OSC\2.0.101\osc_comps.v (2025-03-12 13:32:57)
+43       C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\OSC_C0\OSC_C0.v (2025-03-12 13:32:57)
+44       C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v (2025-03-12 13:32:57)
+45       C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-05-15 17:13:38)
+46       C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\MRSC_decoder.sv (2025-03-12 13:32:58)
+47       C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\MRSC_encoder.sv (2025-03-12 13:32:58)
+48       C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\TBEC_RSC_decoder.sv (2025-03-12 13:32:58)
+49       C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\TBEC_RSC_encoder.sv (2025-03-12 13:32:58)
+51       C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\ecc_design.sv (2025-05-15 17:55:58)
 
 *******************************************************************
-Unchanged modules: 0
+Unchanged modules: 9
 MID:  lib.cell.view
+7        work.OSC_C0.verilog
+8        work.OSC_C0_OSC_C0_0_OSC.verilog
+9        work.RCOSC_1MHZ.verilog
+10       work.RCOSC_1MHZ_FAB.verilog
+11       work.RCOSC_25_50MHZ.verilog
+12       work.RCOSC_25_50MHZ_FAB.verilog
+15       work.XTLOSC.verilog
+16       work.XTLOSC_FAB.verilog
+6        work.prj_2_memory_sb.verilog

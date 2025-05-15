@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Wed Feb 12 15:22:12 2025
+// Created by SmartDesign Thu May 15 17:13:38 2025
 // Version: 2024.1 2024.1.0.3
 //////////////////////////////////////////////////////////////////////
 
@@ -186,6 +186,8 @@ wire          MCU_A_16;
 wire          MCU_A_17;
 wire          MCU_A_18;
 wire          MCU_A_19;
+wire   [0:0]  SRAM_CS1_net_0;
+wire   [1:1]  SRAM_CS2_net_0;
 wire          MCU_LB;
 wire          MCU_UB;
 wire          SRAM_A_19_net_0;
@@ -213,14 +215,14 @@ wire          MCU_OE_net_0;
 wire          SRAM_LB_net_0;
 wire          SRAM_UB_net_0;
 wire          MCU_A_20_net_0;
-wire          MCU_CS_net_0;
-wire          MCU_CS_net_1;
+wire          SRAM_CS1_net_1;
+wire          SRAM_CS2_net_1;
 wire          LED1_net_1;
 wire          flag1_net_1;
 wire          LED1_net_2;
 wire          flag1_net_2;
 wire          flag3_net_1;
-wire   [1:0]  chip_sel_net_0;
+wire   [1:0]  chip_sel_out_net_0;
 wire   [2:0]  ecc_sel_net_0;
 wire   [0:2]  flag_out_net_0;
 //--------------------------------------------------------------------
@@ -276,10 +278,10 @@ assign SRAM_UB_net_0   = MCU_UB;
 assign SRAM_UB         = SRAM_UB_net_0;
 assign MCU_A_20_net_0  = MCU_A_20;
 assign SRAM_A_20       = MCU_A_20_net_0;
-assign MCU_CS_net_0    = MCU_CS;
-assign SRAM_CS1        = MCU_CS_net_0;
-assign MCU_CS_net_1    = MCU_CS;
-assign SRAM_CS2        = MCU_CS_net_1;
+assign SRAM_CS1_net_1  = SRAM_CS1_net_0[0];
+assign SRAM_CS1        = SRAM_CS1_net_1;
+assign SRAM_CS2_net_1  = SRAM_CS2_net_0[1];
+assign SRAM_CS2        = SRAM_CS2_net_1;
 assign LED1_net_1      = LED1_net_0[0];
 assign LED1            = LED1_net_1;
 assign flag1_net_1     = flag1_net_0[1];
@@ -293,14 +295,15 @@ assign flag3           = flag3_net_1;
 //--------------------------------------------------------------------
 // Slices assignments
 //--------------------------------------------------------------------
-assign flag1_net_0[1] = flag_out_net_0[1:1];
-assign flag3_net_0[2] = flag_out_net_0[2:2];
-assign LED1_net_0[0]  = flag_out_net_0[0:0];
+assign flag1_net_0[1]    = flag_out_net_0[1:1];
+assign flag3_net_0[2]    = flag_out_net_0[2:2];
+assign LED1_net_0[0]     = flag_out_net_0[0:0];
+assign SRAM_CS1_net_0[0] = chip_sel_out_net_0[0:0];
+assign SRAM_CS2_net_0[1] = chip_sel_out_net_0[1:1];
 //--------------------------------------------------------------------
 // Concatenation assignments
 //--------------------------------------------------------------------
-assign chip_sel_net_0 = { MCU_CS , MCU_CS };
-assign ecc_sel_net_0  = { ecc_sel2 , ecc_sel1 , ecc_sel0 };
+assign ecc_sel_net_0 = { ecc_sel2 , ecc_sel1 , ecc_sel0 };
 //--------------------------------------------------------------------
 // Component instances
 //--------------------------------------------------------------------
@@ -308,11 +311,12 @@ assign ecc_sel_net_0  = { ecc_sel2 , ecc_sel1 , ecc_sel0 };
 fpga_top_design fpga_top_design_0(
         // Inputs
         .write_en         ( MCU_WE ),
-        .chip_sel         ( chip_sel_net_0 ),
+        .chip_sel         ( MCU_CS ),
         .ecc_sel          ( ecc_sel_net_0 ),
         .clk              ( OSC_C0_0_RCOSC_25_50MHZ_O2F ),
         .output_en        ( MCU_OE ),
         // Outputs
+        .chip_sel_out     ( chip_sel_out_net_0 ),
         .flag_out         ( flag_out_net_0 ),
         // Inouts
         .mcu_fpga_io      ( mcu_fpga_io ),

@@ -8,16 +8,17 @@ High-effort              : OFF
 Repair min-delay         : OFF
 Incremental              : OFF
 
-INFO: Reading User PDC file C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\constraint\io\user.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\constraint\io\user.pdc. 0 error(s) and 0 warning(s)
 
 Running the I/O Bank and Globals Assigner.
 Info:  I/O Bank and Globals Assigner identified 109 fixed I/O macros, 0 unfixed I/O macros
 
 I/O Bank and Globals Assigner completed successfully.
 Total time spent in I/O Bank and Globals Assigner: 0 seconds
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
 
 Placer V5.0 - 2024.1.0 
-Design: prj_2_memory_sb                 Started: Wed Feb 12 15:32:17 2025
+Design: prj_2_memory_sb                 Started: Thu May 15 18:02:45 2025
 
 Initializing Normal-Effort Standard Placement ...
 Clustering ...
@@ -33,32 +34,43 @@ Improvement              : 0 seconds
 Placer completed successfully.
 
 Design: prj_2_memory_sb                 
-Finished: Wed Feb 12 15:32:19 2025
-Total CPU Time:     00:00:01            Total Elapsed Time: 00:00:02
-Total Memory Usage: 139.2 Mbytes
+Finished: Thu May 15 18:02:51 2025
+Total CPU Time:     00:00:05            Total Elapsed Time: 00:00:06
+Total Memory Usage: 141.4 Mbytes
                         o - o - o - o - o - o
 
+
+Warning:  The following clocks are routed using regular routing resources instead of dedicated global resources. Clocks using regular routing are more susceptible to noise than those using dedicated global resources. Microchip recommends promoting these signals to dedicated global resources.
+    Driver: fpga_top_design_0/modulo/decodificador1/un1_quad118_3:Y
+       Net: fpga_top_design_0/modulo/decodificador1/un1_quad118_3_Z
+Clock pins: 1
+    Driver: fpga_top_design_0/modulo/decodificador1/un1_quad118_2:Y
+       Net: fpga_top_design_0/modulo/decodificador1/un1_quad118_2_Z
+Clock pins: 1
+    Driver: fpga_top_design_0/modulo/decodificador1/un1_quad118:Y
+       Net: fpga_top_design_0/modulo/decodificador1/un1_quad118_Z
+Clock pins: 1
 
 Router 
-Design: C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\designer\prj_2_memory_sb\prj_2_memory_sbStarted: Wed Feb 12 15:32:21 2025
+Design: C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\designer\prj_2_memory_sb\prj_2_memory_sbStarted: Thu May 15 18:02:56 2025
 
 
 Router completed successfully.
 
-Design: C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\designer\prj_2_memory_sb\prj_2_memory_sb
-Finished: Wed Feb 12 15:32:27 2025
-Total CPU Time:     00:00:05            Total Elapsed Time: 00:00:06
-Total Memory Usage: 896.0 Mbytes
+Design: C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\designer\prj_2_memory_sb\prj_2_memory_sb
+Finished: Thu May 15 18:03:11 2025
+Total CPU Time:     00:00:14            Total Elapsed Time: 00:00:15
+Total Memory Usage: 897.5 Mbytes
                         o - o - o - o - o - o
 
 Resource Usage
 +---------------+------+-------+------------+
 | Type          | Used | Total | Percentage |
 +---------------+------+-------+------------+
-| 4LUT          | 341  | 27696 | 1.23       |
+| 4LUT          | 332  | 27696 | 1.20       |
 | DFF           | 38   | 27696 | 0.14       |
 | I/O Register  | 0    | 414   | 0.00       |
-| Logic Element | 341  | 27696 | 1.23       |
+| Logic Element | 335  | 27696 | 1.21       |
 +---------------+------+-------+------------+
 
 I/O Placement

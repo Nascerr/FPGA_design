@@ -3,7 +3,7 @@
 <doc>
 <title>Resource Report</title>
 <text>Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)</text>
-<text>Date: Wed Feb 12 15:22:31 2025
+<text>Date: Thu May 15 18:02:39 2025
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -76,7 +76,7 @@
 </row>
 <row>
  <cell>Source</cell>
- <cell>C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\synthesis\prj_2_memory_sb.vm</cell>
+ <cell>C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\synthesis\prj_2_memory_sb.vm</cell>
 </row>
 </table>
 <section><name>Options</name></section>
@@ -106,9 +106,9 @@
 </header>
 <row>
  <cell>4LUT</cell>
- <cell>341</cell>
+ <cell>332</cell>
  <cell>27696</cell>
- <cell>1.23</cell>
+ <cell>1.20</cell>
 </row>
 <row>
  <cell>DFF</cell>
@@ -160,9 +160,9 @@
 </row>
 <row>
  <cell>Chip Globals</cell>
- <cell>4</cell>
+ <cell>3</cell>
  <cell>16</cell>
- <cell>25.00</cell>
+ <cell>18.75</cell>
 </row>
 <row>
  <cell>CCC</cell>
@@ -216,7 +216,7 @@
 </header>
 <row>
  <cell>Fabric Logic</cell>
- <cell>341</cell>
+ <cell>332</cell>
  <cell>38</cell>
 </row>
 <row>
@@ -236,7 +236,7 @@
 </row>
 <row>
  <cell>Total Used</cell>
- <cell>341</cell>
+ <cell>332</cell>
  <cell>38</cell>
 </row>
 </table>
@@ -338,21 +338,6 @@
 <row>
  <cell>3</cell>
  <cell>INT_NET</cell>
- <cell>Net   : fpga_top_design_0_modulo_decodificador1_quad117</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: fpga_top_design_0/modulo/decodificador1/quad117_inferred_clock_RNI034A/U0_RGB1</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Source: NETLIST</cell>
-</row>
-<row>
- <cell>3</cell>
- <cell>INT_NET</cell>
  <cell>Net   : OSC_C0_0_RCOSC_25_50MHZ_O2F</cell>
 </row>
 <row>
@@ -382,19 +367,29 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>155</cell>
+ <cell>78</cell>
  <cell>INT_NET</cell>
- <cell>Net   : fpga_top_design_0_mcu_fpga_io_1</cell>
+ <cell>Net   : fpga_mem_io_down_1</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: fpga_top_design_0/mcu_fpga_io_1</cell>
+ <cell>Driver: fpga_top_design_0/fpga_mem_io_down_1</cell>
+</row>
+<row>
+ <cell>65</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : fpga_top_design_0/decoder_input_up_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: fpga_top_design_0/decoder_input_up</cell>
 </row>
 <row>
  <cell>30</cell>
  <cell>INT_NET</cell>
- <cell>Net   : un1_sel_2</cell>
+ <cell>Net   : fpga_top_design_0/modulo/un1_sel_2</cell>
 </row>
 <row>
  <cell></cell>
@@ -402,37 +397,7 @@
  <cell>Driver: fpga_top_design_0/modulo/un1_sel_2_inferred_clock_RNO</cell>
 </row>
 <row>
- <cell>27</cell>
- <cell>INT_NET</cell>
- <cell>Net   : fpga_top_design_0_modulo_data_out_right_up11</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: fpga_top_design_0/modulo/m3</cell>
-</row>
-<row>
- <cell>26</cell>
- <cell>INT_NET</cell>
- <cell>Net   : fpga_top_design_0_modulo_decodificador2_quad117</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: fpga_top_design_0/modulo/decodificador2/quad117_a0_0_2_RNIHL6FB</cell>
-</row>
-<row>
- <cell>23</cell>
- <cell>INT_NET</cell>
- <cell>Net   : fpga_top_design_0_modulo_data_out_right_up10</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: fpga_top_design_0/modulo/m2</cell>
-</row>
-<row>
- <cell>22</cell>
+ <cell>25</cell>
  <cell>INT_NET</cell>
  <cell>Net   : ecc_sel1_c</cell>
 </row>
@@ -442,19 +407,9 @@
  <cell>Driver: ecc_sel1_ibuf</cell>
 </row>
 <row>
- <cell>17</cell>
+ <cell>23</cell>
  <cell>INT_NET</cell>
- <cell>Net   : mcu_mem_io_up_in[6]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: mcu_mem_io_up_iobuf[6]</cell>
-</row>
-<row>
- <cell>17</cell>
- <cell>INT_NET</cell>
- <cell>Net   : fpga_top_design_0_modulo_data_out_right_up9</cell>
+ <cell>Net   : fpga_top_design_0/data_out_right_up9</cell>
 </row>
 <row>
  <cell></cell>
@@ -462,24 +417,54 @@
  <cell>Driver: fpga_top_design_0/modulo/data_out_right_up9_inferred_clock_RNO</cell>
 </row>
 <row>
+ <cell>23</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : fpga_top_design_0/modulo/data_out_right_up10</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: fpga_top_design_0/modulo/m2</cell>
+</row>
+<row>
+ <cell>22</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : fpga_top_design_0/modulo/data_out_right_up11</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: fpga_top_design_0/modulo/m3</cell>
+</row>
+<row>
+ <cell>22</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : fpga_top_design_0/modulo/quad117_0</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: fpga_top_design_0/modulo/decodificador2/quad117</cell>
+</row>
+<row>
+ <cell>21</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : fpga_top_design_0/modulo/quad117</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: fpga_top_design_0/modulo/decodificador1/quad117</cell>
+</row>
+<row>
  <cell>16</cell>
  <cell>INT_NET</cell>
- <cell>Net   : mcu_mem_io_up_in[4]</cell>
+ <cell>Net   : fpga_mem_io_up_1_i_i</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: mcu_mem_io_up_iobuf[4]</cell>
-</row>
-<row>
- <cell>16</cell>
- <cell>INT_NET</cell>
- <cell>Net   : fpga_top_design_0_mcu_fpga_io_1_i</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: fpga_top_design_0/mcu_fpga_io_1_RNIF86G</cell>
+ <cell>Driver: fpga_top_design_0/modulo/data_out_right_up9_inferred_clock_RNINTS661</cell>
 </row>
 </table>
 <section><name>High fanout nets (through buffer trees)</name></section>
@@ -490,19 +475,29 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>155</cell>
+ <cell>78</cell>
  <cell>INT_NET</cell>
- <cell>Net   : fpga_top_design_0_mcu_fpga_io_1</cell>
+ <cell>Net   : fpga_mem_io_down_1</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: fpga_top_design_0/mcu_fpga_io_1</cell>
+ <cell>Driver: fpga_top_design_0/fpga_mem_io_down_1</cell>
+</row>
+<row>
+ <cell>65</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : fpga_top_design_0/decoder_input_up_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: fpga_top_design_0/decoder_input_up</cell>
 </row>
 <row>
  <cell>30</cell>
  <cell>INT_NET</cell>
- <cell>Net   : un1_sel_2</cell>
+ <cell>Net   : fpga_top_design_0/modulo/un1_sel_2</cell>
 </row>
 <row>
  <cell></cell>
@@ -510,37 +505,7 @@
  <cell>Driver: fpga_top_design_0/modulo/un1_sel_2_inferred_clock_RNO</cell>
 </row>
 <row>
- <cell>27</cell>
- <cell>INT_NET</cell>
- <cell>Net   : fpga_top_design_0_modulo_data_out_right_up11</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: fpga_top_design_0/modulo/m3</cell>
-</row>
-<row>
- <cell>26</cell>
- <cell>INT_NET</cell>
- <cell>Net   : fpga_top_design_0_modulo_decodificador2_quad117</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: fpga_top_design_0/modulo/decodificador2/quad117_a0_0_2_RNIHL6FB</cell>
-</row>
-<row>
- <cell>23</cell>
- <cell>INT_NET</cell>
- <cell>Net   : fpga_top_design_0_modulo_data_out_right_up10</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: fpga_top_design_0/modulo/m2</cell>
-</row>
-<row>
- <cell>22</cell>
+ <cell>25</cell>
  <cell>INT_NET</cell>
  <cell>Net   : ecc_sel1_c</cell>
 </row>
@@ -550,19 +515,9 @@
  <cell>Driver: ecc_sel1_ibuf</cell>
 </row>
 <row>
- <cell>17</cell>
+ <cell>23</cell>
  <cell>INT_NET</cell>
- <cell>Net   : mcu_mem_io_up_in[6]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: mcu_mem_io_up_iobuf[6]</cell>
-</row>
-<row>
- <cell>17</cell>
- <cell>INT_NET</cell>
- <cell>Net   : fpga_top_design_0_modulo_data_out_right_up9</cell>
+ <cell>Net   : fpga_top_design_0/data_out_right_up9</cell>
 </row>
 <row>
  <cell></cell>
@@ -570,24 +525,54 @@
  <cell>Driver: fpga_top_design_0/modulo/data_out_right_up9_inferred_clock_RNO</cell>
 </row>
 <row>
+ <cell>23</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : fpga_top_design_0/modulo/data_out_right_up10</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: fpga_top_design_0/modulo/m2</cell>
+</row>
+<row>
+ <cell>22</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : fpga_top_design_0/modulo/data_out_right_up11</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: fpga_top_design_0/modulo/m3</cell>
+</row>
+<row>
+ <cell>22</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : fpga_top_design_0/modulo/quad117_0</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: fpga_top_design_0/modulo/decodificador2/quad117</cell>
+</row>
+<row>
+ <cell>21</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : fpga_top_design_0/modulo/quad117</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: fpga_top_design_0/modulo/decodificador1/quad117</cell>
+</row>
+<row>
  <cell>16</cell>
  <cell>INT_NET</cell>
- <cell>Net   : mcu_mem_io_up_in[4]</cell>
+ <cell>Net   : fpga_mem_io_up_1_i_i</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: mcu_mem_io_up_iobuf[4]</cell>
-</row>
-<row>
- <cell>16</cell>
- <cell>INT_NET</cell>
- <cell>Net   : fpga_top_design_0_mcu_fpga_io_1_i</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: fpga_top_design_0/mcu_fpga_io_1_RNIF86G</cell>
+ <cell>Driver: fpga_top_design_0/modulo/data_out_right_up9_inferred_clock_RNINTS661</cell>
 </row>
 </table>
 </doc>
