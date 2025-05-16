@@ -55,14 +55,14 @@ module ecc_design(input logic [0:15] data_in_left, // entrada FPGA pelo processa
             data_out_right_up = encoder_output1[0:15];
             data_out_right_down = encoder_output1[16:31];
             data_out_left =  decoder_output1;
-            chip_sel_out = {!chip_sel,chip_sel};
+            chip_sel_out = {chip_sel,chip_sel};
                 end
         3'b011 : begin 
             //ECC2 MRSC
             data_out_right_up = encoder_output2[0:15];
             data_out_right_down = encoder_output2[16:31];
             data_out_left =  decoder_output2;
-            chip_sel_out = {!chip_sel,chip_sel};
+            chip_sel_out = {chip_sel,chip_sel};
                 end
         default: begin
             // error

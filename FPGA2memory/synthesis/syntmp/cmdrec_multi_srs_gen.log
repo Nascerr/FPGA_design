@@ -1,7 +1,7 @@
 C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  prj_2_memory_sb  -multisrs  C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\synthesis\synwork\prj_2_memory_sb_comp.srs  -osyn  C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\synthesis\synwork\prj_2_memory_sb_mult.srs  -log  C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\synthesis\synlog\prj_2_memory_sb_multi_srs_gen.srr 
 relcom:..\..\..\..\..\..\..\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe -link -top prj_2_memory_sb -multisrs ..\synwork\prj_2_memory_sb_comp.srs -osyn ..\synwork\prj_2_memory_sb_mult.srs -log ..\synlog\prj_2_memory_sb_multi_srs_gen.srr
-rc:0 success:1 runtime:0
-file:..\synwork\prj_2_memory_sb_comp.srs|io:i|time:1747399251|size:23289|exec:0|csum:927886053DE4A70BFAFA536A4307F2AD
-file:..\synwork\prj_2_memory_sb_mult.srs|io:o|time:1747399253|size:4810|exec:0|csum:
-file:..\synlog\prj_2_memory_sb_multi_srs_gen.srr|io:o|time:1747399253|size:1185|exec:0|csum:
+rc:0 success:1 runtime:1
+file:..\synwork\prj_2_memory_sb_comp.srs|io:i|time:1747403570|size:23289|exec:0|csum:7A5878110680D2E0736B93F1D337B013
+file:..\synwork\prj_2_memory_sb_mult.srs|io:o|time:1747403572|size:4809|exec:0|csum:
+file:..\synlog\prj_2_memory_sb_multi_srs_gen.srr|io:o|time:1747403572|size:1185|exec:0|csum:
 file:..\..\..\..\..\..\..\microchip\libero_soc_v2024.1\synplifypro\bin64\syn_nfilter.exe|io:i|time:1704385664|size:10549248|exec:1|csum:0A08FED8FB1594556EFD70D403F152B0

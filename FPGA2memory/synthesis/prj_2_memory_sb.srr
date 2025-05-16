@@ -3,7 +3,7 @@
 #OS: Windows 10 or later
 #Hostname: LAPTOP-MLN7VOA0
 
-# Fri May 16 09:40:46 2025
+# Fri May 16 10:52:44 2025
 
 #Implementation: synthesis
 
@@ -67,8 +67,8 @@ Synopsys Verilog Compiler, Version comp202309synp1, Build 146R, Built Jan  4 202
 @I:"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\ecc_design.sv":"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\MRSC_decoder.sv" (library work)
 @I::"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v" (library work)
 Verilog syntax check successful!
-File C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\design.sv changed - recompiling
 File C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\ecc_design.sv changed - recompiling
+File C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v changed - recompiling
 Selecting top level module prj_2_memory_sb
 @N: CG364 :"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\TBEC_RSC_encoder.sv":3:7:3:22|Synthesizing module TBEC_RSC_encoder in library work.
 Running optimization stage 1 on TBEC_RSC_encoder .......
@@ -165,7 +165,7 @@ At c_ver Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory
 Process took 0h:00m:05s realtime, 0h:00m:05s cputime
 
 Process completed successfully.
-# Fri May 16 09:40:51 2025
+# Fri May 16 10:52:50 2025
 
 ###########################################################]
 ###########################################################[
@@ -187,12 +187,12 @@ Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 146R, Built Jan
 @N|Running in 64-bit mode
 File C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\synthesis\synwork\layer0.srs changed - recompiling
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 94MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 93MB peak: 94MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri May 16 09:40:51 2025
+# Fri May 16 10:52:50 2025
 
 ###########################################################]
 
@@ -202,12 +202,12 @@ For a summary of runtime and memory usage for all design units, please see file:
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 25MB peak: 25MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 25MB peak: 25MB)
 
-Process took 0h:00m:05s realtime, 0h:00m:05s cputime
+Process took 0h:00m:06s realtime, 0h:00m:06s cputime
 
 Process completed successfully.
-# Fri May 16 09:40:52 2025
+# Fri May 16 10:52:50 2025
 
 ###########################################################]
 ###########################################################[
@@ -234,12 +234,12 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri May 16 09:40:53 2025
+# Fri May 16 10:52:52 2025
 
 ###########################################################]
 Premap Report
 
-# Fri May 16 09:40:53 2025
+# Fri May 16 10:52:52 2025
 
 
 Copyright (C) 1994-2023 Synopsys, Inc.
@@ -260,7 +260,7 @@ Synopsys Microchip Technology Pre-mapping, Version map202309act, Build 044R, Bui
 Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 191MB peak: 191MB)
 
 
-Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 196MB peak: 207MB)
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 196MB peak: 208MB)
 
 Reading constraint file: C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\designer\prj_2_memory_sb\synthesis.fdc
 @L: C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\synthesis\prj_2_memory_sb_scck.rpt 
@@ -269,16 +269,16 @@ See clock summary report "C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\s
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 200MB peak: 207MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 200MB peak: 208MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 200MB peak: 207MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 200MB peak: 208MB)
 
 
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 202MB peak: 207MB)
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 202MB peak: 208MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 202MB peak: 207MB)
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 202MB peak: 208MB)
 
 
 Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
@@ -303,7 +303,7 @@ Finished DisTri Cleanup (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:0
 
 @N: FX1184 |Applying syn_allowed_resources blockrams=31 on top level netlist prj_2_memory_sb 
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 257MB peak: 257MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:02s; Memory used current: 257MB peak: 257MB)
 
 
 
@@ -358,15 +358,15 @@ Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:0
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 170MB peak: 260MB)
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 175MB peak: 260MB)
 
-Process took 0h:00m:02s realtime, 0h:00m:02s cputime
-# Fri May 16 09:40:56 2025
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Fri May 16 10:52:55 2025
 
 ###########################################################]
 Map & Optimize Report
 
-# Fri May 16 09:40:56 2025
+# Fri May 16 10:52:55 2025
 
 
 Copyright (C) 1994-2023 Synopsys, Inc.
@@ -419,7 +419,7 @@ Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00
 Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 259MB peak: 259MB)
 
 
-Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 266MB peak: 266MB)
+Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 266MB peak: 266MB)
 
 
 Available hyper_sources - for debug and ip models
@@ -427,49 +427,49 @@ Available hyper_sources - for debug and ip models
 
 NConnInternalConnection caching is on
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 270MB peak: 270MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 272MB peak: 272MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 270MB peak: 270MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 272MB peak: 272MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 270MB peak: 271MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 272MB peak: 273MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 270MB peak: 271MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 272MB peak: 273MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 271MB peak: 271MB)
+Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:03s; Memory used current: 273MB peak: 273MB)
 
 
 Finished technology mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 292MB peak: 292MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:03s		100000.00ns		 297 /         3
+   1		0h:00m:03s		100000.00ns		 295 /         3
 
 Added 0 Buffers
 Added 0 Cells via replication
 	Added 0 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 293MB peak: 293MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 292MB peak: 293MB)
 
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 293MB peak: 293MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 292MB peak: 293MB)
 
 
 Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 293MB peak: 293MB)
 
 
-Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 293MB peak: 294MB)
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 293MB peak: 293MB)
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 243MB peak: 294MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 243MB peak: 293MB)
 
 Writing Analyst data base C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\synthesis\synwork\prj_2_memory_sb_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 290MB peak: 294MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 291MB peak: 293MB)
 
 Writing Verilog Simulation files
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
@@ -479,13 +479,13 @@ Writing Verilog Simulation files
 @W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
 @W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
 
-Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 292MB peak: 294MB)
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 293MB peak: 293MB)
 
 
-Finished Writing Netlists (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 292MB peak: 294MB)
+Finished Writing Netlists (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:06s; Memory used current: 293MB peak: 293MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 289MB peak: 294MB)
+Start final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 291MB peak: 293MB)
 
 @W: MT420 |Found inferred clock OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock with period 10.00ns. Please declare a user-defined clock on net OSC_C0_0.OSC_C0_0.N_RCOSC_25_50MHZ_CLKOUT.
 @W: MT420 |Found inferred clock TBEC_RSC_decoder|un1_quad118_3_inferred_clock with period 10.00ns. Please declare a user-defined clock on net fpga_top_design_0.modulo.decodificador1.un1_quad118_3.
@@ -494,7 +494,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Fri May 16 09:41:02 2025
+# Timing report written on Fri May 16 10:53:02 2025
 #
 
 
@@ -556,10 +556,10 @@ No IO constraint found
 
 Timing exceptions that could not be applied
 
-Finished final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 290MB peak: 294MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 291MB peak: 293MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 290MB peak: 294MB)
+Finished timing report (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 291MB peak: 293MB)
 
 ---------------------------------------
 Resource Usage Report for prj_2_memory_sb 
@@ -569,10 +569,10 @@ Cell usage:
 CLKINT          1 use
 RCOSC_25_50MHZ  1 use
 RCOSC_25_50MHZ_FAB  1 use
-CFG1           3 uses
-CFG2           42 uses
-CFG3           58 uses
-CFG4           186 uses
+CFG1           4 uses
+CFG2           43 uses
+CFG3           56 uses
+CFG4           188 uses
 
 
 Sequential Cells: 
@@ -589,7 +589,7 @@ OUTBUF         32 uses
 
 Global Clock Buffers: 1
 
-Total LUTs:    289
+Total LUTs:    291
 
 Extra resources required for RAM and MACC interface logic during P&R:
 
@@ -598,13 +598,13 @@ RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
 MACC     Interface Logic : SLEs = 0; LUTs = 0;
 
 Total number of SLEs after P&R:  6 + 0 + 0 + 0 = 6;
-Total number of LUTs after P&R:  289 + 0 + 0 + 0 = 289;
+Total number of LUTs after P&R:  291 + 0 + 0 + 0 = 291;
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 132MB peak: 294MB)
+At Mapper Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:07s; Memory used current: 133MB peak: 293MB)
 
-Process took 0h:00m:06s realtime, 0h:00m:06s cputime
-# Fri May 16 09:41:03 2025
+Process took 0h:00m:07s realtime, 0h:00m:07s cputime
+# Fri May 16 10:53:03 2025
 
 ###########################################################]

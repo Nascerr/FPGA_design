@@ -5,10 +5,10 @@ Cell usage:
 CLKINT          1 use
 RCOSC_25_50MHZ  1 use
 RCOSC_25_50MHZ_FAB  1 use
-CFG1           3 uses
-CFG2           42 uses
-CFG3           58 uses
-CFG4           186 uses
+CFG1           4 uses
+CFG2           43 uses
+CFG3           56 uses
+CFG4           188 uses
 
 
 Sequential Cells: 
@@ -25,7 +25,7 @@ OUTBUF         32 uses
 
 Global Clock Buffers: 1
 
-Total LUTs:    289
+Total LUTs:    291
 
 Extra resources required for RAM and MACC interface logic during P&R:
 
@@ -34,5 +34,5 @@ RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
 MACC     Interface Logic : SLEs = 0; LUTs = 0;
 
 Total number of SLEs after P&R:  6 + 0 + 0 + 0 = 6;
-Total number of LUTs after P&R:  289 + 0 + 0 + 0 = 289;
+Total number of LUTs after P&R:  291 + 0 + 0 + 0 = 291;
 

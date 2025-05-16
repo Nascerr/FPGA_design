@@ -3,7 +3,7 @@
 <doc>
 <title>Global Net Report</title>
 <text>Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)</text>
-<text>Date: Fri May 16 09:41:25 2025
+<text>Date: Fri May 16 10:53:22 2025
 </text>
 <section>
 <name>Global Nets Information</name>
@@ -85,7 +85,7 @@
  <cell>OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_YWn_GEast</cell>
  <cell>3</cell>
  <cell> </cell>
- <cell>(446, 114)</cell>
+ <cell>(446, 120)</cell>
  <cell>3</cell>
 </row>
 </table>
@@ -110,15 +110,15 @@
 </row>
 <row>
  <cell>2</cell>
- <cell>fpga_top_design_0/modulo/decodificador1/un1_quad118:Y</cell>
- <cell>fpga_top_design_0/modulo/decodificador1/un1_quad118_Z</cell>
- <cell>fpga_top_design_0/modulo/decodificador1/bit3:CLK</cell>
-</row>
-<row>
- <cell>3</cell>
  <cell>fpga_top_design_0/modulo/decodificador1/un1_quad118_3:Y</cell>
  <cell>fpga_top_design_0/modulo/decodificador1/un1_quad118_3_Z</cell>
  <cell>fpga_top_design_0/modulo/decodificador1/bit1:CLK</cell>
+</row>
+<row>
+ <cell>3</cell>
+ <cell>fpga_top_design_0/modulo/decodificador1/un1_quad118:Y</cell>
+ <cell>fpga_top_design_0/modulo/decodificador1/un1_quad118_Z</cell>
+ <cell>fpga_top_design_0/modulo/decodificador1/bit3:CLK</cell>
 </row>
 </table>
 </section>

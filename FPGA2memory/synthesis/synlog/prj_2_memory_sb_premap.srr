@@ -1,4 +1,4 @@
-# Fri May 16 09:40:53 2025
+# Fri May 16 10:52:52 2025
 
 
 Copyright (C) 1994-2023 Synopsys, Inc.
@@ -19,7 +19,7 @@ Synopsys Microchip Technology Pre-mapping, Version map202309act, Build 044R, Bui
 Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 191MB peak: 191MB)
 
 
-Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 196MB peak: 207MB)
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 196MB peak: 208MB)
 
 Reading constraint file: C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\designer\prj_2_memory_sb\synthesis.fdc
 @L: C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\synthesis\prj_2_memory_sb_scck.rpt 
@@ -28,16 +28,16 @@ See clock summary report "C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\s
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 200MB peak: 207MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 200MB peak: 208MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 200MB peak: 207MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 200MB peak: 208MB)
 
 
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 202MB peak: 207MB)
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 202MB peak: 208MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 202MB peak: 207MB)
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 202MB peak: 208MB)
 
 
 Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
@@ -62,7 +62,7 @@ Finished DisTri Cleanup (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:0
 
 @N: FX1184 |Applying syn_allowed_resources blockrams=31 on top level netlist prj_2_memory_sb 
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 257MB peak: 257MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:02s; Memory used current: 257MB peak: 257MB)
 
 
 
@@ -117,9 +117,9 @@ Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:0
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 170MB peak: 260MB)
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 175MB peak: 260MB)
 
-Process took 0h:00m:02s realtime, 0h:00m:02s cputime
-# Fri May 16 09:40:56 2025
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Fri May 16 10:52:55 2025
 
 ###########################################################]

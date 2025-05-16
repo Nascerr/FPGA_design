@@ -1,11 +1,11 @@
 
 . Module name, SLE, CFG, ARI1, BUFFER, MACC, RAM1K18, RAM64X18, GLOBAL, IO
-. prj_2_memory_sb, 6, 289, 0, 0, 0, 0, 0, 1, 109
+. prj_2_memory_sb, 6, 291, 0, 0, 0, 0, 0, 1, 109
 .	. OSC_C0, 0, 0, 0, 0, 0, 0, 0, 1, 0
 .	.	. OSC_C0_OSC_C0_0_OSC, 0, 0, 0, 0, 0, 0, 0, 1, 0
-.	. fpga_top_design, 6, 289, 0, 0, 0, 0, 0, 0, 0
+.	. fpga_top_design, 6, 291, 0, 0, 0, 0, 0, 0, 0
 .	.	. ecc_design, 3, 263, 0, 0, 0, 0, 0, 0, 0
-.	.	.	. MRSC_decoder, 0, 42, 0, 0, 0, 0, 0, 0, 0
-.	.	.	. MRSC_encoder, 0, 4, 0, 0, 0, 0, 0, 0, 0
-.	.	.	. TBEC_RSC_decoder, 3, 95, 0, 0, 0, 0, 0, 0, 0
-.	.	.	. TBEC_RSC_encoder, 0, 14, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. MRSC_decoder, 0, 46, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. MRSC_encoder, 0, 2, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. TBEC_RSC_decoder, 3, 96, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. TBEC_RSC_encoder, 0, 15, 0, 0, 0, 0, 0, 0, 0

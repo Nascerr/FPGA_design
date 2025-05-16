@@ -1,6 +1,6 @@
 Resource Report
 Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
-Date: Fri May 16 09:41:12 2025
+Date: Fri May 16 10:53:09 2025
 
 Device Selection
 +--------------------------------+----------------+
@@ -37,7 +37,7 @@ Resource Usage
 +---------------------------+------+-------+------------+
 | Type                      | Used | Total | Percentage |
 +---------------------------+------+-------+------------+
-| 4LUT                      | 286  | 27696 | 1.03       |
+| 4LUT                      | 288  | 27696 | 1.04       |
 | DFF                       | 6    | 27696 | 0.02       |
 | I/O Register              | 0    | 414   | 0.00       |
 | User I/O                  | 109  | 138   | 78.99      |
@@ -60,11 +60,11 @@ Detailed Logic Resource Usage
 +--------------------------+------+-----+
 | Type                     | 4LUT | DFF |
 +--------------------------+------+-----+
-| Fabric Logic             | 286  | 6   |
+| Fabric Logic             | 288  | 6   |
 | RAM64x18 Interface Logic | 0    | 0   |
 | RAM1K18 Interface Logic  | 0    | 0   |
 | MACC Interface Logic     | 0    | 0   |
-| Total Used               | 286  | 6   |
+| Total Used               | 288  | 6   |
 +--------------------------+------+-----+
 
 I/O Function
@@ -101,54 +101,54 @@ Nets assigned to row global resources
 +--------+------+------+
 
 High fanout nets
-+--------+---------+-----------------------------------------------------------------+
-| Fanout | Type    | Name                                                            |
-+--------+---------+-----------------------------------------------------------------+
-| 70     | INT_NET | Net   : fpga_mem_io_down_1                                      |
-|        |         | Driver: fpga_top_design_0/fpga_mem_io_down_1                    |
-| 51     | INT_NET | Net   : ecc_sel1_c                                              |
-|        |         | Driver: ecc_sel1_ibuf                                           |
-| 48     | INT_NET | Net   : fpga_mem_io_up_1                                        |
-|        |         | Driver: fpga_top_design_0/fpga_mem_io_up_1                      |
-| 35     | INT_NET | Net   : ecc_sel2_c                                              |
-|        |         | Driver: ecc_sel2_ibuf                                           |
-| 29     | INT_NET | Net   : fpga_top_design_0/modulo/data_out_right_down_sn_N_5_mux |
-|        |         | Driver: fpga_top_design_0/modulo/data_out_right_up10_RNISC09A   |
-| 19     | INT_NET | Net   : ecc_sel0_c                                              |
-|        |         | Driver: ecc_sel0_ibuf                                           |
-| 16     | INT_NET | Net   : fpga_top_design_0_mcu_fpga_io_1_i                       |
-|        |         | Driver: fpga_top_design_0/mcu_fpga_io_1                         |
-| 14     | INT_NET | Net   : fpga_top_design_0/data_out_right_up10                   |
-|        |         | Driver: fpga_top_design_0/modulo/data_out_right_up10            |
-| 12     | INT_NET | Net   : fpga_top_design_0/modulo/data_out_right_up_sn_N_3       |
-|        |         | Driver: fpga_top_design_0/modulo/data_out_right_up_sn_m2        |
-| 12     | INT_NET | Net   : fpga_top_design_0/modulo/data_out_right_up11_Z          |
-|        |         | Driver: fpga_top_design_0/modulo/data_out_right_up11            |
-+--------+---------+-----------------------------------------------------------------+
++--------+---------+--------------------------------------------------------+
+| Fanout | Type    | Name                                                   |
++--------+---------+--------------------------------------------------------+
+| 69     | INT_NET | Net   : fpga_mem_io_down_1                             |
+|        |         | Driver: fpga_top_design_0/fpga_mem_io_down_1           |
+| 63     | INT_NET | Net   : ecc_sel1_c                                     |
+|        |         | Driver: ecc_sel1_ibuf                                  |
+| 52     | INT_NET | Net   : fpga_mem_io_up_1                               |
+|        |         | Driver: fpga_top_design_0/fpga_mem_io_up_1             |
+| 29     | INT_NET | Net   : ecc_sel2_c                                     |
+|        |         | Driver: ecc_sel2_ibuf                                  |
+| 25     | INT_NET | Net   : fpga_top_design_0/modulo/data_out_left_sn_N_2  |
+|        |         | Driver: fpga_top_design_0/modulo/data_out_left_sn_m1   |
+| 21     | INT_NET | Net   : ecc_sel0_c                                     |
+|        |         | Driver: ecc_sel0_ibuf                                  |
+| 16     | INT_NET | Net   : fpga_top_design_0_mcu_fpga_io_1_i              |
+|        |         | Driver: fpga_top_design_0/mcu_fpga_io_1_RNIF86G        |
+| 16     | INT_NET | Net   : fpga_top_design_0/modulo/chip_sel_out_ss0_Z    |
+|        |         | Driver: fpga_top_design_0/modulo/chip_sel_out_ss0      |
+| 12     | INT_NET | Net   : fpga_top_design_0/modulo/data_out_right_up11_Z |
+|        |         | Driver: fpga_top_design_0/modulo/data_out_right_up11   |
+| 10     | INT_NET | Net   : mcu_mem_io_up_in[5]                            |
+|        |         | Driver: mcu_mem_io_up_iobuf[5]                         |
++--------+---------+--------------------------------------------------------+
 
 High fanout nets (through buffer trees)
-+--------+---------+-----------------------------------------------------------------+
-| Fanout | Type    | Name                                                            |
-+--------+---------+-----------------------------------------------------------------+
-| 70     | INT_NET | Net   : fpga_mem_io_down_1                                      |
-|        |         | Driver: fpga_top_design_0/fpga_mem_io_down_1                    |
-| 51     | INT_NET | Net   : ecc_sel1_c                                              |
-|        |         | Driver: ecc_sel1_ibuf                                           |
-| 48     | INT_NET | Net   : fpga_mem_io_up_1                                        |
-|        |         | Driver: fpga_top_design_0/fpga_mem_io_up_1                      |
-| 35     | INT_NET | Net   : ecc_sel2_c                                              |
-|        |         | Driver: ecc_sel2_ibuf                                           |
-| 29     | INT_NET | Net   : fpga_top_design_0/modulo/data_out_right_down_sn_N_5_mux |
-|        |         | Driver: fpga_top_design_0/modulo/data_out_right_up10_RNISC09A   |
-| 19     | INT_NET | Net   : ecc_sel0_c                                              |
-|        |         | Driver: ecc_sel0_ibuf                                           |
-| 16     | INT_NET | Net   : fpga_top_design_0_mcu_fpga_io_1_i                       |
-|        |         | Driver: fpga_top_design_0/mcu_fpga_io_1                         |
-| 14     | INT_NET | Net   : fpga_top_design_0/data_out_right_up10                   |
-|        |         | Driver: fpga_top_design_0/modulo/data_out_right_up10            |
-| 12     | INT_NET | Net   : fpga_top_design_0/modulo/data_out_right_up_sn_N_3       |
-|        |         | Driver: fpga_top_design_0/modulo/data_out_right_up_sn_m2        |
-| 12     | INT_NET | Net   : fpga_top_design_0/modulo/data_out_right_up11_Z          |
-|        |         | Driver: fpga_top_design_0/modulo/data_out_right_up11            |
-+--------+---------+-----------------------------------------------------------------+
++--------+---------+--------------------------------------------------------+
+| Fanout | Type    | Name                                                   |
++--------+---------+--------------------------------------------------------+
+| 69     | INT_NET | Net   : fpga_mem_io_down_1                             |
+|        |         | Driver: fpga_top_design_0/fpga_mem_io_down_1           |
+| 63     | INT_NET | Net   : ecc_sel1_c                                     |
+|        |         | Driver: ecc_sel1_ibuf                                  |
+| 52     | INT_NET | Net   : fpga_mem_io_up_1                               |
+|        |         | Driver: fpga_top_design_0/fpga_mem_io_up_1             |
+| 29     | INT_NET | Net   : ecc_sel2_c                                     |
+|        |         | Driver: ecc_sel2_ibuf                                  |
+| 25     | INT_NET | Net   : fpga_top_design_0/modulo/data_out_left_sn_N_2  |
+|        |         | Driver: fpga_top_design_0/modulo/data_out_left_sn_m1   |
+| 21     | INT_NET | Net   : ecc_sel0_c                                     |
+|        |         | Driver: ecc_sel0_ibuf                                  |
+| 16     | INT_NET | Net   : fpga_top_design_0_mcu_fpga_io_1_i              |
+|        |         | Driver: fpga_top_design_0/mcu_fpga_io_1_RNIF86G        |
+| 16     | INT_NET | Net   : fpga_top_design_0/modulo/chip_sel_out_ss0_Z    |
+|        |         | Driver: fpga_top_design_0/modulo/chip_sel_out_ss0      |
+| 12     | INT_NET | Net   : fpga_top_design_0/modulo/data_out_right_up11_Z |
+|        |         | Driver: fpga_top_design_0/modulo/data_out_right_up11   |
+| 10     | INT_NET | Net   : mcu_mem_io_up_in[5]                            |
+|        |         | Driver: mcu_mem_io_up_iobuf[5]                         |
++--------+---------+--------------------------------------------------------+
 

@@ -8,13 +8,13 @@
 #CUR:"C:\\Users\\Jmano\\Projetos_LESC\\FPGA_design\\FPGA2memory\\component\\Actel\\SgCore\\OSC\\2.0.101\\osc_comps.v":1741797177
 #CUR:"C:\\Users\\Jmano\\Projetos_LESC\\FPGA_design\\FPGA2memory\\component\\work\\OSC_C0\\OSC_C0_0\\OSC_C0_OSC_C0_0_OSC.v":1741797177
 #CUR:"C:\\Users\\Jmano\\Projetos_LESC\\FPGA_design\\FPGA2memory\\component\\work\\OSC_C0\\OSC_C0.v":1741797177
-#CUR:"C:\\Users\\Jmano\\Projetos_LESC\\FPGA_design\\FPGA2memory\\hdl\\design.sv":1747399231
-#CUR:"C:\\Users\\Jmano\\Projetos_LESC\\FPGA_design\\FPGA2memory\\hdl\\ecc_design.sv":1747398261
+#CUR:"C:\\Users\\Jmano\\Projetos_LESC\\FPGA_design\\FPGA2memory\\hdl\\design.sv":1747403001
+#CUR:"C:\\Users\\Jmano\\Projetos_LESC\\FPGA_design\\FPGA2memory\\hdl\\ecc_design.sv":1747403534
 #CUR:"C:\\Users\\Jmano\\Projetos_LESC\\FPGA_design\\FPGA2memory\\hdl\\TBEC_RSC_encoder.sv":1741797178
 #CUR:"C:\\Users\\Jmano\\Projetos_LESC\\FPGA_design\\FPGA2memory\\hdl\\TBEC_RSC_decoder.sv":1741797178
 #CUR:"C:\\Users\\Jmano\\Projetos_LESC\\FPGA_design\\FPGA2memory\\hdl\\MRSC_encoder.sv":1741797178
 #CUR:"C:\\Users\\Jmano\\Projetos_LESC\\FPGA_design\\FPGA2memory\\hdl\\MRSC_decoder.sv":1741797178
-#CUR:"C:\\Users\\Jmano\\Projetos_LESC\\FPGA_design\\FPGA2memory\\component\\work\\prj_2_memory_sb\\prj_2_memory_sb.v":1747395495
+#CUR:"C:\\Users\\Jmano\\Projetos_LESC\\FPGA_design\\FPGA2memory\\component\\work\\prj_2_memory_sb\\prj_2_memory_sb.v":1747403539
 #numinternalfiles:5
 #defaultlanguage:verilog
 0			"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\Actel\SgCore\OSC\2.0.101\osc_comps.v" verilog

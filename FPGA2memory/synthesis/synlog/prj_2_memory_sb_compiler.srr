@@ -58,8 +58,8 @@ Synopsys Verilog Compiler, Version comp202309synp1, Build 146R, Built Jan  4 202
 @I:"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\ecc_design.sv":"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\MRSC_decoder.sv" (library work)
 @I::"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v" (library work)
 Verilog syntax check successful!
-File C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\design.sv changed - recompiling
 File C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\ecc_design.sv changed - recompiling
+File C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v changed - recompiling
 Selecting top level module prj_2_memory_sb
 @N: CG364 :"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\TBEC_RSC_encoder.sv":3:7:3:22|Synthesizing module TBEC_RSC_encoder in library work.
 Running optimization stage 1 on TBEC_RSC_encoder .......
@@ -156,7 +156,7 @@ At c_ver Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory
 Process took 0h:00m:05s realtime, 0h:00m:05s cputime
 
 Process completed successfully.
-# Fri May 16 09:40:51 2025
+# Fri May 16 10:52:50 2025
 
 ###########################################################]
 ###########################################################[
@@ -178,12 +178,12 @@ Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 146R, Built Jan
 @N|Running in 64-bit mode
 File C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\synthesis\synwork\layer0.srs changed - recompiling
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 94MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 93MB peak: 94MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri May 16 09:40:51 2025
+# Fri May 16 10:52:50 2025
 
 ###########################################################]
 
@@ -193,11 +193,11 @@ For a summary of runtime and memory usage for all design units, please see file:
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 25MB peak: 25MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 25MB peak: 25MB)
 
-Process took 0h:00m:05s realtime, 0h:00m:05s cputime
+Process took 0h:00m:06s realtime, 0h:00m:06s cputime
 
 Process completed successfully.
-# Fri May 16 09:40:52 2025
+# Fri May 16 10:52:50 2025
 
 ###########################################################]

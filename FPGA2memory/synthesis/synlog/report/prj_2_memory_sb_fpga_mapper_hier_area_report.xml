@@ -19,7 +19,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>prj_2_memory_sb</data>
 <data>6</data>
-<data>289</data>
+<data>291</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -54,7 +54,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>fpga_top_design</data>
 <data>6</data>
-<data>289</data>
+<data>291</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -76,7 +76,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>MRSC_decoder</data>
 <data>0</data>
-<data>42</data>
+<data>46</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -88,7 +88,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>MRSC_encoder</data>
 <data>0</data>
-<data>4</data>
+<data>2</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -100,7 +100,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>TBEC_RSC_decoder</data>
 <data>3</data>
-<data>95</data>
+<data>96</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -112,7 +112,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>TBEC_RSC_encoder</data>
 <data>0</data>
-<data>14</data>
+<data>15</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>

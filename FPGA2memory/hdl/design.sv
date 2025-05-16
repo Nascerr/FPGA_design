@@ -27,7 +27,7 @@ module fpga_top_design( inout wire [15:0] mcu_fpga_io,
     
     // buffer tristate FPGA-MEMÃ“RIA
     // quando chip_sel_out[1]==0, escreve na memória up
-    assign fpga_mem_io_up   =
+    assign fpga_mem_io_up =
            (write_en==1'b0
             && chip_sel_out[1]==1'b0)
          ? encoder_output_up
@@ -40,7 +40,7 @@ module fpga_top_design( inout wire [15:0] mcu_fpga_io,
          ? encoder_output_down
          : 16'bz;
 
-    assign decoder_input_up   =
+    assign decoder_input_up =
            (write_en==1'b0 
            && chip_sel_out[1]==1'b0)
          ? 16'bz

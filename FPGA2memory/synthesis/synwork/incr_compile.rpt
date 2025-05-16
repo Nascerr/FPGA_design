@@ -15,30 +15,48 @@ Synopsys HDL compiler and linker, Version comp202309synp1, Build 146R, Built Jan
 
 Modified Files: 2
 FID:  path (prevtimestamp, timestamp)
-50       C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\design.sv (2025-05-16 09:12:35, 2025-05-16 09:40:31)
-51       C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\ecc_design.sv (2025-05-16 09:08:18, 2025-05-16 09:24:21)
+45       C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-05-16 10:34:01, 2025-05-16 10:52:19)
+51       C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\ecc_design.sv (2025-05-16 10:34:01, 2025-05-16 10:52:14)
 
 *******************************************************************
-Modules that may have changed as a result of file changes: 6
+Modules that may have changed as a result of file changes: 15
 MID:  lib.cell.view
 0        work.MRSC_decoder.verilog may have changed because the following files changed:
-                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\design.sv (2025-05-16 09:12:35, 2025-05-16 09:40:31) <-- (may instantiate this module)
-                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\ecc_design.sv (2025-05-16 09:08:18, 2025-05-16 09:24:21) <-- (may instantiate this module)
+                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-05-16 10:34:01, 2025-05-16 10:52:19) <-- (may instantiate this module)
+                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\ecc_design.sv (2025-05-16 10:34:01, 2025-05-16 10:52:14) <-- (may instantiate this module)
 1        work.MRSC_encoder.verilog may have changed because the following files changed:
-                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\design.sv (2025-05-16 09:12:35, 2025-05-16 09:40:31) <-- (may instantiate this module)
-                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\ecc_design.sv (2025-05-16 09:08:18, 2025-05-16 09:24:21) <-- (may instantiate this module)
+                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-05-16 10:34:01, 2025-05-16 10:52:19) <-- (may instantiate this module)
+                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\ecc_design.sv (2025-05-16 10:34:01, 2025-05-16 10:52:14) <-- (may instantiate this module)
+7        work.OSC_C0.verilog may have changed because the following files changed:
+                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-05-16 10:34:01, 2025-05-16 10:52:19) <-- (may instantiate this module)
+8        work.OSC_C0_OSC_C0_0_OSC.verilog may have changed because the following files changed:
+                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-05-16 10:34:01, 2025-05-16 10:52:19) <-- (may instantiate this module)
+9        work.RCOSC_1MHZ.verilog may have changed because the following files changed:
+                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-05-16 10:34:01, 2025-05-16 10:52:19) <-- (may instantiate this module)
+10       work.RCOSC_1MHZ_FAB.verilog may have changed because the following files changed:
+                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-05-16 10:34:01, 2025-05-16 10:52:19) <-- (may instantiate this module)
+11       work.RCOSC_25_50MHZ.verilog may have changed because the following files changed:
+                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-05-16 10:34:01, 2025-05-16 10:52:19) <-- (may instantiate this module)
+12       work.RCOSC_25_50MHZ_FAB.verilog may have changed because the following files changed:
+                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-05-16 10:34:01, 2025-05-16 10:52:19) <-- (may instantiate this module)
 2        work.TBEC_RSC_decoder.verilog may have changed because the following files changed:
-                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\design.sv (2025-05-16 09:12:35, 2025-05-16 09:40:31) <-- (may instantiate this module)
-                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\ecc_design.sv (2025-05-16 09:08:18, 2025-05-16 09:24:21) <-- (may instantiate this module)
+                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-05-16 10:34:01, 2025-05-16 10:52:19) <-- (may instantiate this module)
+                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\ecc_design.sv (2025-05-16 10:34:01, 2025-05-16 10:52:14) <-- (may instantiate this module)
 3        work.TBEC_RSC_encoder.verilog may have changed because the following files changed:
-                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\design.sv (2025-05-16 09:12:35, 2025-05-16 09:40:31) <-- (may instantiate this module)
-                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\ecc_design.sv (2025-05-16 09:08:18, 2025-05-16 09:24:21) <-- (may instantiate this module)
+                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-05-16 10:34:01, 2025-05-16 10:52:19) <-- (may instantiate this module)
+                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\ecc_design.sv (2025-05-16 10:34:01, 2025-05-16 10:52:14) <-- (may instantiate this module)
+15       work.XTLOSC.verilog may have changed because the following files changed:
+                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-05-16 10:34:01, 2025-05-16 10:52:19) <-- (may instantiate this module)
+16       work.XTLOSC_FAB.verilog may have changed because the following files changed:
+                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-05-16 10:34:01, 2025-05-16 10:52:19) <-- (may instantiate this module)
 4        work.ecc_design.verilog may have changed because the following files changed:
-                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\design.sv (2025-05-16 09:12:35, 2025-05-16 09:40:31) <-- (may instantiate this module)
-                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\ecc_design.sv (2025-05-16 09:08:18, 2025-05-16 09:24:21) <-- (module definition)
+                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-05-16 10:34:01, 2025-05-16 10:52:19) <-- (may instantiate this module)
+                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\ecc_design.sv (2025-05-16 10:34:01, 2025-05-16 10:52:14) <-- (module definition)
 5        work.fpga_top_design.verilog may have changed because the following files changed:
-                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\design.sv (2025-05-16 09:12:35, 2025-05-16 09:40:31) <-- (module definition)
-                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\ecc_design.sv (2025-05-16 09:08:18, 2025-05-16 09:24:21) <-- (may instantiate this module)
+                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-05-16 10:34:01, 2025-05-16 10:52:19) <-- (may instantiate this module)
+                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\ecc_design.sv (2025-05-16 10:34:01, 2025-05-16 10:52:14) <-- (may instantiate this module)
+6        work.prj_2_memory_sb.verilog may have changed because the following files changed:
+                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-05-16 10:34:01, 2025-05-16 10:52:19) <-- (module definition)
 
 *******************************************************************
 Unmodified files: 13
@@ -51,21 +69,12 @@ FID:  path (timestamp)
 42       C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\Actel\SgCore\OSC\2.0.101\osc_comps.v (2025-03-12 13:32:57)
 43       C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\OSC_C0\OSC_C0.v (2025-03-12 13:32:57)
 44       C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v (2025-03-12 13:32:57)
-45       C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-05-16 08:38:15)
 46       C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\MRSC_decoder.sv (2025-03-12 13:32:58)
 47       C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\MRSC_encoder.sv (2025-03-12 13:32:58)
 48       C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\TBEC_RSC_decoder.sv (2025-03-12 13:32:58)
 49       C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\TBEC_RSC_encoder.sv (2025-03-12 13:32:58)
+50       C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\design.sv (2025-05-16 10:43:21)
 
 *******************************************************************
-Unchanged modules: 9
+Unchanged modules: 0
 MID:  lib.cell.view
-7        work.OSC_C0.verilog
-8        work.OSC_C0_OSC_C0_0_OSC.verilog
-9        work.RCOSC_1MHZ.verilog
-10       work.RCOSC_1MHZ_FAB.verilog
-11       work.RCOSC_25_50MHZ.verilog
-12       work.RCOSC_25_50MHZ_FAB.verilog
-15       work.XTLOSC.verilog
-16       work.XTLOSC_FAB.verilog
-6        work.prj_2_memory_sb.verilog
