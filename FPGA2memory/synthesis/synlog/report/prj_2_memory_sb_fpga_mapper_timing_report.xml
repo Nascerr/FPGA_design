@@ -21,13 +21,19 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <data>NA</data>
 </row>
 <row>
-<data>ecc_design|data_out_right_up9_inferred_clock</data>
+<data>TBEC_RSC_decoder|un1_quad118_2_inferred_clock</data>
 <data>100.0 MHz</data>
 <data>NA</data>
 <data>NA</data>
 </row>
 <row>
-<data>ecc_design|un1_sel_2_inferred_clock</data>
+<data>TBEC_RSC_decoder|un1_quad118_3_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>TBEC_RSC_decoder|un1_quad118_inferred_clock</data>
 <data>100.0 MHz</data>
 <data>NA</data>
 <data>NA</data>

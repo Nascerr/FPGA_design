@@ -7,7 +7,7 @@
 @N: CG364 :"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\MRSC_decoder.sv":2:7:2:18|Synthesizing module MRSC_decoder in library work.
 @N: CG364 :"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\ecc_design.sv":8:7:8:16|Synthesizing module ecc_design in library work.
 @N: CG364 :"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\design.sv":3:7:3:21|Synthesizing module fpga_top_design in library work.
-@N: CG179 :"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\design.sv":42:20:42:27|Removing redundant assignment.
+@N: CG179 :"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\design.sv":61:20:61:27|Removing redundant assignment.
 @N: CG364 :"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":51:7:51:24|Synthesizing module RCOSC_25_50MHZ_FAB in library work.
 @N: CG364 :"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":11:7:11:20|Synthesizing module RCOSC_25_50MHZ in library work.
 @N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":362:7:362:12|Synthesizing module CLKINT in library work.

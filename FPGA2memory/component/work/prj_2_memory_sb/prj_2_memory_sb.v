@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Thu May 15 17:13:38 2025
+// Created by SmartDesign Fri May 16 08:38:15 2025
 // Version: 2024.1 2024.1.0.3
 //////////////////////////////////////////////////////////////////////
 
@@ -312,9 +312,9 @@ fpga_top_design fpga_top_design_0(
         // Inputs
         .write_en         ( MCU_WE ),
         .chip_sel         ( MCU_CS ),
-        .ecc_sel          ( ecc_sel_net_0 ),
         .clk              ( OSC_C0_0_RCOSC_25_50MHZ_O2F ),
         .output_en        ( MCU_OE ),
+        .ecc_sel          ( ecc_sel_net_0 ),
         // Outputs
         .chip_sel_out     ( chip_sel_out_net_0 ),
         .flag_out         ( flag_out_net_0 ),

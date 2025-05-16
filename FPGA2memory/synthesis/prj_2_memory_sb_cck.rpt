@@ -12,7 +12,7 @@ Hostname: LAPTOP-MLN7VOA0
 
 Implementation : synthesis
 
-# Written on Thu May 15 18:02:11 2025
+# Written on Fri May 16 09:40:55 2025
 
 ##### DESIGN INFO #######################################################
 
@@ -34,14 +34,12 @@ Found 0 issues in 0 out of 0 constraints
 Clock Relationships
 *******************
 
-Starting                                         Ending                                                         |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-ecc_design|un1_sel_2_inferred_clock              ecc_design|un1_sel_2_inferred_clock                            |     10.000           |     No paths         |     No paths         |     No paths                         
-ecc_design|un1_sel_2_inferred_clock              ecc_design|data_out_right_up9_inferred_clock                   |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
-ecc_design|data_out_right_up9_inferred_clock     OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     |     Diff grp         |     No paths         |     No paths         |     Diff grp                         
-ecc_design|data_out_right_up9_inferred_clock     ecc_design|un1_sel_2_inferred_clock                            |     Diff grp         |     No paths         |     No paths         |     No paths                         
-ecc_design|data_out_right_up9_inferred_clock     ecc_design|data_out_right_up9_inferred_clock                   |     10.000           |     No paths         |     5.000            |     No paths                         
-===========================================================================================================================================================================================================================
+Starting                                          Ending                                                         |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TBEC_RSC_decoder|un1_quad118_3_inferred_clock     OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+TBEC_RSC_decoder|un1_quad118_2_inferred_clock     OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+TBEC_RSC_decoder|un1_quad118_inferred_clock       OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+============================================================================================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
 
@@ -110,6 +108,102 @@ p:ecc_sel2
 p:flag0
 p:flag1
 p:flag3
+p:mcu_fpga_io[0] (bidir end point)
+p:mcu_fpga_io[0] (bidir start point)
+p:mcu_fpga_io[1] (bidir end point)
+p:mcu_fpga_io[1] (bidir start point)
+p:mcu_fpga_io[2] (bidir end point)
+p:mcu_fpga_io[2] (bidir start point)
+p:mcu_fpga_io[3] (bidir end point)
+p:mcu_fpga_io[3] (bidir start point)
+p:mcu_fpga_io[4] (bidir end point)
+p:mcu_fpga_io[4] (bidir start point)
+p:mcu_fpga_io[5] (bidir end point)
+p:mcu_fpga_io[5] (bidir start point)
+p:mcu_fpga_io[6] (bidir end point)
+p:mcu_fpga_io[6] (bidir start point)
+p:mcu_fpga_io[7] (bidir end point)
+p:mcu_fpga_io[7] (bidir start point)
+p:mcu_fpga_io[8] (bidir end point)
+p:mcu_fpga_io[8] (bidir start point)
+p:mcu_fpga_io[9] (bidir end point)
+p:mcu_fpga_io[9] (bidir start point)
+p:mcu_fpga_io[10] (bidir end point)
+p:mcu_fpga_io[10] (bidir start point)
+p:mcu_fpga_io[11] (bidir end point)
+p:mcu_fpga_io[11] (bidir start point)
+p:mcu_fpga_io[12] (bidir end point)
+p:mcu_fpga_io[12] (bidir start point)
+p:mcu_fpga_io[13] (bidir end point)
+p:mcu_fpga_io[13] (bidir start point)
+p:mcu_fpga_io[14] (bidir end point)
+p:mcu_fpga_io[14] (bidir start point)
+p:mcu_fpga_io[15] (bidir end point)
+p:mcu_fpga_io[15] (bidir start point)
+p:mcu_mem_io_down[0] (bidir end point)
+p:mcu_mem_io_down[0] (bidir start point)
+p:mcu_mem_io_down[1] (bidir end point)
+p:mcu_mem_io_down[1] (bidir start point)
+p:mcu_mem_io_down[2] (bidir end point)
+p:mcu_mem_io_down[2] (bidir start point)
+p:mcu_mem_io_down[3] (bidir end point)
+p:mcu_mem_io_down[3] (bidir start point)
+p:mcu_mem_io_down[4] (bidir end point)
+p:mcu_mem_io_down[4] (bidir start point)
+p:mcu_mem_io_down[5] (bidir end point)
+p:mcu_mem_io_down[5] (bidir start point)
+p:mcu_mem_io_down[6] (bidir end point)
+p:mcu_mem_io_down[6] (bidir start point)
+p:mcu_mem_io_down[7] (bidir end point)
+p:mcu_mem_io_down[7] (bidir start point)
+p:mcu_mem_io_down[8] (bidir end point)
+p:mcu_mem_io_down[8] (bidir start point)
+p:mcu_mem_io_down[9] (bidir end point)
+p:mcu_mem_io_down[9] (bidir start point)
+p:mcu_mem_io_down[10] (bidir end point)
+p:mcu_mem_io_down[10] (bidir start point)
+p:mcu_mem_io_down[11] (bidir end point)
+p:mcu_mem_io_down[11] (bidir start point)
+p:mcu_mem_io_down[12] (bidir end point)
+p:mcu_mem_io_down[12] (bidir start point)
+p:mcu_mem_io_down[13] (bidir end point)
+p:mcu_mem_io_down[13] (bidir start point)
+p:mcu_mem_io_down[14] (bidir end point)
+p:mcu_mem_io_down[14] (bidir start point)
+p:mcu_mem_io_down[15] (bidir end point)
+p:mcu_mem_io_down[15] (bidir start point)
+p:mcu_mem_io_up[0] (bidir end point)
+p:mcu_mem_io_up[0] (bidir start point)
+p:mcu_mem_io_up[1] (bidir end point)
+p:mcu_mem_io_up[1] (bidir start point)
+p:mcu_mem_io_up[2] (bidir end point)
+p:mcu_mem_io_up[2] (bidir start point)
+p:mcu_mem_io_up[3] (bidir end point)
+p:mcu_mem_io_up[3] (bidir start point)
+p:mcu_mem_io_up[4] (bidir end point)
+p:mcu_mem_io_up[4] (bidir start point)
+p:mcu_mem_io_up[5] (bidir end point)
+p:mcu_mem_io_up[5] (bidir start point)
+p:mcu_mem_io_up[6] (bidir end point)
+p:mcu_mem_io_up[6] (bidir start point)
+p:mcu_mem_io_up[7] (bidir end point)
+p:mcu_mem_io_up[7] (bidir start point)
+p:mcu_mem_io_up[8] (bidir end point)
+p:mcu_mem_io_up[8] (bidir start point)
+p:mcu_mem_io_up[9] (bidir end point)
+p:mcu_mem_io_up[9] (bidir start point)
+p:mcu_mem_io_up[10] (bidir end point)
+p:mcu_mem_io_up[10] (bidir start point)
+p:mcu_mem_io_up[11] (bidir end point)
+p:mcu_mem_io_up[11] (bidir start point)
+p:mcu_mem_io_up[12] (bidir end point)
+p:mcu_mem_io_up[12] (bidir start point)
+p:mcu_mem_io_up[13] (bidir end point)
+p:mcu_mem_io_up[13] (bidir start point)
+p:mcu_mem_io_up[14] (bidir end point)
+p:mcu_mem_io_up[14] (bidir start point)
+p:mcu_mem_io_up[15] (bidir end point)
+p:mcu_mem_io_up[15] (bidir start point)
 
 
 Inapplicable constraints

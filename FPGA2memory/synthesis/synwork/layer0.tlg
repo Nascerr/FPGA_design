@@ -13,41 +13,36 @@ Running optimization stage 1 on TBEC_RSC_decoder .......
 @W: CL217 :"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\TBEC_RSC_decoder.sv":49:2:49:3|always_comb does not infer combinatorial logic
 @W: CL217 :"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\TBEC_RSC_decoder.sv":49:2:49:3|always_comb does not infer combinatorial logic
 @W: CL217 :"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\TBEC_RSC_decoder.sv":49:2:49:3|always_comb does not infer combinatorial logic
-Finished optimization stage 1 on TBEC_RSC_decoder (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+Finished optimization stage 1 on TBEC_RSC_decoder (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 98MB)
 @N: CG364 :"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\MRSC_encoder.sv":1:7:1:18|Synthesizing module MRSC_encoder in library work.
 Running optimization stage 1 on MRSC_encoder .......
-Finished optimization stage 1 on MRSC_encoder (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+Finished optimization stage 1 on MRSC_encoder (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 98MB)
 @N: CG364 :"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\MRSC_decoder.sv":2:7:2:18|Synthesizing module MRSC_decoder in library work.
 @W: CG133 :"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\MRSC_decoder.sv":13:14:13:18|Object sumSP is declared but not assigned. Either assign a value or remove the declaration.
 @W: CG133 :"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\MRSC_decoder.sv":13:20:13:25|Object sumSDi is declared but not assigned. Either assign a value or remove the declaration.
 @W: CG133 :"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\MRSC_decoder.sv":4:12:4:14|Object red is declared but not assigned. Either assign a value or remove the declaration.
 Running optimization stage 1 on MRSC_decoder .......
-Finished optimization stage 1 on MRSC_decoder (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 99MB)
+Finished optimization stage 1 on MRSC_decoder (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 98MB)
 @N: CG364 :"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\ecc_design.sv":8:7:8:16|Synthesizing module ecc_design in library work.
 @W: CG133 :"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\ecc_design.sv":24:15:24:29|Object decoder_output3 is declared but not assigned. Either assign a value or remove the declaration.
 @W: CG133 :"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\ecc_design.sv":25:15:25:29|Object encoder_output3 is declared but not assigned. Either assign a value or remove the declaration.
 @W: CG133 :"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\ecc_design.sv":27:15:27:29|Object decoder_output4 is declared but not assigned. Either assign a value or remove the declaration.
 @W: CG133 :"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\ecc_design.sv":28:15:28:29|Object encoder_output4 is declared but not assigned. Either assign a value or remove the declaration.
 Running optimization stage 1 on ecc_design .......
-@W: CL118 :"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\ecc_design.sv":43:4:43:7|Latch generated from always block for signal data_out_right_up[0:15]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\ecc_design.sv":43:4:43:7|Latch generated from always block for signal data_out_right_down[0:15]; possible missing assignment in an if or case statement.
-@W: CL217 :"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\ecc_design.sv":43:4:43:7|always_comb does not infer combinatorial logic
-@W: CL217 :"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\ecc_design.sv":43:4:43:7|always_comb does not infer combinatorial logic
-Finished optimization stage 1 on ecc_design (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 99MB)
+Finished optimization stage 1 on ecc_design (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 98MB)
 @N: CG364 :"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\design.sv":3:7:3:21|Synthesizing module fpga_top_design in library work.
-@N: CG179 :"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\design.sv":42:20:42:27|Removing redundant assignment.
-@W: CG133 :"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\design.sv":8:43:8:54|Object chip_sel_out is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG179 :"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\design.sv":61:20:61:27|Removing redundant assignment.
 Running optimization stage 1 on fpga_top_design .......
-Finished optimization stage 1 on fpga_top_design (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 99MB)
+Finished optimization stage 1 on fpga_top_design (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 98MB)
 @N: CG364 :"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":51:7:51:24|Synthesizing module RCOSC_25_50MHZ_FAB in library work.
 Running optimization stage 1 on RCOSC_25_50MHZ_FAB .......
-Finished optimization stage 1 on RCOSC_25_50MHZ_FAB (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 99MB)
+Finished optimization stage 1 on RCOSC_25_50MHZ_FAB (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 98MB)
 @N: CG364 :"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":11:7:11:20|Synthesizing module RCOSC_25_50MHZ in library work.
 Running optimization stage 1 on RCOSC_25_50MHZ .......
-Finished optimization stage 1 on RCOSC_25_50MHZ (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 99MB)
+Finished optimization stage 1 on RCOSC_25_50MHZ (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 98MB)
 @N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":362:7:362:12|Synthesizing module CLKINT in library work.
 Running optimization stage 1 on CLKINT .......
-Finished optimization stage 1 on CLKINT (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 99MB)
+Finished optimization stage 1 on CLKINT (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 98MB)
 @N: CG364 :"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v":5:7:5:25|Synthesizing module OSC_C0_OSC_C0_0_OSC in library work.
 Running optimization stage 1 on OSC_C0_OSC_C0_0_OSC .......
 @W: CL318 :"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v":15:7:15:24|*Output RCOSC_25_50MHZ_CCC has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
@@ -55,39 +50,38 @@ Running optimization stage 1 on OSC_C0_OSC_C0_0_OSC .......
 @W: CL318 :"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v":18:7:18:20|*Output RCOSC_1MHZ_O2F has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
 @W: CL318 :"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v":19:7:19:16|*Output XTLOSC_CCC has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
 @W: CL318 :"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v":20:7:20:16|*Output XTLOSC_O2F has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
-Finished optimization stage 1 on OSC_C0_OSC_C0_0_OSC (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 99MB)
+Finished optimization stage 1 on OSC_C0_OSC_C0_0_OSC (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 98MB)
 @N: CG364 :"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\OSC_C0\OSC_C0.v":33:7:33:12|Synthesizing module OSC_C0 in library work.
 Running optimization stage 1 on OSC_C0 .......
-Finished optimization stage 1 on OSC_C0 (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 99MB)
+Finished optimization stage 1 on OSC_C0 (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 98MB)
 @N: CG364 :"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v":9:7:9:21|Synthesizing module prj_2_memory_sb in library work.
 Running optimization stage 1 on prj_2_memory_sb .......
-Finished optimization stage 1 on prj_2_memory_sb (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 99MB)
+Finished optimization stage 1 on prj_2_memory_sb (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 98MB)
 Running optimization stage 2 on prj_2_memory_sb .......
-Finished optimization stage 2 on prj_2_memory_sb (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 99MB)
+Finished optimization stage 2 on prj_2_memory_sb (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 98MB)
 Running optimization stage 2 on OSC_C0 .......
-Finished optimization stage 2 on OSC_C0 (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 99MB)
+Finished optimization stage 2 on OSC_C0 (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 98MB)
 Running optimization stage 2 on OSC_C0_OSC_C0_0_OSC .......
 @N: CL159 :"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v":14:7:14:9|Input XTL is unused.
-Finished optimization stage 2 on OSC_C0_OSC_C0_0_OSC (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 99MB)
+Finished optimization stage 2 on OSC_C0_OSC_C0_0_OSC (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 98MB)
 Running optimization stage 2 on CLKINT .......
-Finished optimization stage 2 on CLKINT (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 99MB)
+Finished optimization stage 2 on CLKINT (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 98MB)
 Running optimization stage 2 on RCOSC_25_50MHZ .......
-Finished optimization stage 2 on RCOSC_25_50MHZ (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 99MB)
+Finished optimization stage 2 on RCOSC_25_50MHZ (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 98MB)
 Running optimization stage 2 on RCOSC_25_50MHZ_FAB .......
-Finished optimization stage 2 on RCOSC_25_50MHZ_FAB (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 99MB)
+Finished optimization stage 2 on RCOSC_25_50MHZ_FAB (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 98MB)
 Running optimization stage 2 on fpga_top_design .......
-@A: CL153 :"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\design.sv":8:43:8:54|*Unassigned bits of chip_sel_out[1:0] are referenced and tied to 0 -- simulation mismatch possible.
-Finished optimization stage 2 on fpga_top_design (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 99MB)
+Finished optimization stage 2 on fpga_top_design (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 98MB)
 Running optimization stage 2 on ecc_design .......
-Finished optimization stage 2 on ecc_design (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 99MB)
+Finished optimization stage 2 on ecc_design (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 98MB)
 Running optimization stage 2 on MRSC_decoder .......
 Finished optimization stage 2 on MRSC_decoder (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 99MB)
 Running optimization stage 2 on MRSC_encoder .......
 Finished optimization stage 2 on MRSC_encoder (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 99MB)
 Running optimization stage 2 on TBEC_RSC_decoder .......
-Finished optimization stage 2 on TBEC_RSC_decoder (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+Finished optimization stage 2 on TBEC_RSC_decoder (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 99MB)
 Running optimization stage 2 on TBEC_RSC_encoder .......
-Finished optimization stage 2 on TBEC_RSC_encoder (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+Finished optimization stage 2 on TBEC_RSC_encoder (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 99MB)
 
 For a summary of runtime per design unit, please see file:
 ==========================================================
