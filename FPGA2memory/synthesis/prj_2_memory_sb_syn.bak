@@ -1,21 +1,21 @@
 #--  Synopsys, Inc.
 #--  Version V-2023.09M
-#--  Project file C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\Nova pasta\FPGA_design\FPGA2memory\synthesis\prj_2_memory_sb_syn.prj
+#--  Project file C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\synthesis\prj_2_memory_sb_syn.prj
 #--  Written on Wed Feb 12 15:22:28 2025
 
 
 #project files
-add_file -include "C:/Users/Lucas/Desktop/Projeto_CubeSat-dev_hdl_fpga/Nova pasta/FPGA_design/FPGA2memory/hdl/TBEC_RSC_encoder.sv"
-add_file -include "C:/Users/Lucas/Desktop/Projeto_CubeSat-dev_hdl_fpga/Nova pasta/FPGA_design/FPGA2memory/hdl/TBEC_RSC_decoder.sv"
-add_file -include "C:/Users/Lucas/Desktop/Projeto_CubeSat-dev_hdl_fpga/Nova pasta/FPGA_design/FPGA2memory/hdl/MRSC_encoder.sv"
-add_file -include "C:/Users/Lucas/Desktop/Projeto_CubeSat-dev_hdl_fpga/Nova pasta/FPGA_design/FPGA2memory/hdl/MRSC_decoder.sv"
-add_file -include "C:/Users/Lucas/Desktop/Projeto_CubeSat-dev_hdl_fpga/Nova pasta/FPGA_design/FPGA2memory/hdl/ecc_design.sv"
-add_file -verilog "C:/Users/Lucas/Desktop/Projeto_CubeSat-dev_hdl_fpga/Nova pasta/FPGA_design/FPGA2memory/component/Actel/SgCore/OSC/2.0.101/osc_comps.v"
-add_file -verilog "C:/Users/Lucas/Desktop/Projeto_CubeSat-dev_hdl_fpga/Nova pasta/FPGA_design/FPGA2memory/component/work/OSC_C0/OSC_C0_0/OSC_C0_OSC_C0_0_OSC.v"
-add_file -verilog "C:/Users/Lucas/Desktop/Projeto_CubeSat-dev_hdl_fpga/Nova pasta/FPGA_design/FPGA2memory/component/work/OSC_C0/OSC_C0.v"
-add_file -verilog -vlog_std sysv "C:/Users/Lucas/Desktop/Projeto_CubeSat-dev_hdl_fpga/Nova pasta/FPGA_design/FPGA2memory/hdl/design.sv"
-add_file -verilog "C:/Users/Lucas/Desktop/Projeto_CubeSat-dev_hdl_fpga/Nova pasta/FPGA_design/FPGA2memory/component/work/prj_2_memory_sb/prj_2_memory_sb.v"
-add_file -fpga_constraint "C:/Users/Lucas/Desktop/Projeto_CubeSat-dev_hdl_fpga/Nova pasta/FPGA_design/FPGA2memory/designer/prj_2_memory_sb/synthesis.fdc"
+add_file -include "C:/Users/Jmano/Projetos_LESC/FPGA_design/FPGA2memory/hdl/TBEC_RSC_encoder.sv"
+add_file -include "C:/Users/Jmano/Projetos_LESC/FPGA_design/FPGA2memory/hdl/TBEC_RSC_decoder.sv"
+add_file -include "C:/Users/Jmano/Projetos_LESC/FPGA_design/FPGA2memory/hdl/MRSC_encoder.sv"
+add_file -include "C:/Users/Jmano/Projetos_LESC/FPGA_design/FPGA2memory/hdl/MRSC_decoder.sv"
+add_file -include "C:/Users/Jmano/Projetos_LESC/FPGA_design/FPGA2memory/hdl/ecc_design.sv"
+add_file -verilog "C:/Users/Jmano/Projetos_LESC/FPGA_design/FPGA2memory/component/Actel/SgCore/OSC/2.0.101/osc_comps.v"
+add_file -verilog "C:/Users/Jmano/Projetos_LESC/FPGA_design/FPGA2memory/component/work/OSC_C0/OSC_C0_0/OSC_C0_OSC_C0_0_OSC.v"
+add_file -verilog "C:/Users/Jmano/Projetos_LESC/FPGA_design/FPGA2memory/component/work/OSC_C0/OSC_C0.v"
+add_file -verilog -vlog_std sysv "C:/Users/Jmano/Projetos_LESC/FPGA_design/FPGA2memory/hdl/design.sv"
+add_file -verilog "C:/Users/Jmano/Projetos_LESC/FPGA_design/FPGA2memory/component/work/prj_2_memory_sb/prj_2_memory_sb.v"
+add_file -fpga_constraint "C:/Users/Jmano/Projetos_LESC/FPGA_design/FPGA2memory/designer/prj_2_memory_sb/synthesis.fdc"
 
 
 #implementation: "synthesis"

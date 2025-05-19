@@ -1,13 +1,13 @@
 Software Version: 2024.1.0.3
-Opened 'C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\designer\prj_2_memory_sb\prj_2_memory_sb_fp\prj_2_memory_sb.pro'
-PDB file 'C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\designer\prj_2_memory_sb\prj_2_memory_sb.pdb' has been loaded successfully.
-DESIGN : prj_2_memory_sb;  CHECKSUM : F0BD;  PDB_VERSION : 1.9
+Opened 'C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\designer\prj_2_memory_sb\prj_2_memory_sb_fp\prj_2_memory_sb.pro'
+PDB file 'C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\designer\prj_2_memory_sb\prj_2_memory_sb.pdb' has been loaded successfully.
+DESIGN : prj_2_memory_sb;  CHECKSUM : 2612;  PDB_VERSION : 1.9
 Info: Programming Interface selected is JTAG.
-File/Folder 'C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\designer\prj_2_memory_sb\prj_2_memory_sb.ppd' will be overwritten.
-Successfully exported PPD file for currently secured device: 'C:\Users\Lucas\Desktop\Projeto_CubeSat-dev_hdl_fpga\FPGA2memory\designer\prj_2_memory_sb\prj_2_memory_sb.ppd'; file programs Fabric.
-Fabric component bitstream digest: 74b2b0305bd02b9e53947f8432cd8cbf543f7f38848372009aaee747366d0bf9
-Entire bitstream digest: 95b4dd41f2d11cb045a20bfdf038a257b69d84ce7112f6ae71545836d2d0fd77
-Finished: Wed Feb 12 15:32:55 2025 (Elapsed time 00:00:09)
+File/Folder 'C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\designer\prj_2_memory_sb\prj_2_memory_sb.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: 'C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\designer\prj_2_memory_sb\prj_2_memory_sb.ppd'; file programs Fabric.
+Fabric component bitstream digest: 900739296f3bd5aac467673047759b8235b1f2d426c8817049e8b8b59fc0e660
+Entire bitstream digest: 74ef3be5449614b6e306fe6bc0c3e8e7ac56b139376d2fc024b56c646a421275
+Finished: Fri May 16 10:54:53 2025 (Elapsed time 00:00:27)
 
 Project saved.
 Project closed.

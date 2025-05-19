@@ -4,7 +4,8 @@ module fpga_top_design( inout wire [15:0] mcu_fpga_io,
                         inout wire [15:0] fpga_mem_io_up,
                         inout wire [15:0] fpga_mem_io_down,
                         input logic 	    write_en,
-                        input logic [1:0]    chip_sel,
+                        input logic       chip_sel,
+                        output logic [1:0] chip_sel_out,
                         input logic [2:0]   ecc_sel,
                         output logic [0:2] flag_out,
                         input logic clk,
@@ -19,20 +20,42 @@ module fpga_top_design( inout wire [15:0] mcu_fpga_io,
   logic [15:0] decoder_input_down;
   logic [0:2] flag;
   
-  //buffer tristate MCU-FPGA
-  assign mcu_fpga_io = (write_en == 0 && (chip_sel [1] == 0 || chip_sel[0] == 0))? 16'bz: decoder_output;
-  assign encoder_input = mcu_fpga_io;
     
-  //buffer tristate FPGA-MEMÃ“RIA
-  assign fpga_mem_io_up = (write_en == 0 && (chip_sel [1] == 0 || chip_sel[0] == 0))? encoder_output_up : 16'bz;
-  assign fpga_mem_io_down = (write_en == 0 && (chip_sel [1] == 0 || chip_sel[0] == 0))? encoder_output_down : 16'bz;
-  assign decoder_input_up = (write_en == 0 && (chip_sel [1] == 0 || chip_sel[0] == 0))? 16'bz : fpga_mem_io_up;
-  assign decoder_input_down = (write_en == 0 && (chip_sel [1] == 0 || chip_sel[0] == 0))? 16'bz : fpga_mem_io_down;
-  
+  //buffer tristate MCU-FPGA
+    assign mcu_fpga_io = (write_en == 0 && (chip_sel_out [1] == 0 || chip_sel_out[0] == 0))? 16'bz: decoder_output;
+    assign encoder_input = mcu_fpga_io;
+    
+    // buffer tristate FPGA-MEMÃ“RIA
+    // quando chip_sel_out[1]==0, escreve na memória up
+    assign fpga_mem_io_up =
+           (write_en==1'b0
+            && chip_sel_out[1]==1'b0)
+         ? encoder_output_up
+         : 16'bz;
+
+    // quando chip_sel_out[0]==0, escreve na memória down
+    assign fpga_mem_io_down =
+           (write_en==1'b0
+            && chip_sel_out[0]==1'b0)
+         ? encoder_output_down
+         : 16'bz;
+
+    assign decoder_input_up =
+           (write_en==1'b0 
+           && chip_sel_out[1]==1'b0)
+         ? 16'bz
+         : fpga_mem_io_up;
+
+    assign decoder_input_down =
+           (write_en==1'b0 
+           && chip_sel_out[0]==1'b0)
+         ? 16'bz
+         : fpga_mem_io_down;
+
 always_ff @(posedge clk) begin
-    if (write_en == 0 && (chip_sel[1] == 0 || chip_sel[0] == 0)) begin
+    if (write_en == 0 && (chip_sel_out [1] == 0 || chip_sel_out[0] == 0)) begin
         flag_out <= 3'b000; // Prioridade para escrita
-    end else if (output_en == 0 && (chip_sel[1] == 0 || chip_sel[0] == 0)) begin
+    end else if (output_en == 0 && (chip_sel_out [1] == 0 || chip_sel_out[0] == 0)) begin
         flag_out <= flag; // Leitura
     end else begin
         flag_out <= flag_out; // Mantém o valor
@@ -49,7 +72,9 @@ end
                     .data_in_right_down(decoder_input_down), // entrada memÃ³ria 2
                     .data_out_left(decoder_output), // saida FPGA para o processador
                     .sel(ecc_sel),
-                    .flag(flag));  
+                    .flag(flag),
+                    .chip_sel_out(chip_sel_out),
+                    .chip_sel(chip_sel));  
    
                                                                              
     

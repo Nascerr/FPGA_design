@@ -8,7 +8,7 @@ Tool: Synplify Pro (R)
 Build: V-2023.09M
 Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
 OS: Windows 10 or later
-Hostname: DESKTOP-V6FS948
+Hostname: LAPTOP-MLN7VOA0
 
 Implementation : synthesis
 
@@ -23,26 +23,26 @@ Part:			M2S025TVF400STD (Microchip)
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      38                 100 %                
+SLE      6                  100 %                
 =================================================
-Total SEQUENTIAL ELEMENTS in the block prj_2_memory_sb:	38 (7.45 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block prj_2_memory_sb:	6 (1.41 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           341                100 %                
+CFG           291                100 %                
 BLACK BOX     2                  100 %                
 ======================================================
-Total COMBINATIONAL LOGIC in the block prj_2_memory_sb:	343 (67.25 % Utilization)
+Total COMBINATIONAL LOGIC in the block prj_2_memory_sb:	293 (68.62 % Utilization)
 
 
 GLOBAL BUFFERS
 Name       Total elements     Utilization     Notes
 ---------------------------------------------------
-GLOBAL     4                  100 %                
+GLOBAL     1                  100 %                
 ===================================================
-Total GLOBAL BUFFERS in the block prj_2_memory_sb:	4 (0.78 % Utilization)
+Total GLOBAL BUFFERS in the block prj_2_memory_sb:	1 (0.23 % Utilization)
 
 
 IO PADS
@@ -50,7 +50,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 IO       109                100 %                
 =================================================
-Total IO PADS in the block prj_2_memory_sb:	109 (21.37 % Utilization)
+Total IO PADS in the block prj_2_memory_sb:	109 (25.53 % Utilization)
 
 ------------------------------------------------------------
 ########   Utilization report for  cell:   OSC_C0   ########
@@ -62,15 +62,15 @@ Name          Total elements     Utilization     Notes
 ------------------------------------------------------
 BLACK BOX     2                  100 %                
 ======================================================
-Total COMBINATIONAL LOGIC in the block prj_2_memory_sb.OSC_C0:	2 (0.39 % Utilization)
+Total COMBINATIONAL LOGIC in the block prj_2_memory_sb.OSC_C0:	2 (0.47 % Utilization)
 
 
 GLOBAL BUFFERS
 Name       Total elements     Utilization     Notes
 ---------------------------------------------------
-GLOBAL     1                  25 %                 
+GLOBAL     1                  100 %                
 ===================================================
-Total GLOBAL BUFFERS in the block prj_2_memory_sb.OSC_C0:	1 (0.20 % Utilization)
+Total GLOBAL BUFFERS in the block prj_2_memory_sb.OSC_C0:	1 (0.23 % Utilization)
 
 -------------------------------------------------------------------------
 ########   Utilization report for  cell:   OSC_C0_OSC_C0_0_OSC   ########
@@ -82,15 +82,15 @@ Name          Total elements     Utilization     Notes
 ------------------------------------------------------
 BLACK BOX     2                  100 %                
 ======================================================
-Total COMBINATIONAL LOGIC in the block OSC_C0.OSC_C0_OSC_C0_0_OSC:	2 (0.39 % Utilization)
+Total COMBINATIONAL LOGIC in the block OSC_C0.OSC_C0_OSC_C0_0_OSC:	2 (0.47 % Utilization)
 
 
 GLOBAL BUFFERS
 Name       Total elements     Utilization     Notes
 ---------------------------------------------------
-GLOBAL     1                  25 %                 
+GLOBAL     1                  100 %                
 ===================================================
-Total GLOBAL BUFFERS in the block OSC_C0.OSC_C0_OSC_C0_0_OSC:	1 (0.20 % Utilization)
+Total GLOBAL BUFFERS in the block OSC_C0.OSC_C0_OSC_C0_0_OSC:	1 (0.23 % Utilization)
 
 ---------------------------------------------------------------------
 ########   Utilization report for  cell:   fpga_top_design   ########
@@ -100,25 +100,17 @@ Instance path:   prj_2_memory_sb.fpga_top_design
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      38                 100 %                
+SLE      6                  100 %                
 =================================================
-Total SEQUENTIAL ELEMENTS in the block prj_2_memory_sb.fpga_top_design:	38 (7.45 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block prj_2_memory_sb.fpga_top_design:	6 (1.41 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      333                97.7 %               
+CFG      291                100 %                
 =================================================
-Total COMBINATIONAL LOGIC in the block prj_2_memory_sb.fpga_top_design:	333 (65.29 % Utilization)
-
-
-GLOBAL BUFFERS
-Name       Total elements     Utilization     Notes
----------------------------------------------------
-GLOBAL     3                  75 %                 
-===================================================
-Total GLOBAL BUFFERS in the block prj_2_memory_sb.fpga_top_design:	3 (0.59 % Utilization)
+Total COMBINATIONAL LOGIC in the block prj_2_memory_sb.fpga_top_design:	291 (68.15 % Utilization)
 
 ----------------------------------------------------------------
 ########   Utilization report for  cell:   ecc_design   ########
@@ -128,25 +120,17 @@ Instance path:   fpga_top_design.ecc_design
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      35                 92.1 %               
+SLE      3                  50 %                 
 =================================================
-Total SEQUENTIAL ELEMENTS in the block fpga_top_design.ecc_design:	35 (6.86 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block fpga_top_design.ecc_design:	3 (0.70 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      318                93.3 %               
+CFG      263                90.4 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block fpga_top_design.ecc_design:	318 (62.35 % Utilization)
-
-
-GLOBAL BUFFERS
-Name       Total elements     Utilization     Notes
----------------------------------------------------
-GLOBAL     3                  75 %                 
-===================================================
-Total GLOBAL BUFFERS in the block fpga_top_design.ecc_design:	3 (0.59 % Utilization)
+Total COMBINATIONAL LOGIC in the block fpga_top_design.ecc_design:	263 (61.59 % Utilization)
 
 ------------------------------------------------------------------
 ########   Utilization report for  cell:   MRSC_decoder   ########
@@ -156,9 +140,21 @@ Instance path:   ecc_design.MRSC_decoder
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      61                 17.9 %               
+CFG      46                 15.8 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block ecc_design.MRSC_decoder:	61 (11.96 % Utilization)
+Total COMBINATIONAL LOGIC in the block ecc_design.MRSC_decoder:	46 (10.77 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   MRSC_encoder   ########
+Instance path:   ecc_design.MRSC_encoder                          
+==================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      2                  0.6870 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block ecc_design.MRSC_encoder:	2 (0.47 % Utilization)
 
 ----------------------------------------------------------------------
 ########   Utilization report for  cell:   TBEC_RSC_decoder   ########
@@ -168,25 +164,17 @@ Instance path:   ecc_design.TBEC_RSC_decoder
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      3                  7.89 %               
+SLE      3                  50 %                 
 =================================================
-Total SEQUENTIAL ELEMENTS in the block ecc_design.TBEC_RSC_decoder:	3 (0.59 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block ecc_design.TBEC_RSC_decoder:	3 (0.70 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      102                29.9 %               
+CFG      96                 33 %                 
 =================================================
-Total COMBINATIONAL LOGIC in the block ecc_design.TBEC_RSC_decoder:	102 (20.00 % Utilization)
-
-
-GLOBAL BUFFERS
-Name       Total elements     Utilization     Notes
----------------------------------------------------
-GLOBAL     1                  25 %                 
-===================================================
-Total GLOBAL BUFFERS in the block ecc_design.TBEC_RSC_decoder:	1 (0.20 % Utilization)
+Total COMBINATIONAL LOGIC in the block ecc_design.TBEC_RSC_decoder:	96 (22.48 % Utilization)
 
 ----------------------------------------------------------------------
 ########   Utilization report for  cell:   TBEC_RSC_encoder   ########
@@ -196,9 +184,9 @@ Instance path:   ecc_design.TBEC_RSC_encoder
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      1                  0.2930 %             
+CFG      15                 5.15 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block ecc_design.TBEC_RSC_encoder:	1 (0.20 % Utilization)
+Total COMBINATIONAL LOGIC in the block ecc_design.TBEC_RSC_encoder:	15 (3.51 % Utilization)
 
 
 ##### END OF AREA REPORT #####]
