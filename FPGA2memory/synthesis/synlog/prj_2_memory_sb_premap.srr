@@ -1,4 +1,4 @@
-# Fri May 16 10:52:52 2025
+# Thu Jul 24 13:21:51 2025
 
 
 Copyright (C) 1994-2023 Synopsys, Inc.
@@ -10,116 +10,160 @@ Tool: Synplify Pro (R)
 Build: V-2023.09M
 Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
 OS: Windows 10 or later
-Hostname: LAPTOP-MLN7VOA0
+Hostname: DESKTOP-V6FS948
 
 Implementation : synthesis
 Synopsys Microchip Technology Pre-mapping, Version map202309act, Build 044R, Built Jan  4 2024 08:30:58, @
 
 
-Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 191MB peak: 191MB)
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 184MB peak: 184MB)
 
 
-Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 196MB peak: 208MB)
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 199MB)
 
-Reading constraint file: C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\designer\prj_2_memory_sb\synthesis.fdc
-@L: C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\synthesis\prj_2_memory_sb_scck.rpt 
-See clock summary report "C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\synthesis\prj_2_memory_sb_scck.rpt"
+Reading constraint file: C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\designer\prj_2_memory_sb\synthesis.fdc
+@L: C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\synthesis\prj_2_memory_sb_scck.rpt 
+See clock summary report "C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\synthesis\prj_2_memory_sb_scck.rpt"
 @N: MF916 |Option synthesis_strategy=base is enabled. 
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 200MB peak: 208MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 194MB peak: 199MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 200MB peak: 208MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 194MB peak: 199MB)
 
 
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 202MB peak: 208MB)
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 195MB peak: 199MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 202MB peak: 208MB)
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 196MB peak: 199MB)
 
 
 Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
 NConnInternalConnection caching is on
-@N: FX1171 :"c:\users\jmano\projetos_lesc\fpga_design\fpga2memory\hdl\design.sv":55:0:55:8|Found instance fpga_top_design_0.flag_out[0:2] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\lucas\documents\nascerr\fpga_design\fpga2memory\hdl\design.sv":55:0:55:8|Found instance fpga_top_design_0.flag_out[0:2] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@W: BN132 :"c:\users\lucas\documents\nascerr\fpga_design\fpga2memory\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance prj_2_memory_sb_sb_0.CORERESETP_0.MDDR_DDR_AXI_S_CORE_RESET_N_int because it is equivalent to instance prj_2_memory_sb_sb_0.CORERESETP_0.FDDR_CORE_RESET_N_int. To keep the instance, apply constraint syn_preserve=1 on the instance.
 
-Starting HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 256MB)
-
-
-Finished HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 256MB)
-
-@N: MO111 :"c:\users\jmano\projetos_lesc\fpga_design\fpga2memory\component\work\osc_c0\osc_c0_0\osc_c0_osc_c0_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\users\jmano\projetos_lesc\fpga_design\fpga2memory\component\work\osc_c0\osc_c0_0\osc_c0_osc_c0_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\users\jmano\projetos_lesc\fpga_design\fpga2memory\component\work\osc_c0\osc_c0_0\osc_c0_osc_c0_0_osc.v":15:7:15:24|Tristate driver RCOSC_25_50MHZ_CCC (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) on net RCOSC_25_50MHZ_CCC (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\users\jmano\projetos_lesc\fpga_design\fpga2memory\component\work\osc_c0\osc_c0_0\osc_c0_osc_c0_0_osc.v":19:7:19:16|Tristate driver XTLOSC_CCC (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) on net XTLOSC_CCC (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\users\jmano\projetos_lesc\fpga_design\fpga2memory\component\work\osc_c0\osc_c0_0\osc_c0_osc_c0_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) has its enable tied to GND.
-
-Started DisTri Cleanup (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 256MB)
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 250MB)
 
 
-Finished DisTri Cleanup (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 256MB)
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 250MB)
 
+@N: MO111 :"c:\users\lucas\documents\nascerr\fpga_design\fpga2memory\component\work\prj_2_memory_sb_sb\fabosc_0\prj_2_memory_sb_sb_fabosc_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.prj_2_memory_sb_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.prj_2_memory_sb_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\lucas\documents\nascerr\fpga_design\fpga2memory\component\work\prj_2_memory_sb_sb\fabosc_0\prj_2_memory_sb_sb_fabosc_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.prj_2_memory_sb_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.prj_2_memory_sb_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\lucas\documents\nascerr\fpga_design\fpga2memory\component\work\prj_2_memory_sb_sb\fabosc_0\prj_2_memory_sb_sb_fabosc_0_osc.v":19:7:19:16|Tristate driver XTLOSC_CCC (in view: work.prj_2_memory_sb_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_CCC (in view: work.prj_2_memory_sb_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\lucas\documents\nascerr\fpga_design\fpga2memory\component\work\prj_2_memory_sb_sb\fabosc_0\prj_2_memory_sb_sb_fabosc_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F (in view: work.prj_2_memory_sb_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.prj_2_memory_sb_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@W: MO129 :"c:\users\lucas\documents\nascerr\fpga_design\fpga2memory\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":676:4:676:9|Sequential instance prj_2_memory_sb_sb_0.CORERESETP_0.SDIF0_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\lucas\documents\nascerr\fpga_design\fpga2memory\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":695:4:695:9|Sequential instance prj_2_memory_sb_sb_0.CORERESETP_0.SDIF1_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\lucas\documents\nascerr\fpga_design\fpga2memory\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":714:4:714:9|Sequential instance prj_2_memory_sb_sb_0.CORERESETP_0.SDIF2_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\lucas\documents\nascerr\fpga_design\fpga2memory\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":733:4:733:9|Sequential instance prj_2_memory_sb_sb_0.CORERESETP_0.SDIF3_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\lucas\documents\nascerr\fpga_design\fpga2memory\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":769:4:769:9|Sequential instance prj_2_memory_sb_sb_0.CORERESETP_0.sm1_areset_n_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\lucas\documents\nascerr\fpga_design\fpga2memory\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1388:4:1388:9|Sequential instance prj_2_memory_sb_sb_0.CORERESETP_0.RESET_N_F2M_int is reduced to a combinational gate by constant propagation.
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 250MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 251MB)
+
+@N: BN362 :"c:\users\lucas\documents\nascerr\fpga_design\fpga2memory\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance DDR_READY_int (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\fpga_design\fpga2memory\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance SDIF_READY_int (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\fpga_design\fpga2memory\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance SDIF_RELEASED_int (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\fpga_design\fpga2memory\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance FDDR_CORE_RESET_N_int (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\fpga_design\fpga2memory\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Removing sequential instance SDIF0_PHY_RESET_N_int (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\fpga_design\fpga2memory\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Removing sequential instance SDIF0_CORE_RESET_N_0 (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\fpga_design\fpga2memory\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Removing sequential instance SDIF1_PHY_RESET_N_int (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\fpga_design\fpga2memory\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Removing sequential instance SDIF1_CORE_RESET_N_0 (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\fpga_design\fpga2memory\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Removing sequential instance SDIF2_PHY_RESET_N_int (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\fpga_design\fpga2memory\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Removing sequential instance SDIF2_CORE_RESET_N_0 (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\fpga_design\fpga2memory\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Removing sequential instance SDIF3_PHY_RESET_N_int (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\fpga_design\fpga2memory\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Removing sequential instance SDIF3_CORE_RESET_N_0 (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\fpga_design\fpga2memory\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Removing sequential instance sdif0_state[3:0] (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\fpga_design\fpga2memory\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Removing sequential instance sdif1_state[3:0] (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\fpga_design\fpga2memory\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Removing sequential instance sdif2_state[3:0] (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\fpga_design\fpga2memory\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Removing sequential instance sdif3_state[3:0] (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\fpga_design\fpga2memory\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":797:4:797:9|Removing sequential instance sdif0_areset_n_clk_base (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\fpga_design\fpga2memory\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":811:4:811:9|Removing sequential instance sdif1_areset_n_clk_base (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\fpga_design\fpga2memory\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":825:4:825:9|Removing sequential instance sdif2_areset_n_clk_base (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\fpga_design\fpga2memory\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":839:4:839:9|Removing sequential instance sdif3_areset_n_clk_base (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\fpga_design\fpga2memory\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":797:4:797:9|Removing sequential instance sdif0_areset_n_q1 (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\fpga_design\fpga2memory\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":811:4:811:9|Removing sequential instance sdif1_areset_n_q1 (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\fpga_design\fpga2memory\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":825:4:825:9|Removing sequential instance sdif2_areset_n_q1 (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lucas\documents\nascerr\fpga_design\fpga2memory\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":839:4:839:9|Removing sequential instance sdif3_areset_n_q1 (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
 @N: FX1184 |Applying syn_allowed_resources blockrams=31 on top level netlist prj_2_memory_sb 
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:02s; Memory used current: 257MB peak: 257MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 252MB peak: 252MB)
 
 
 
 Clock Summary
 ******************
 
-          Start                                                          Requested     Requested     Clock        Clock          Clock
-Level     Clock                                                          Frequency     Period        Type         Group          Load 
---------------------------------------------------------------------------------------------------------------------------------------
-0 -       OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     100.0 MHz     10.000        inferred     (multiple)     3    
-                                                                                                                                      
-0 -       TBEC_RSC_decoder|un1_quad118_2_inferred_clock                  100.0 MHz     10.000        inferred     (multiple)     1    
-                                                                                                                                      
-0 -       TBEC_RSC_decoder|un1_quad118_3_inferred_clock                  100.0 MHz     10.000        inferred     (multiple)     1    
-                                                                                                                                      
-0 -       TBEC_RSC_decoder|un1_quad118_inferred_clock                    100.0 MHz     10.000        inferred     (multiple)     1    
-======================================================================================================================================
+          Start                                                                 Requested     Requested     Clock        Clock          Clock
+Level     Clock                                                                 Frequency     Period        Type         Group          Load 
+---------------------------------------------------------------------------------------------------------------------------------------------
+0 -       prj_2_memory_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                  100.0 MHz     10.000        inferred     (multiple)     39   
+                                                                                                                                             
+0 -       prj_2_memory_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     100.0 MHz     10.000        inferred     (multiple)     15   
+                                                                                                                                             
+0 -       TBEC_RSC_decoder|un1_quad118_2_inferred_clock                         100.0 MHz     10.000        inferred     (multiple)     1    
+                                                                                                                                             
+0 -       TBEC_RSC_decoder|un1_quad118_3_inferred_clock                         100.0 MHz     10.000        inferred     (multiple)     1    
+                                                                                                                                             
+0 -       TBEC_RSC_decoder|un1_quad118_inferred_clock                           100.0 MHz     10.000        inferred     (multiple)     1    
+=============================================================================================================================================
 
 
 
 Clock Load Summary
 ***********************
 
-                                                               Clock     Source                                                            Clock Pin                                          Non-clock Pin     Non-clock Pin                                                  
-Clock                                                          Load      Pin                                                               Seq Example                                        Seq Example       Comb Example                                                   
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     3         OSC_C0_0.OSC_C0_0.I_RCOSC_25_50MHZ.CLKOUT(RCOSC_25_50MHZ)         fpga_top_design_0.flag_out[0:2].C                  -                 OSC_C0_0.OSC_C0_0.I_RCOSC_25_50MHZ_FAB.A(RCOSC_25_50MHZ_FAB)   
-                                                                                                                                                                                                                                                                               
-TBEC_RSC_decoder|un1_quad118_2_inferred_clock                  1         fpga_top_design_0.modulo.decodificador1.un1_quad118_2.OUT(or)     fpga_top_design_0.modulo.decodificador1.bit2.C     -                 fpga_top_design_0.modulo.decodificador1.un1_quad118_6.I[0](inv)
-                                                                                                                                                                                                                                                                               
-TBEC_RSC_decoder|un1_quad118_3_inferred_clock                  1         fpga_top_design_0.modulo.decodificador1.un1_quad118_3.OUT(or)     fpga_top_design_0.modulo.decodificador1.bit1.C     -                 fpga_top_design_0.modulo.decodificador1.un1_quad118_5.I[0](inv)
-                                                                                                                                                                                                                                                                               
-TBEC_RSC_decoder|un1_quad118_inferred_clock                    1         fpga_top_design_0.modulo.decodificador1.un1_quad118.OUT(or)       fpga_top_design_0.modulo.decodificador1.bit3.C     -                 fpga_top_design_0.modulo.decodificador1.un1_quad118_4.I[0](inv)
-===============================================================================================================================================================================================================================================================================
+                                                                      Clock     Source                                                                    Clock Pin                                                  Non-clock Pin     Non-clock Pin                                                           
+Clock                                                                 Load      Pin                                                                       Seq Example                                                Seq Example       Comb Example                                                            
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+prj_2_memory_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                  39        prj_2_memory_sb_sb_0.CCC_0.CCC_INST.GL0(CCC)                              fpga_top_design_0.flag_out[0:2].C                          -                 prj_2_memory_sb_sb_0.CCC_0.GL0_INST.I(BUFG)                             
+                                                                                                                                                                                                                                                                                                               
+prj_2_memory_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     15        prj_2_memory_sb_sb_0.FABOSC_0.I_RCOSC_25_50MHZ.CLKOUT(RCOSC_25_50MHZ)     prj_2_memory_sb_sb_0.CORERESETP_0.release_sdif0_core.C     -                 prj_2_memory_sb_sb_0.FABOSC_0.I_RCOSC_25_50MHZ_FAB.A(RCOSC_25_50MHZ_FAB)
+                                                                                                                                                                                                                                                                                                               
+TBEC_RSC_decoder|un1_quad118_2_inferred_clock                         1         fpga_top_design_0.modulo.decodificador1.un1_quad118_2.OUT(or)             fpga_top_design_0.modulo.decodificador1.bit2.C             -                 fpga_top_design_0.modulo.decodificador1.un1_quad118_6.I[0](inv)         
+                                                                                                                                                                                                                                                                                                               
+TBEC_RSC_decoder|un1_quad118_3_inferred_clock                         1         fpga_top_design_0.modulo.decodificador1.un1_quad118_3.OUT(or)             fpga_top_design_0.modulo.decodificador1.bit1.C             -                 fpga_top_design_0.modulo.decodificador1.un1_quad118_5.I[0](inv)         
+                                                                                                                                                                                                                                                                                                               
+TBEC_RSC_decoder|un1_quad118_inferred_clock                           1         fpga_top_design_0.modulo.decodificador1.un1_quad118.OUT(or)               fpga_top_design_0.modulo.decodificador1.bit3.C             -                 fpga_top_design_0.modulo.decodificador1.un1_quad118_4.I[0](inv)         
+===============================================================================================================================================================================================================================================================================================================
 
-@W: MT530 :"c:\users\jmano\projetos_lesc\fpga_design\fpga2memory\hdl\design.sv":55:0:55:8|Found inferred clock OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock which controls 3 sequential elements including fpga_top_design_0.flag_out[0:2]. This clock has no specified timing constraint which may adversely impact design performance. 
-@W: MT530 :"c:\users\jmano\projetos_lesc\fpga_design\fpga2memory\hdl\tbec_rsc_decoder.sv":49:2:49:3|Found inferred clock TBEC_RSC_decoder|un1_quad118_3_inferred_clock which controls 1 sequential elements including fpga_top_design_0.modulo.decodificador1.bit1. This clock has no specified timing constraint which may adversely impact design performance. 
-@W: MT530 :"c:\users\jmano\projetos_lesc\fpga_design\fpga2memory\hdl\tbec_rsc_decoder.sv":49:2:49:3|Found inferred clock TBEC_RSC_decoder|un1_quad118_2_inferred_clock which controls 1 sequential elements including fpga_top_design_0.modulo.decodificador1.bit2. This clock has no specified timing constraint which may adversely impact design performance. 
-@W: MT530 :"c:\users\jmano\projetos_lesc\fpga_design\fpga2memory\hdl\tbec_rsc_decoder.sv":49:2:49:3|Found inferred clock TBEC_RSC_decoder|un1_quad118_inferred_clock which controls 1 sequential elements including fpga_top_design_0.modulo.decodificador1.bit3. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\lucas\documents\nascerr\fpga_design\fpga2memory\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":565:4:565:9|Found inferred clock prj_2_memory_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock which controls 39 sequential elements including prj_2_memory_sb_sb_0.CORERESETP_0.MSS_HPMS_READY_int. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\lucas\documents\nascerr\fpga_design\fpga2memory\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":912:4:912:9|Found inferred clock prj_2_memory_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock which controls 15 sequential elements including prj_2_memory_sb_sb_0.CORERESETP_0.sdif3_areset_n_rcosc_q1. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\lucas\documents\nascerr\fpga_design\fpga2memory\hdl\tbec_rsc_decoder.sv":49:2:49:3|Found inferred clock TBEC_RSC_decoder|un1_quad118_3_inferred_clock which controls 1 sequential elements including fpga_top_design_0.modulo.decodificador1.bit1. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\lucas\documents\nascerr\fpga_design\fpga2memory\hdl\tbec_rsc_decoder.sv":49:2:49:3|Found inferred clock TBEC_RSC_decoder|un1_quad118_2_inferred_clock which controls 1 sequential elements including fpga_top_design_0.modulo.decodificador1.bit2. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\lucas\documents\nascerr\fpga_design\fpga2memory\hdl\tbec_rsc_decoder.sv":49:2:49:3|Found inferred clock TBEC_RSC_decoder|un1_quad118_inferred_clock which controls 1 sequential elements including fpga_top_design_0.modulo.decodificador1.bit3. This clock has no specified timing constraint which may adversely impact design performance. 
 
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
 Finished Pre Mapping Phase.
-@N: BN225 |Writing default property annotation file C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\synthesis\prj_2_memory_sb.sap.
+@N: BN225 |Writing default property annotation file C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\synthesis\prj_2_memory_sb.sap.
 
-Starting constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 258MB peak: 258MB)
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+
+Encoding state machine sm0_state[6:0] (in view: work.CoreResetP_Z1(verilog))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 254MB peak: 254MB)
 
 
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 258MB peak: 259MB)
-
-
-Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 259MB peak: 259MB)
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 255MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 175MB peak: 260MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 169MB peak: 256MB)
 
-Process took 0h:00m:03s realtime, 0h:00m:03s cputime
-# Fri May 16 10:52:55 2025
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jul 24 13:21:52 2025
 
 ###########################################################]

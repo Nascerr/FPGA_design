@@ -3,20 +3,20 @@
 
 
 module prj_2_memory_sb_sb_CCC_0_FCCC(
+       RCOSC_25_50MHZ,
        LOCK,
-       CLK0_PAD,
        GL0
     );
+input  RCOSC_25_50MHZ;
 output LOCK;
-input  CLK0_PAD;
 output GL0;
 
-    wire gnd_net, vcc_net, CLK0_PAD_net, GL0_net;
+    wire gnd_net, vcc_net, GL0_net;
     
     VCC vcc_inst (.Y(vcc_net));
     GND gnd_inst (.Y(gnd_net));
     CLKINT GL0_INST (.A(GL0_net), .Y(GL0));
-    CCC #( .INIT(210'h0000007FB8000044D74000318C6318C1F18C61C00404040400303)
+    CCC #( .INIT(210'h0000007FB8000044D74000318C6318C1F18C61EC0404040400301)
         , .VCOFREQUENCY(800.000) )  CCC_INST (.Y0(), .Y1(), .Y2(), .Y3(
         ), .PRDATA({nc0, nc1, nc2, nc3, nc4, nc5, nc6, nc7}), .LOCK(
         LOCK), .BUSY(), .CLK0(vcc_net), .CLK1(vcc_net), .CLK2(vcc_net), 
@@ -32,10 +32,9 @@ output GL0;
         .PENABLE(vcc_net), .PWRITE(vcc_net), .PADDR({vcc_net, vcc_net, 
         vcc_net, vcc_net, vcc_net, vcc_net}), .PWDATA({vcc_net, 
         vcc_net, vcc_net, vcc_net, vcc_net, vcc_net, vcc_net, vcc_net})
-        , .CLK0_PAD(CLK0_PAD_net), .CLK1_PAD(gnd_net), .CLK2_PAD(
-        gnd_net), .CLK3_PAD(gnd_net), .GL0(GL0_net), .GL1(), .GL2(), 
-        .GL3(), .RCOSC_25_50MHZ(gnd_net), .RCOSC_1MHZ(gnd_net), 
-        .XTLOSC(gnd_net));
-    INBUF CLK0_PAD_INST (.PAD(CLK0_PAD), .Y(CLK0_PAD_net));
+        , .CLK0_PAD(gnd_net), .CLK1_PAD(gnd_net), .CLK2_PAD(gnd_net), 
+        .CLK3_PAD(gnd_net), .GL0(GL0_net), .GL1(), .GL2(), .GL3(), 
+        .RCOSC_25_50MHZ(RCOSC_25_50MHZ), .RCOSC_1MHZ(gnd_net), .XTLOSC(
+        gnd_net));
     
 endmodule

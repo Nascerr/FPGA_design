@@ -1,10 +1,12 @@
 Detailed Resource Usage
-Module Name,Fabric 4LUT,Fabric DFF,Single-Ended I/O,Chip Globals,RCOSC_50MHZ
-OSC_C0_0/OSC_C0_0/Primitives,0,0,0,1,1
-Primitives/Primitives,0,0,109,0,0
-fpga_top_design_0/Primitives,28,3,0,0,0
-fpga_top_design_0/modulo/Primitives,104,0,0,0,0
-fpga_top_design_0/modulo/codificador1/Primitives,15,0,0,0,0
-fpga_top_design_0/modulo/codificador2/Primitives,2,0,0,0,0
-fpga_top_design_0/modulo/decodificador1/Primitives,93,3,0,0,0
-fpga_top_design_0/modulo/decodificador2/Primitives,46,0,0,0,0
+Module Name,Fabric 4LUT,Fabric DFF,Single-Ended I/O,PLLs and CCCs,Chip Globals,MSS,CAN,HS USB,RCOSC_50MHZ
+Primitives/Primitives,0,0,117,0,0,0,0,0,0
+fpga_top_design_0/Primitives,28,3,0,0,0,0,0,0,0
+fpga_top_design_0/modulo/Primitives,104,0,0,0,0,0,0,0,0
+fpga_top_design_0/modulo/codificador1/Primitives,14,0,0,0,0,0,0,0,0
+fpga_top_design_0/modulo/codificador2/Primitives,4,0,0,0,0,0,0,0,0
+fpga_top_design_0/modulo/decodificador1/Primitives,94,3,0,0,0,0,0,0,0
+fpga_top_design_0/modulo/decodificador2/Primitives,47,0,0,0,0,0,0,0,0
+prj_2_memory_sb_sb_0/CCC_0/Primitives,0,0,0,1,1,0,0,0,0
+prj_2_memory_sb_sb_0/FABOSC_0/Primitives,0,0,0,0,0,0,0,0,1
+prj_2_memory_sb_sb_0/prj_2_memory_sb_sb_MSS_0/Primitives,0,0,0,0,0,1,0,0,0

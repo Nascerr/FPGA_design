@@ -6,7 +6,7 @@
     <status>C:\Microchip\Libero_SoC_v2024.1\Designer/data/drcreport\warn.png</status>
     <StatusMessage>Warning</StatusMessage>
     <message>Floating Driver</message>
-    <detail>Floating output pin prj_2_memory_sb:turn_on_generator</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/prj_2_memory_sb/pins/prj_2_memory_sb:turn_on_generator</crossprobe>
+    <detail>Floating output pin prj_2_memory_sb_sb_0:FAB_CCC_LOCK</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/prj_2_memory_sb/pins/prj_2_memory_sb_sb_0:FAB_CCC_LOCK</crossprobe>
   </drc>
 </drcreport>

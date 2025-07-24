@@ -8,7 +8,7 @@
 </header>
 <row>
  <cell>Date:</cell>
- <cell>Tue Oct 15 12:12:51 2024</cell>
+ <cell>Thu Jul 24 13:20:56 2025</cell>
 </row>
 <separator/>
 <row>
@@ -64,11 +64,11 @@
 </header>
 <row>
  <cell>Reference clock frequency</cell>
- <cell>100 MHz</cell>
+ <cell>50 MHz</cell>
 </row>
 <row>
  <cell>Reference clock source</cell>
- <cell>Dedicated Input Pad 0</cell>
+ <cell>On-chip 25/50 MHz RC Oscillator</cell>
 </row>
 <row>
  <cell>Output frequency</cell>
@@ -85,7 +85,7 @@
 </row>
 <row>
  <cell>CCC reference clock divider</cell>
- <cell>4</cell>
+ <cell>2</cell>
 </row>
 <separator/>
 <row>
@@ -155,13 +155,13 @@
 <row>
  <cell>FCCC_RFMUX_CR</cell>
  <cell>0x01</cell>
- <cell>0x00</cell>
+ <cell>0x0b</cell>
  <cell>RFMUX configuration register</cell>
 </row>
 <row>
  <cell>FCCC_RFDIV_CR</cell>
  <cell>0x02</cell>
- <cell>0x03</cell>
+ <cell>0x01</cell>
  <cell>RFDIV configuration register</cell>
 </row>
 <row>

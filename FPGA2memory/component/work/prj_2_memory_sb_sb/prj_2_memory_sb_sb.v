@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Tue Oct 15 12:12:54 2024
+// Created by SmartDesign Thu Jul 24 13:20:57 2025
 // Version: 2024.1 2024.1.0.3
 //////////////////////////////////////////////////////////////////////
 
@@ -8,51 +8,88 @@
 // prj_2_memory_sb_sb
 module prj_2_memory_sb_sb(
     // Inputs
-    CLK0_PAD,
     DEVRST_N,
     FAB_RESET_N,
+    MMUART_0_RXD_F2M,
+    MMUART_1_RXD_F2M,
+    SPI_0_CLK_F2M,
+    SPI_0_DI_F2M,
+    SPI_0_SS0_F2M,
     // Outputs
     FAB_CCC_GL0,
     FAB_CCC_LOCK,
     INIT_DONE,
+    MMUART_0_TXD_M2F,
+    MMUART_1_TXD_M2F,
     MSS_READY,
-    POWER_ON_RESET_N
+    POWER_ON_RESET_N,
+    SPI_0_CLK_M2F,
+    SPI_0_DO_M2F,
+    SPI_0_SS0_M2F,
+    SPI_0_SS0_M2F_OE
 );
 
 //--------------------------------------------------------------------
 // Input
 //--------------------------------------------------------------------
-input  CLK0_PAD;
 input  DEVRST_N;
 input  FAB_RESET_N;
+input  MMUART_0_RXD_F2M;
+input  MMUART_1_RXD_F2M;
+input  SPI_0_CLK_F2M;
+input  SPI_0_DI_F2M;
+input  SPI_0_SS0_F2M;
 //--------------------------------------------------------------------
 // Output
 //--------------------------------------------------------------------
 output FAB_CCC_GL0;
 output FAB_CCC_LOCK;
 output INIT_DONE;
+output MMUART_0_TXD_M2F;
+output MMUART_1_TXD_M2F;
 output MSS_READY;
 output POWER_ON_RESET_N;
+output SPI_0_CLK_M2F;
+output SPI_0_DO_M2F;
+output SPI_0_SS0_M2F;
+output SPI_0_SS0_M2F_OE;
 //--------------------------------------------------------------------
 // Nets
 //--------------------------------------------------------------------
-wire   CLK0_PAD;
 wire   CORERESETP_0_RESET_N_F2M;
 wire   DEVRST_N;
 wire   FAB_CCC_GL0_net_0;
 wire   FAB_CCC_LOCK_net_0;
 wire   FAB_RESET_N;
+wire   FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC;
 wire   FABOSC_0_RCOSC_25_50MHZ_O2F;
 wire   INIT_DONE_net_0;
+wire   MMUART_0_RXD_F2M;
+wire   MMUART_0_TXD_M2F_net_0;
+wire   MMUART_1_RXD_F2M;
+wire   MMUART_1_TXD_M2F_net_0;
 wire   MSS_READY_net_0;
 wire   POWER_ON_RESET_N_net_0;
 wire   prj_2_memory_sb_sb_MSS_TMP_0_FIC_2_APB_M_PRESET_N;
 wire   prj_2_memory_sb_sb_MSS_TMP_0_MSS_RESET_N_M2F;
+wire   SPI_0_CLK_F2M;
+wire   SPI_0_CLK_M2F_net_0;
+wire   SPI_0_DI_F2M;
+wire   SPI_0_DO_M2F_net_0;
+wire   SPI_0_SS0_F2M;
+wire   SPI_0_SS0_M2F_net_0;
+wire   SPI_0_SS0_M2F_OE_net_0;
 wire   POWER_ON_RESET_N_net_1;
 wire   INIT_DONE_net_1;
 wire   FAB_CCC_GL0_net_1;
 wire   FAB_CCC_LOCK_net_1;
 wire   MSS_READY_net_1;
+wire   MMUART_0_TXD_M2F_net_1;
+wire   MMUART_1_TXD_M2F_net_1;
+wire   SPI_0_DO_M2F_net_1;
+wire   SPI_0_CLK_M2F_net_1;
+wire   SPI_0_SS0_M2F_net_1;
+wire   SPI_0_SS0_M2F_OE_net_1;
 //--------------------------------------------------------------------
 // TiedOff Nets
 //--------------------------------------------------------------------
@@ -90,16 +127,28 @@ assign FAB_CCC_LOCK_net_1     = FAB_CCC_LOCK_net_0;
 assign FAB_CCC_LOCK           = FAB_CCC_LOCK_net_1;
 assign MSS_READY_net_1        = MSS_READY_net_0;
 assign MSS_READY              = MSS_READY_net_1;
+assign MMUART_0_TXD_M2F_net_1 = MMUART_0_TXD_M2F_net_0;
+assign MMUART_0_TXD_M2F       = MMUART_0_TXD_M2F_net_1;
+assign MMUART_1_TXD_M2F_net_1 = MMUART_1_TXD_M2F_net_0;
+assign MMUART_1_TXD_M2F       = MMUART_1_TXD_M2F_net_1;
+assign SPI_0_DO_M2F_net_1     = SPI_0_DO_M2F_net_0;
+assign SPI_0_DO_M2F           = SPI_0_DO_M2F_net_1;
+assign SPI_0_CLK_M2F_net_1    = SPI_0_CLK_M2F_net_0;
+assign SPI_0_CLK_M2F          = SPI_0_CLK_M2F_net_1;
+assign SPI_0_SS0_M2F_net_1    = SPI_0_SS0_M2F_net_0;
+assign SPI_0_SS0_M2F          = SPI_0_SS0_M2F_net_1;
+assign SPI_0_SS0_M2F_OE_net_1 = SPI_0_SS0_M2F_OE_net_0;
+assign SPI_0_SS0_M2F_OE       = SPI_0_SS0_M2F_OE_net_1;
 //--------------------------------------------------------------------
 // Component instances
 //--------------------------------------------------------------------
 //--------prj_2_memory_sb_sb_CCC_0_FCCC   -   Actel:SgCore:FCCC:2.0.201
 prj_2_memory_sb_sb_CCC_0_FCCC CCC_0(
         // Inputs
-        .CLK0_PAD ( CLK0_PAD ),
+        .RCOSC_25_50MHZ ( FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC ),
         // Outputs
-        .GL0      ( FAB_CCC_GL0_net_0 ),
-        .LOCK     ( FAB_CCC_LOCK_net_0 ) 
+        .GL0            ( FAB_CCC_GL0_net_0 ),
+        .LOCK           ( FAB_CCC_LOCK_net_0 ) 
         );
 
 //--------CoreResetP   -   Actel:DirectCore:CoreResetP:7.1.100
@@ -202,7 +251,7 @@ prj_2_memory_sb_sb_FABOSC_0_OSC FABOSC_0(
         // Inputs
         .XTL                ( GND_net ), // tied to 1'b0 from definition
         // Outputs
-        .RCOSC_25_50MHZ_CCC (  ),
+        .RCOSC_25_50MHZ_CCC ( FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC ),
         .RCOSC_25_50MHZ_O2F ( FABOSC_0_RCOSC_25_50MHZ_O2F ),
         .RCOSC_1MHZ_CCC     (  ),
         .RCOSC_1MHZ_O2F     (  ),
@@ -216,11 +265,22 @@ prj_2_memory_sb_sb_MSS prj_2_memory_sb_sb_MSS_0(
         .MCCC_CLK_BASE          ( FAB_CCC_GL0_net_0 ),
         .MCCC_CLK_BASE_PLL_LOCK ( FAB_CCC_LOCK_net_0 ),
         .MSS_RESET_N_F2M        ( CORERESETP_0_RESET_N_F2M ),
+        .MMUART_0_RXD_F2M       ( MMUART_0_RXD_F2M ),
+        .MMUART_1_RXD_F2M       ( MMUART_1_RXD_F2M ),
+        .SPI_0_DI_F2M           ( SPI_0_DI_F2M ),
+        .SPI_0_CLK_F2M          ( SPI_0_CLK_F2M ),
+        .SPI_0_SS0_F2M          ( SPI_0_SS0_F2M ),
         .FIC_2_APB_M_PREADY     ( VCC_net ), // tied to 1'b1 from definition
         .FIC_2_APB_M_PSLVERR    ( GND_net ), // tied to 1'b0 from definition
         .FIC_2_APB_M_PRDATA     ( FIC_2_APB_M_PRDATA_const_net_0 ), // tied to 32'h00000000 from definition
         // Outputs
         .MSS_RESET_N_M2F        ( prj_2_memory_sb_sb_MSS_TMP_0_MSS_RESET_N_M2F ),
+        .MMUART_0_TXD_M2F       ( MMUART_0_TXD_M2F_net_0 ),
+        .MMUART_1_TXD_M2F       ( MMUART_1_TXD_M2F_net_0 ),
+        .SPI_0_DO_M2F           ( SPI_0_DO_M2F_net_0 ),
+        .SPI_0_CLK_M2F          ( SPI_0_CLK_M2F_net_0 ),
+        .SPI_0_SS0_M2F          ( SPI_0_SS0_M2F_net_0 ),
+        .SPI_0_SS0_M2F_OE       ( SPI_0_SS0_M2F_OE_net_0 ),
         .FIC_2_APB_M_PRESET_N   ( prj_2_memory_sb_sb_MSS_TMP_0_FIC_2_APB_M_PRESET_N ),
         .FIC_2_APB_M_PCLK       (  ),
         .FIC_2_APB_M_PWRITE     (  ),

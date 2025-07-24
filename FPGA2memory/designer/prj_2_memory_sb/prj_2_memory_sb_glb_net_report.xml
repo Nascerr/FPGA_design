@@ -3,7 +3,7 @@
 <doc>
 <title>Global Net Report</title>
 <text>Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)</text>
-<text>Date: Fri May 16 10:53:22 2025
+<text>Date: Thu Jul 24 13:27:19 2025
 </text>
 <section>
 <name>Global Nets Information</name>
@@ -17,10 +17,10 @@
 </header>
 <row>
  <cell>1</cell>
- <cell>GB[0] </cell>
- <cell>(290, 72)</cell>
- <cell>OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_YWn_GEast</cell>
- <cell>3</cell>
+ <cell>GB[7] </cell>
+ <cell>(297, 72)</cell>
+ <cell>prj_2_memory_sb_sb_0/CCC_0/GL0_INST/U0_YWn_GEast</cell>
+ <cell>4</cell>
 </row>
 </table>
 <text></text>
@@ -31,11 +31,16 @@
 </section>
 <section>
 <name>Fabric to GB Connections</name>
+<text>(none)</text>
+</section>
+<section>
+<name>CCC to GB Connections</name>
 <table>
 <header>
  <cell/>
  <cell> From </cell>
  <cell> From Location </cell>
+ <cell>Pin Swapped for Back Annotation Only</cell>
  <cell> To </cell>
  <cell> Net Name </cell>
  <cell> Net Type </cell>
@@ -43,23 +48,42 @@
 </header>
 <row>
  <cell>1</cell>
- <cell>OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ_FAB:CLKOUT</cell>
- <cell>(25, 134)</cell>
- <cell>GB[0] </cell>
- <cell>OSC_C0_0/OSC_C0_0/N_RCOSC_25_50MHZ_CLKINT</cell>
- <cell>ROUTED</cell>
+ <cell>prj_2_memory_sb_sb_0/CCC_0/CCC_INST/INST_CCC_IP:GL0</cell>
+ <cell>CCC-NW1 (18, 134)</cell>
+ <cell>GL0 =&gt; GL3</cell>
+ <cell>GB[7] </cell>
+ <cell>prj_2_memory_sb_sb_0/CCC_0/GL0_net</cell>
+ <cell>HARDWIRED</cell>
  <cell>1</cell>
 </row>
 </table>
 <text></text>
 </section>
 <section>
-<name>CCC to GB Connections</name>
-<text>(none)</text>
-</section>
-<section>
 <name>CCC Input Connections</name>
-<text>(none)</text>
+<table>
+<header>
+ <cell/>
+ <cell> From </cell>
+ <cell> From Location </cell>
+ <cell> To (Pin Swapped for Back Annotation Only) </cell>
+ <cell> CCC Location </cell>
+ <cell> Net Name </cell>
+ <cell> Net Type </cell>
+ <cell> Fanout </cell>
+</header>
+<row>
+ <cell>1</cell>
+ <cell>prj_2_memory_sb_sb_0/FABOSC_0/I_RCOSC_25_50MHZ:CLKOUT</cell>
+ <cell>(24, 134)</cell>
+ <cell>prj_2_memory_sb_sb_0/CCC_0/CCC_INST/INST_CCC_IP:RCOSC_25_50MHZ</cell>
+ <cell>CCC-NW1 (18, 134)</cell>
+ <cell>prj_2_memory_sb_sb_0/FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC</cell>
+ <cell>HARDWIRED</cell>
+ <cell>1</cell>
+</row>
+</table>
+<text></text>
 </section>
 <section>
 <name>Local Nets to RGB Connections</name>
@@ -80,13 +104,23 @@
 </header>
 <row>
  <cell>1</cell>
- <cell>GB[0] </cell>
- <cell>(290, 72)</cell>
- <cell>OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_YWn_GEast</cell>
+ <cell>GB[7] </cell>
+ <cell>(297, 72)</cell>
+ <cell>prj_2_memory_sb_sb_0/CCC_0/GL0_INST/U0_YWn_GEast</cell>
+ <cell>4</cell>
+ <cell>1</cell>
+ <cell>(446, 117)</cell>
  <cell>3</cell>
+</row>
+<row>
  <cell> </cell>
- <cell>(446, 120)</cell>
- <cell>3</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>2</cell>
+ <cell>(446, 144)</cell>
+ <cell>1</cell>
 </row>
 </table>
 <text></text>
@@ -110,15 +144,15 @@
 </row>
 <row>
  <cell>2</cell>
- <cell>fpga_top_design_0/modulo/decodificador1/un1_quad118_3:Y</cell>
- <cell>fpga_top_design_0/modulo/decodificador1/un1_quad118_3_Z</cell>
- <cell>fpga_top_design_0/modulo/decodificador1/bit1:CLK</cell>
-</row>
-<row>
- <cell>3</cell>
  <cell>fpga_top_design_0/modulo/decodificador1/un1_quad118:Y</cell>
  <cell>fpga_top_design_0/modulo/decodificador1/un1_quad118_Z</cell>
  <cell>fpga_top_design_0/modulo/decodificador1/bit3:CLK</cell>
+</row>
+<row>
+ <cell>3</cell>
+ <cell>fpga_top_design_0/modulo/decodificador1/un1_quad118_3:Y</cell>
+ <cell>fpga_top_design_0/modulo/decodificador1/un1_quad118_3_Z</cell>
+ <cell>fpga_top_design_0/modulo/decodificador1/bit1:CLK</cell>
 </row>
 </table>
 </section>

@@ -8,16 +8,16 @@ Tool: Synplify Pro (R)
 Build: V-2023.09M
 Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
 OS: Windows 10 or later
-Hostname: LAPTOP-MLN7VOA0
+Hostname: DESKTOP-V6FS948
 
 Implementation : synthesis
 
-# Written on Fri May 16 10:52:55 2025
+# Written on Thu Jul 24 13:21:52 2025
 
 ##### DESIGN INFO #######################################################
 
 Top View:                "prj_2_memory_sb"
-Constraint File(s):      "C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\designer\prj_2_memory_sb\synthesis.fdc"
+Constraint File(s):      "C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\designer\prj_2_memory_sb\synthesis.fdc"
 
 
 
@@ -34,12 +34,16 @@ Found 0 issues in 0 out of 0 constraints
 Clock Relationships
 *******************
 
-Starting                                          Ending                                                         |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-TBEC_RSC_decoder|un1_quad118_3_inferred_clock     OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     |     Diff grp         |     No paths         |     No paths         |     No paths                         
-TBEC_RSC_decoder|un1_quad118_2_inferred_clock     OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     |     Diff grp         |     No paths         |     No paths         |     No paths                         
-TBEC_RSC_decoder|un1_quad118_inferred_clock       OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     |     Diff grp         |     No paths         |     No paths         |     No paths                         
-============================================================================================================================================================================================================================
+Starting                                                              Ending                                                                |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+prj_2_memory_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                  prj_2_memory_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                  |     10.000           |     No paths         |     No paths         |     No paths                         
+prj_2_memory_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                  prj_2_memory_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+prj_2_memory_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     prj_2_memory_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                  |     Diff grp         |     No paths         |     No paths         |     No paths                         
+prj_2_memory_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     prj_2_memory_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     |     10.000           |     No paths         |     No paths         |     No paths                         
+TBEC_RSC_decoder|un1_quad118_3_inferred_clock                         prj_2_memory_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                  |     Diff grp         |     No paths         |     No paths         |     No paths                         
+TBEC_RSC_decoder|un1_quad118_2_inferred_clock                         prj_2_memory_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                  |     Diff grp         |     No paths         |     No paths         |     No paths                         
+TBEC_RSC_decoder|un1_quad118_inferred_clock                           prj_2_memory_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                  |     Diff grp         |     No paths         |     No paths         |     No paths                         
+=======================================================================================================================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
 
@@ -47,6 +51,7 @@ TBEC_RSC_decoder|un1_quad118_inferred_clock       OSC_C0_OSC_C0_0_OSC|N_RCOSC_25
 Unconstrained Start/End Points
 ******************************
 
+p:DEVRST_N
 p:LED1
 p:LED2
 p:MCU_A_0
@@ -75,6 +80,14 @@ p:MCU_LB
 p:MCU_OE
 p:MCU_UB
 p:MCU_WE
+p:MMUART_0_RXD_F2M
+p:MMUART_0_TXD_M2F
+p:MMUART_1_RXD_F2M
+p:MMUART_1_TXD_M2F
+p:SPI_0_CLK_M2F
+p:SPI_0_DI_F2M
+p:SPI_0_DO_M2F
+p:SPI_0_SS0_M2F
 p:SRAM_A_0
 p:SRAM_A_1
 p:SRAM_A_2

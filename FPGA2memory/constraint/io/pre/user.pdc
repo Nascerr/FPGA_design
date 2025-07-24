@@ -6,7 +6,7 @@
 
 # Family: SmartFusion2 , Die: M2S025T , Package: 256 VF
 
-# Date generated: Wed Feb 12 15:32:02 2025 
+# Date generated: Thu Jul 24 13:26:41 2025 
 
 
 # 
@@ -193,6 +193,54 @@ set_io MCU_WE         \
     -DIRECTION INPUT
 
 
+set_io MMUART_0_RXD_F2M  \
+    -pinname H16         \
+    -fixed yes           \
+    -DIRECTION INPUT
+
+
+set_io MMUART_0_TXD_M2F  \
+    -pinname J16         \
+    -fixed yes           \
+    -DIRECTION OUTPUT
+
+
+set_io MMUART_1_RXD_F2M  \
+    -pinname H13         \
+    -fixed yes           \
+    -DIRECTION INPUT
+
+
+set_io MMUART_1_TXD_M2F  \
+    -pinname H12         \
+    -fixed yes           \
+    -DIRECTION OUTPUT
+
+
+set_io SPI_0_CLK_M2F   \
+    -pinname G16       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io SPI_0_DI_F2M   \
+    -pinname J14      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io SPI_0_DO_M2F    \
+    -pinname H15       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io SPI_0_SS0_M2F   \
+    -pinname J13       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
 set_io SRAM_A_0        \
     -pinname C10       \
     -fixed yes         \
@@ -374,13 +422,13 @@ set_io ecc_sel2       \
 
 
 set_io flag0           \
-    -pinname H16       \
+    -pinname G13       \
     -fixed yes         \
     -DIRECTION OUTPUT
 
 
 set_io flag1           \
-    -pinname J16       \
+    -pinname G14       \
     -fixed yes         \
     -DIRECTION OUTPUT
 

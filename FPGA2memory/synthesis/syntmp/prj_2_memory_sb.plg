@@ -1,9 +1,4 @@
 @P:  Worst Slack : NA
-@P:  OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock - Estimated Frequency : NA
-@P:  OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock - Requested Frequency : 100.0 MHz
-@P:  OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock - Estimated Period : NA
-@P:  OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock - Requested Period : 10.000
-@P:  OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock - Slack : NA
 @P:  TBEC_RSC_decoder|un1_quad118_2_inferred_clock - Estimated Frequency : NA
 @P:  TBEC_RSC_decoder|un1_quad118_2_inferred_clock - Requested Frequency : 100.0 MHz
 @P:  TBEC_RSC_decoder|un1_quad118_2_inferred_clock - Estimated Period : NA
@@ -19,8 +14,18 @@
 @P:  TBEC_RSC_decoder|un1_quad118_inferred_clock - Estimated Period : NA
 @P:  TBEC_RSC_decoder|un1_quad118_inferred_clock - Requested Period : 10.000
 @P:  TBEC_RSC_decoder|un1_quad118_inferred_clock - Slack : NA
+@P:  prj_2_memory_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Frequency : NA
+@P:  prj_2_memory_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  prj_2_memory_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Period : NA
+@P:  prj_2_memory_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock - Requested Period : 10.000
+@P:  prj_2_memory_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock - Slack : NA
+@P:  prj_2_memory_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Estimated Frequency : NA
+@P:  prj_2_memory_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  prj_2_memory_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Estimated Period : NA
+@P:  prj_2_memory_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Requested Period : 10.000
+@P:  prj_2_memory_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Slack : NA
 @P: prj_2_memory_sb Part : m2s025tvf400std
 @P: prj_2_memory_sb Register bits  : 6 
 @P: prj_2_memory_sb DSP Blocks  : 0
-@P: prj_2_memory_sb I/O primitives : 109
-@P:  CPU Time : 0h:00m:06s
+@P: prj_2_memory_sb I/O primitives : 117
+@P:  CPU Time : 0h:00m:02s

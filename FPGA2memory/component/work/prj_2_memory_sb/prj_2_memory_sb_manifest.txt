@@ -1,11 +1,14 @@
 Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
 
-Date      :  Fri May 16 10:52:20 2025
-Project   :  C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory
+Date      :  Thu Jul 24 13:21:39 2025
+Project   :  C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory
 Component :  prj_2_memory_sb
 Family    :  SmartFusion2
 
 
 HDL source files for all Synthesis and Simulation tools:
-    C:/Users/Jmano/Projetos_LESC/FPGA_design/FPGA2memory/component/work/prj_2_memory_sb/prj_2_memory_sb.v
+    C:/Users/Lucas/Documents/Nascerr/FPGA_design/FPGA2memory/component/work/prj_2_memory_sb/prj_2_memory_sb.v
+
+Stimulus files for all Simulation tools:
+    C:/Users/Lucas/Documents/Nascerr/FPGA_design/FPGA2memory/component/work/prj_2_memory_sb/subsystem.bfm
 

@@ -2123,7 +2123,7 @@
 </row>
 <row>
  <cell>M3CLK_FREQUENCY</cell>
- <cell>100.00</cell>
+ <cell>50</cell>
 </row>
 <row>
  <cell>MDDRCLK_RATIO</cell>
@@ -2159,11 +2159,11 @@
 </row>
 <row>
  <cell>SYSCLK_FREQUENCY</cell>
- <cell>100.00</cell>
+ <cell>50.0</cell>
 </row>
 <row>
  <cell>SYSCLK_SOURCE</cell>
- <cell>IO_HARDWIRED</cell>
+ <cell>OSC_50MHZ</cell>
 </row>
 <row>
  <cell>XTLOSC_DRIVES_CCC</cell>
@@ -3079,6 +3079,135 @@
 </data>
 <separator/>
 <data>
+<name>MM_UART_0</name>
+<table>
+<header>
+ <cell>Name</cell>
+ <cell>Subsystem</cell>
+ <cell>Vendor</cell>
+ <cell>Version</cell>
+</header>
+<row>
+ <cell>SF2_MSS_UART</cell>
+ <cell>MSS Peripherals</cell>
+ <cell>Actel</cell>
+ <cell>0.0.101</cell>
+</row>
+</table>
+<cdata>
+<name>Configuration</name>
+<table>
+<header>
+ <cell>Parameter</cell>
+ <cell>Value</cell>
+</header>
+<row>
+ <cell>MODE</cell>
+ <cell>MODE_ASYNC</cell>
+</row>
+<row>
+ <cell>MODE_DUPLEX</cell>
+ <cell>MODE_FULL</cell>
+</row>
+<row>
+ <cell>MODEM_MUX</cell>
+ <cell>MUX_IO</cell>
+</row>
+<row>
+ <cell>TX_RX_MUX</cell>
+ <cell>MUX_FABRIC</cell>
+</row>
+<row>
+ <cell>USE_MODEM</cell>
+ <cell>false</cell>
+</row>
+</table>
+</cdata>
+</data>
+<separator/>
+<data>
+<name>MM_UART_1</name>
+<table>
+<header>
+ <cell>Name</cell>
+ <cell>Subsystem</cell>
+ <cell>Vendor</cell>
+ <cell>Version</cell>
+</header>
+<row>
+ <cell>SF2_MSS_UART</cell>
+ <cell>MSS Peripherals</cell>
+ <cell>Actel</cell>
+ <cell>0.0.101</cell>
+</row>
+</table>
+<cdata>
+<name>Configuration</name>
+<table>
+<header>
+ <cell>Parameter</cell>
+ <cell>Value</cell>
+</header>
+<row>
+ <cell>MODE</cell>
+ <cell>MODE_ASYNC</cell>
+</row>
+<row>
+ <cell>MODE_DUPLEX</cell>
+ <cell>MODE_FULL</cell>
+</row>
+<row>
+ <cell>MODEM_MUX</cell>
+ <cell>MUX_IO</cell>
+</row>
+<row>
+ <cell>TX_RX_MUX</cell>
+ <cell>MUX_FABRIC</cell>
+</row>
+<row>
+ <cell>USE_MODEM</cell>
+ <cell>false</cell>
+</row>
+</table>
+</cdata>
+</data>
+<separator/>
+<data>
+<name>MSS_SPI_0</name>
+<table>
+<header>
+ <cell>Name</cell>
+ <cell>Subsystem</cell>
+ <cell>Vendor</cell>
+ <cell>Version</cell>
+</header>
+<row>
+ <cell>SF2_MSS_SPI</cell>
+ <cell>MSS Peripherals</cell>
+ <cell>Actel</cell>
+ <cell>0.0.100</cell>
+</row>
+</table>
+<cdata>
+<name>Configuration</name>
+<table>
+<header>
+ <cell>Parameter</cell>
+ <cell>Value</cell>
+</header>
+<row>
+ <cell>NB_SLAVES</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>SPI_MUX</cell>
+ <cell>MUX_FABRIC</cell>
+</row>
+</table>
+</cdata>
+</data>
+<separator/>
+<data>
 <name>Interrupt Configuration</name>
 <table>
 <header>
@@ -3115,11 +3244,6 @@
  <cell>-</cell>
 </row>
 <row>
- <cell>CLK0_PAD</cell>
- <cell>IN</cell>
- <cell>-</cell>
-</row>
-<row>
  <cell>FAB_CCC_GL0</cell>
  <cell>OUT</cell>
  <cell>-</cell>
@@ -3137,6 +3261,61 @@
 <row>
  <cell>DEVRST_N</cell>
  <cell>IN</cell>
+ <cell>-</cell>
+</row>
+<row>
+ <cell>MMUART_0_TXD_M2F</cell>
+ <cell>OUT</cell>
+ <cell>-</cell>
+</row>
+<row>
+ <cell>MMUART_0_RXD_F2M</cell>
+ <cell>IN</cell>
+ <cell>-</cell>
+</row>
+<row>
+ <cell>MMUART_1_TXD_M2F</cell>
+ <cell>OUT</cell>
+ <cell>-</cell>
+</row>
+<row>
+ <cell>MMUART_1_RXD_F2M</cell>
+ <cell>IN</cell>
+ <cell>-</cell>
+</row>
+<row>
+ <cell>SPI_0_DI_F2M</cell>
+ <cell>IN</cell>
+ <cell>-</cell>
+</row>
+<row>
+ <cell>SPI_0_DO_M2F</cell>
+ <cell>OUT</cell>
+ <cell>-</cell>
+</row>
+<row>
+ <cell>SPI_0_CLK_F2M</cell>
+ <cell>IN</cell>
+ <cell>-</cell>
+</row>
+<row>
+ <cell>SPI_0_CLK_M2F</cell>
+ <cell>OUT</cell>
+ <cell>-</cell>
+</row>
+<row>
+ <cell>SPI_0_SS0_F2M</cell>
+ <cell>IN</cell>
+ <cell>-</cell>
+</row>
+<row>
+ <cell>SPI_0_SS0_M2F</cell>
+ <cell>OUT</cell>
+ <cell>-</cell>
+</row>
+<row>
+ <cell>SPI_0_SS0_M2F_OE</cell>
+ <cell>OUT</cell>
  <cell>-</cell>
 </row>
 </table>

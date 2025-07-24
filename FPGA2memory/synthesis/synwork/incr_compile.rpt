@@ -8,72 +8,105 @@ Tool: Synplify Pro (R)
 Build: V-2023.09M
 Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
 OS: Windows 10 or later
-Hostname: LAPTOP-MLN7VOA0
+Hostname: DESKTOP-V6FS948
 
 Implementation : synthesis
 Synopsys HDL compiler and linker, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:15:03, @
 
-Modified Files: 2
+Modified Files: 6
 FID:  path (prevtimestamp, timestamp)
-45       C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-05-16 10:34:01, 2025-05-16 10:52:19)
-51       C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\ecc_design.sv (2025-05-16 10:34:01, 2025-05-16 10:52:14)
+55       C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-07-24 13:14:41, 2025-07-24 13:21:38)
+64       C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb_sb\CCC_0\prj_2_memory_sb_sb_CCC_0_FCCC.v (2025-07-24 13:14:07, 2025-07-24 13:20:57)
+65       C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb_sb\FABOSC_0\prj_2_memory_sb_sb_FABOSC_0_OSC.v (2025-07-24 13:14:08, 2025-07-24 13:20:57)
+66       C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb_sb\prj_2_memory_sb_sb.v (2025-07-24 13:14:08, 2025-07-24 13:20:57)
+67       C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb_sb_MSS\prj_2_memory_sb_sb_MSS.v (2025-07-24 13:14:05, 2025-07-24 13:20:55)
+68       C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb_sb_MSS\prj_2_memory_sb_sb_MSS_syn.v (2025-07-24 13:14:05, 2025-07-24 13:20:55)
 
 *******************************************************************
-Modules that may have changed as a result of file changes: 15
+Modules that may have changed as a result of file changes: 20
 MID:  lib.cell.view
+20       work.CoreResetP.verilog may have changed because the following files changed:
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-07-24 13:14:41, 2025-07-24 13:21:38) <-- (may instantiate this module)
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb_sb\prj_2_memory_sb_sb.v (2025-07-24 13:14:08, 2025-07-24 13:20:57) <-- (may instantiate this module)
 0        work.MRSC_decoder.verilog may have changed because the following files changed:
-                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-05-16 10:34:01, 2025-05-16 10:52:19) <-- (may instantiate this module)
-                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\ecc_design.sv (2025-05-16 10:34:01, 2025-05-16 10:52:14) <-- (may instantiate this module)
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-07-24 13:14:41, 2025-07-24 13:21:38) <-- (may instantiate this module)
 1        work.MRSC_encoder.verilog may have changed because the following files changed:
-                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-05-16 10:34:01, 2025-05-16 10:52:19) <-- (may instantiate this module)
-                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\ecc_design.sv (2025-05-16 10:34:01, 2025-05-16 10:52:14) <-- (may instantiate this module)
-7        work.OSC_C0.verilog may have changed because the following files changed:
-                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-05-16 10:34:01, 2025-05-16 10:52:19) <-- (may instantiate this module)
-8        work.OSC_C0_OSC_C0_0_OSC.verilog may have changed because the following files changed:
-                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-05-16 10:34:01, 2025-05-16 10:52:19) <-- (may instantiate this module)
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-07-24 13:14:41, 2025-07-24 13:21:38) <-- (may instantiate this module)
+21       work.MSS_025.verilog may have changed because the following files changed:
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-07-24 13:14:41, 2025-07-24 13:21:38) <-- (may instantiate this module)
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb_sb\prj_2_memory_sb_sb.v (2025-07-24 13:14:08, 2025-07-24 13:20:57) <-- (may instantiate this module)
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb_sb_MSS\prj_2_memory_sb_sb_MSS.v (2025-07-24 13:14:05, 2025-07-24 13:20:55) <-- (may instantiate this module)
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb_sb_MSS\prj_2_memory_sb_sb_MSS_syn.v (2025-07-24 13:14:05, 2025-07-24 13:20:55) <-- (module definition)
 9        work.RCOSC_1MHZ.verilog may have changed because the following files changed:
-                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-05-16 10:34:01, 2025-05-16 10:52:19) <-- (may instantiate this module)
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-07-24 13:14:41, 2025-07-24 13:21:38) <-- (may instantiate this module)
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb_sb\FABOSC_0\prj_2_memory_sb_sb_FABOSC_0_OSC.v (2025-07-24 13:14:08, 2025-07-24 13:20:57) <-- (may instantiate this module)
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb_sb\prj_2_memory_sb_sb.v (2025-07-24 13:14:08, 2025-07-24 13:20:57) <-- (may instantiate this module)
 10       work.RCOSC_1MHZ_FAB.verilog may have changed because the following files changed:
-                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-05-16 10:34:01, 2025-05-16 10:52:19) <-- (may instantiate this module)
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-07-24 13:14:41, 2025-07-24 13:21:38) <-- (may instantiate this module)
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb_sb\FABOSC_0\prj_2_memory_sb_sb_FABOSC_0_OSC.v (2025-07-24 13:14:08, 2025-07-24 13:20:57) <-- (may instantiate this module)
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb_sb\prj_2_memory_sb_sb.v (2025-07-24 13:14:08, 2025-07-24 13:20:57) <-- (may instantiate this module)
 11       work.RCOSC_25_50MHZ.verilog may have changed because the following files changed:
-                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-05-16 10:34:01, 2025-05-16 10:52:19) <-- (may instantiate this module)
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-07-24 13:14:41, 2025-07-24 13:21:38) <-- (may instantiate this module)
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb_sb\FABOSC_0\prj_2_memory_sb_sb_FABOSC_0_OSC.v (2025-07-24 13:14:08, 2025-07-24 13:20:57) <-- (may instantiate this module)
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb_sb\prj_2_memory_sb_sb.v (2025-07-24 13:14:08, 2025-07-24 13:20:57) <-- (may instantiate this module)
 12       work.RCOSC_25_50MHZ_FAB.verilog may have changed because the following files changed:
-                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-05-16 10:34:01, 2025-05-16 10:52:19) <-- (may instantiate this module)
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-07-24 13:14:41, 2025-07-24 13:21:38) <-- (may instantiate this module)
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb_sb\FABOSC_0\prj_2_memory_sb_sb_FABOSC_0_OSC.v (2025-07-24 13:14:08, 2025-07-24 13:20:57) <-- (may instantiate this module)
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb_sb\prj_2_memory_sb_sb.v (2025-07-24 13:14:08, 2025-07-24 13:20:57) <-- (may instantiate this module)
 2        work.TBEC_RSC_decoder.verilog may have changed because the following files changed:
-                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-05-16 10:34:01, 2025-05-16 10:52:19) <-- (may instantiate this module)
-                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\ecc_design.sv (2025-05-16 10:34:01, 2025-05-16 10:52:14) <-- (may instantiate this module)
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-07-24 13:14:41, 2025-07-24 13:21:38) <-- (may instantiate this module)
 3        work.TBEC_RSC_encoder.verilog may have changed because the following files changed:
-                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-05-16 10:34:01, 2025-05-16 10:52:19) <-- (may instantiate this module)
-                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\ecc_design.sv (2025-05-16 10:34:01, 2025-05-16 10:52:14) <-- (may instantiate this module)
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-07-24 13:14:41, 2025-07-24 13:21:38) <-- (may instantiate this module)
 15       work.XTLOSC.verilog may have changed because the following files changed:
-                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-05-16 10:34:01, 2025-05-16 10:52:19) <-- (may instantiate this module)
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-07-24 13:14:41, 2025-07-24 13:21:38) <-- (may instantiate this module)
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb_sb\FABOSC_0\prj_2_memory_sb_sb_FABOSC_0_OSC.v (2025-07-24 13:14:08, 2025-07-24 13:20:57) <-- (may instantiate this module)
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb_sb\prj_2_memory_sb_sb.v (2025-07-24 13:14:08, 2025-07-24 13:20:57) <-- (may instantiate this module)
 16       work.XTLOSC_FAB.verilog may have changed because the following files changed:
-                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-05-16 10:34:01, 2025-05-16 10:52:19) <-- (may instantiate this module)
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-07-24 13:14:41, 2025-07-24 13:21:38) <-- (may instantiate this module)
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb_sb\FABOSC_0\prj_2_memory_sb_sb_FABOSC_0_OSC.v (2025-07-24 13:14:08, 2025-07-24 13:20:57) <-- (may instantiate this module)
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb_sb\prj_2_memory_sb_sb.v (2025-07-24 13:14:08, 2025-07-24 13:20:57) <-- (may instantiate this module)
+22       work.coreresetp_pcie_hotreset.verilog may have changed because the following files changed:
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-07-24 13:14:41, 2025-07-24 13:21:38) <-- (may instantiate this module)
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb_sb\prj_2_memory_sb_sb.v (2025-07-24 13:14:08, 2025-07-24 13:20:57) <-- (may instantiate this module)
 4        work.ecc_design.verilog may have changed because the following files changed:
-                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-05-16 10:34:01, 2025-05-16 10:52:19) <-- (may instantiate this module)
-                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\ecc_design.sv (2025-05-16 10:34:01, 2025-05-16 10:52:14) <-- (module definition)
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-07-24 13:14:41, 2025-07-24 13:21:38) <-- (may instantiate this module)
 5        work.fpga_top_design.verilog may have changed because the following files changed:
-                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-05-16 10:34:01, 2025-05-16 10:52:19) <-- (may instantiate this module)
-                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\ecc_design.sv (2025-05-16 10:34:01, 2025-05-16 10:52:14) <-- (may instantiate this module)
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-07-24 13:14:41, 2025-07-24 13:21:38) <-- (may instantiate this module)
 6        work.prj_2_memory_sb.verilog may have changed because the following files changed:
-                        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-05-16 10:34:01, 2025-05-16 10:52:19) <-- (module definition)
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-07-24 13:14:41, 2025-07-24 13:21:38) <-- (module definition)
+23       work.prj_2_memory_sb_sb.verilog may have changed because the following files changed:
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-07-24 13:14:41, 2025-07-24 13:21:38) <-- (may instantiate this module)
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb_sb\prj_2_memory_sb_sb.v (2025-07-24 13:14:08, 2025-07-24 13:20:57) <-- (module definition)
+24       work.prj_2_memory_sb_sb_CCC_0_FCCC.verilog may have changed because the following files changed:
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-07-24 13:14:41, 2025-07-24 13:21:38) <-- (may instantiate this module)
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb_sb\CCC_0\prj_2_memory_sb_sb_CCC_0_FCCC.v (2025-07-24 13:14:07, 2025-07-24 13:20:57) <-- (module definition)
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb_sb\prj_2_memory_sb_sb.v (2025-07-24 13:14:08, 2025-07-24 13:20:57) <-- (may instantiate this module)
+25       work.prj_2_memory_sb_sb_FABOSC_0_OSC.verilog may have changed because the following files changed:
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-07-24 13:14:41, 2025-07-24 13:21:38) <-- (may instantiate this module)
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb_sb\FABOSC_0\prj_2_memory_sb_sb_FABOSC_0_OSC.v (2025-07-24 13:14:08, 2025-07-24 13:20:57) <-- (module definition)
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb_sb\prj_2_memory_sb_sb.v (2025-07-24 13:14:08, 2025-07-24 13:20:57) <-- (may instantiate this module)
+26       work.prj_2_memory_sb_sb_MSS.verilog may have changed because the following files changed:
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v (2025-07-24 13:14:41, 2025-07-24 13:21:38) <-- (may instantiate this module)
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb_sb\prj_2_memory_sb_sb.v (2025-07-24 13:14:08, 2025-07-24 13:20:57) <-- (may instantiate this module)
+                        C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb_sb_MSS\prj_2_memory_sb_sb_MSS.v (2025-07-24 13:14:05, 2025-07-24 13:20:55) <-- (module definition)
 
 *******************************************************************
-Unmodified files: 13
+Unmodified files: 14
 FID:  path (timestamp)
 0        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v (2024-01-04 13:11:02)
 1        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\hypermods.v (2024-01-04 13:04:40)
 2        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\scemi_objects.v (2024-01-04 13:04:40)
 3        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\scemi_pipes.svh (2024-01-04 13:04:40)
 4        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\umr_capim.v (2024-01-04 13:08:34)
-42       C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\Actel\SgCore\OSC\2.0.101\osc_comps.v (2025-03-12 13:32:57)
-43       C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\OSC_C0\OSC_C0.v (2025-03-12 13:32:57)
-44       C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v (2025-03-12 13:32:57)
-46       C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\MRSC_decoder.sv (2025-03-12 13:32:58)
-47       C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\MRSC_encoder.sv (2025-03-12 13:32:58)
-48       C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\TBEC_RSC_decoder.sv (2025-03-12 13:32:58)
-49       C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\TBEC_RSC_encoder.sv (2025-03-12 13:32:58)
-50       C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\design.sv (2025-05-16 10:43:21)
+62       C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v (2024-09-10 15:44:31)
+63       C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v (2024-09-10 15:44:31)
+52       C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\component\Actel\SgCore\OSC\2.0.101\osc_comps.v (2024-09-10 15:44:32)
+56       C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\hdl\MRSC_decoder.sv (2025-07-24 12:38:58)
+57       C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\hdl\MRSC_encoder.sv (2025-07-24 12:38:58)
+58       C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\hdl\TBEC_RSC_decoder.sv (2025-07-24 12:38:58)
+59       C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\hdl\TBEC_RSC_encoder.sv (2025-07-24 12:38:58)
+60       C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\hdl\design.sv (2025-07-24 12:38:58)
+61       C:\Users\Lucas\Documents\Nascerr\FPGA_design\FPGA2memory\hdl\ecc_design.sv (2025-07-24 12:38:58)
 
 *******************************************************************
 Unchanged modules: 0
