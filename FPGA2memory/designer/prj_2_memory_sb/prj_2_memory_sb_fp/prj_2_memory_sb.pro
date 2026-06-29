@@ -1,6 +1,6 @@
 <project name="prj_2_memory_sb" version="1.2">
     <ProjectDirectory>
-        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\designer\prj_2_memory_sb\prj_2_memory_sb_fp
+        C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\designer\prj_2_memory_sb\prj_2_memory_sb_fp
     </ProjectDirectory>
     <View>
         ChainView
@@ -9,7 +9,7 @@
         M2S025T
     </LiberoTargetDevice>
     <LogFile>
-        C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\designer\prj_2_memory_sb\prj_2_memory_sb_fp\prj_2_memory_sb.log
+        C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\designer\prj_2_memory_sb\prj_2_memory_sb_fp\prj_2_memory_sb.log
     </LogFile>
     <SerializationOption>
         Skip
@@ -17,7 +17,7 @@
     <ProgrammingInterface>
         JTAGMode
     </ProgrammingInterface>
-    <programmer status="enable" type="FlashPro5" revision="UndefRev" connection="usb1.1">
+    <programmer status="enable" type="FlashPro5" revision="UndefRev" connection="UndefConn">
         <name>
             S207823
         </name>

@@ -1,0 +1,14 @@
+#List of actual used RTLs.
+
+File                                                                                                                   Type     IN_PROJECT/INCLUDED/LIBRARY
+
+"C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v"         verilog                      IN PROJECT
+"C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\component\work\OSC_C0\OSC_C0.v"                           verilog                      IN PROJECT
+"C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v"     verilog                      IN PROJECT
+"C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\component\Actel\SgCore\OSC\2.0.101\osc_comps.v"           verilog                      IN PROJECT
+"C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\hdl\MRSC_decoder.sv"                                      verilog                        INCLUDED
+"C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\hdl\MRSC_encoder.sv"                                      verilog                        INCLUDED
+"C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\hdl\TBEC_RSC_decoder.sv"                                  verilog                        INCLUDED
+"C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\hdl\TBEC_RSC_encoder.sv"                                  verilog                        INCLUDED
+"C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\hdl\ecc_design.sv"                                        verilog                        INCLUDED
+"C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\hdl\design.sv"                                            verilog                      IN PROJECT

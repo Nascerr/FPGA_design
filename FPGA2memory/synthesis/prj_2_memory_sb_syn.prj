@@ -1,21 +1,22 @@
 #--  Synopsys, Inc.
-#--  Version V-2023.09M
-#--  Project file C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\synthesis\prj_2_memory_sb_syn.prj
-#--  Written on Fri May 16 10:53:03 2025
+#--  Version W-2025.03M-SP1-1
+#--  Project file C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\synthesis\prj_2_memory_sb_syn.prj
+#--  Written on Mon Jun 29 09:56:02 2026
 
 
 #project files
-add_file -include "C:/Users/Jmano/Projetos_LESC/FPGA_design/FPGA2memory/hdl/TBEC_RSC_encoder.sv"
-add_file -include "C:/Users/Jmano/Projetos_LESC/FPGA_design/FPGA2memory/hdl/TBEC_RSC_decoder.sv"
-add_file -include "C:/Users/Jmano/Projetos_LESC/FPGA_design/FPGA2memory/hdl/MRSC_encoder.sv"
-add_file -include "C:/Users/Jmano/Projetos_LESC/FPGA_design/FPGA2memory/hdl/MRSC_decoder.sv"
-add_file -include "C:/Users/Jmano/Projetos_LESC/FPGA_design/FPGA2memory/hdl/ecc_design.sv"
-add_file -verilog "C:/Users/Jmano/Projetos_LESC/FPGA_design/FPGA2memory/component/Actel/SgCore/OSC/2.0.101/osc_comps.v"
-add_file -verilog "C:/Users/Jmano/Projetos_LESC/FPGA_design/FPGA2memory/component/work/OSC_C0/OSC_C0_0/OSC_C0_OSC_C0_0_OSC.v"
-add_file -verilog "C:/Users/Jmano/Projetos_LESC/FPGA_design/FPGA2memory/component/work/OSC_C0/OSC_C0.v"
-add_file -verilog -vlog_std sysv "C:/Users/Jmano/Projetos_LESC/FPGA_design/FPGA2memory/hdl/design.sv"
-add_file -verilog "C:/Users/Jmano/Projetos_LESC/FPGA_design/FPGA2memory/component/work/prj_2_memory_sb/prj_2_memory_sb.v"
-add_file -fpga_constraint "C:/Users/Jmano/Projetos_LESC/FPGA_design/FPGA2memory/designer/prj_2_memory_sb/synthesis.fdc"
+add_file -verilog "../component/syn_comps.v"
+add_file -include "C:/Users/Acacio/Documents/GitHub/FPGA_design/FPGA2memory/hdl/TBEC_RSC_encoder.sv"
+add_file -include "C:/Users/Acacio/Documents/GitHub/FPGA_design/FPGA2memory/hdl/TBEC_RSC_decoder.sv"
+add_file -include "C:/Users/Acacio/Documents/GitHub/FPGA_design/FPGA2memory/hdl/MRSC_encoder.sv"
+add_file -include "C:/Users/Acacio/Documents/GitHub/FPGA_design/FPGA2memory/hdl/MRSC_decoder.sv"
+add_file -include "C:/Users/Acacio/Documents/GitHub/FPGA_design/FPGA2memory/hdl/ecc_design.sv"
+add_file -verilog "C:/Users/Acacio/Documents/GitHub/FPGA_design/FPGA2memory/component/Actel/SgCore/OSC/2.0.101/osc_comps.v"
+add_file -verilog "C:/Users/Acacio/Documents/GitHub/FPGA_design/FPGA2memory/component/work/OSC_C0/OSC_C0_0/OSC_C0_OSC_C0_0_OSC.v"
+add_file -verilog "C:/Users/Acacio/Documents/GitHub/FPGA_design/FPGA2memory/component/work/OSC_C0/OSC_C0.v"
+add_file -verilog -vlog_std sysv "C:/Users/Acacio/Documents/GitHub/FPGA_design/FPGA2memory/hdl/design.sv"
+add_file -verilog "C:/Users/Acacio/Documents/GitHub/FPGA_design/FPGA2memory/component/work/prj_2_memory_sb/prj_2_memory_sb.v"
+add_file -fpga_constraint "C:/Users/Acacio/Documents/GitHub/FPGA_design/FPGA2memory/designer/prj_2_memory_sb/synthesis.fdc"
 
 
 #implementation: "synthesis"
@@ -31,16 +32,12 @@ set_option -technology SmartFusion2
 set_option -part M2S025T
 set_option -package VF400
 set_option -speed_grade STD
-set_option -part_companion ""
 
 #compilation/mapping options
 set_option -use_fsm_explorer 0
 set_option -top_module "prj_2_memory_sb"
 
 # hdl_compiler_options
-set_option -distributed_compile 0
-set_option -scm2hydra 0
-set_option -scm2hydra_preserve_rtl_sig 1
 set_option -hdl_strict_syntax 0
 
 # mapper_without_write_options
@@ -52,6 +49,7 @@ set_option -srs_instrumentation 1
 set_option -write_verilog 0
 set_option -write_structural_verilog 0
 set_option -write_vhdl 0
+set_option -design_rule_fanout_limit 0
 
 # actel_options
 set_option -rw_check_on_ram 0
@@ -78,7 +76,7 @@ set_option -ternary_adder_decomp 66
 set_option -async_clkint_removal 1
 
 # Microchip SmartFusion2
-set_option -report_preserve_cdc 1
+set_option -const_mult_threshold 0
 set_option -min_cdc_sync_flops 2
 set_option -unsafe_cdc_netlist_property 0
 set_option -pack_uram_addr_reg 1
@@ -86,22 +84,12 @@ set_option -pack_uram_addr_reg 1
 # NFilter
 set_option -no_sequential_opt 0
 
-# common_options
-set_option -add_dut_hierarchy 0
-set_option -prepare_readback 0
-
-# flow_options
-set_option -slr_aware_debug 0
-
 # sequential_optimization_options
 set_option -symbolic_fsm_compiler 1
 
 # Compiler Options
 set_option -compiler_compatible 0
 set_option -resource_sharing 1
-
-# Compiler Options
-set_option -auto_infer_blackbox 0
 
 #automatic place and route (vendor) options
 set_option -write_apr_constraint 1

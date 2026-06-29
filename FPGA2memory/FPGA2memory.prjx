@@ -1,5 +1,5 @@
-KEY LIBERO "2024.1"
-KEY CAPTURE "2024.1.0.3"
+KEY LIBERO "2025.2"
+KEY CAPTURE "2025.2.0.14"
 KEY DEFAULT_IMPORT_LOC "E:\Hotline_Cases\IP_cases\2012\493642-863181735\Mir_429\component\Actel\DirectCore\CORE429\3.1.103\rtl\vhdl\core"
 KEY DEFAULT_OPEN_LOC ""
 KEY ProjectID "0"
@@ -32,7 +32,7 @@ KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
 KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
 KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
 KEY VendorTechnology_VOLTR "COM"
-KEY ProjectLocation "C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory"
+KEY ProjectLocation "C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory"
 KEY ProjectDescription ""
 KEY UseRootLocationForLinkedFiles "FALSE"
 KEY RootLocationENVForLinkedFiles ""
@@ -51,47 +51,48 @@ VALUE="Impl2",NUM=2
 VALUE="Impl3",NUM=3
 VALUE="Impl4",NUM=4
 VALUE="Impl5",NUM=5
-CURREV=5
+VALUE="Impl6",NUM=6
+CURREV=6
 ENDLIST
 LIST GlobalIncludeFileList
 ENDLIST
 LIST FileManager
 VALUE "<project>\component\Actel\DirectCore\CoreResetP\7.1.100\CoreResetP.cxf,actgen_cxf"
 STATE="utd"
-TIME="1741797177"
+TIME="1748443585"
 SIZE="584"
 PARENT="<project>\component\work\prj_2_memory_sb_sb\prj_2_memory_sb_sb.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v,hdl"
 STATE="utd"
-TIME="1741797177"
+TIME="1748443585"
 SIZE="65628"
 PARENT="<project>\component\Actel\DirectCore\CoreResetP\7.1.100\CoreResetP.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v,hdl"
 STATE="utd"
-TIME="1741797177"
+TIME="1748443585"
 SIZE="8822"
 PARENT="<project>\component\Actel\DirectCore\CoreResetP\7.1.100\CoreResetP.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\SgCore\FCCC\2.0.201\FCCC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1741797177"
+TIME="1748443585"
 SIZE="241"
 PARENT="<project>\component\work\prj_2_memory_sb_sb\prj_2_memory_sb_sb.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SgCore\OSC\2.0.101\OSC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1741797177"
+TIME="1748443585"
 SIZE="684"
 PARENT="<project>\component\work\OSC_C0\OSC_C0.cxf"
 PARENT="<project>\component\work\prj_2_memory_sb_sb\prj_2_memory_sb_sb.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SgCore\OSC\2.0.101\osc_comps.v,hdl"
 STATE="utd"
-TIME="1741797177"
+TIME="1748443585"
 SIZE="997"
 PARENT="<project>\component\Actel\SgCore\OSC\2.0.101\OSC.cxf"
 BEGIN_USE_CONSTRAINT
@@ -103,7 +104,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\SgCore\OSC\2.0.101\osc_comps_pre.v,hdl"
 STATE="utd"
-TIME="1741797177"
+TIME="1748443585"
 SIZE="793"
 PARENT="<project>\component\Actel\SgCore\OSC\2.0.101\OSC.cxf"
 BEGIN_USE_CONSTRAINT
@@ -115,172 +116,172 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS\1.1.500\MSS.cxf,actgen_cxf"
 STATE="utd"
-TIME="1741797177"
+TIME="1748443585"
 SIZE="526"
 PARENT="<project>\component\work\prj_2_memory_sb_sb_MSS\prj_2_memory_sb_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_CCC\1.0.100\MSS_CCC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1741797177"
+TIME="1748443585"
 SIZE="253"
 PARENT="<project>\component\work\prj_2_memory_sb_sb_MSS\prj_2_memory_sb_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_CC\1.0.100\MSS_CC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1741797177"
+TIME="1748443585"
 SIZE="252"
 PARENT="<project>\component\work\prj_2_memory_sb_sb_MSS\prj_2_memory_sb_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_CFGM\1.1.100\MSS_CFGM.cxf,actgen_cxf"
 STATE="utd"
-TIME="1741797177"
+TIME="1748443585"
 SIZE="254"
 PARENT="<project>\component\work\prj_2_memory_sb_sb_MSS\prj_2_memory_sb_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_CM3\1.0.200\MSS_CM3.cxf,actgen_cxf"
 STATE="utd"
-TIME="1741797177"
+TIME="1748443585"
 SIZE="253"
 PARENT="<project>\component\work\prj_2_memory_sb_sb_MSS\prj_2_memory_sb_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_DDRB\1.0.200\MSS_DDRB.cxf,actgen_cxf"
 STATE="utd"
-TIME="1741797177"
+TIME="1748443585"
 SIZE="254"
 PARENT="<project>\component\work\prj_2_memory_sb_sb_MSS\prj_2_memory_sb_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_EDAC\1.0.101\MSS_EDAC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1741797177"
+TIME="1748443585"
 SIZE="254"
 PARENT="<project>\component\work\prj_2_memory_sb_sb_MSS\prj_2_memory_sb_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_ENVM\1.0.101\MSS_ENVM.cxf,actgen_cxf"
 STATE="utd"
-TIME="1741797177"
+TIME="1748443585"
 SIZE="254"
 PARENT="<project>\component\work\prj_2_memory_sb_sb_MSS\prj_2_memory_sb_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_FIC32\1.0.100\MSS_FIC32.cxf,actgen_cxf"
 STATE="utd"
-TIME="1741797177"
+TIME="1748443585"
 SIZE="255"
 PARENT="<project>\component\work\prj_2_memory_sb_sb_MSS\prj_2_memory_sb_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_INTR\1.0.200\MSS_INTR.cxf,actgen_cxf"
 STATE="utd"
-TIME="1741797177"
+TIME="1748443585"
 SIZE="254"
 PARENT="<project>\component\work\prj_2_memory_sb_sb_MSS\prj_2_memory_sb_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_RESET\1.0.100\MSS_RESET.cxf,actgen_cxf"
 STATE="utd"
-TIME="1741797177"
+TIME="1748443585"
 SIZE="255"
 PARENT="<project>\component\work\prj_2_memory_sb_sb_MSS\prj_2_memory_sb_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_SECURITY\1.0.100\MSS_SECURITY.cxf,actgen_cxf"
 STATE="utd"
-TIME="1741797177"
+TIME="1748443585"
 SIZE="258"
 PARENT="<project>\component\work\prj_2_memory_sb_sb_MSS\prj_2_memory_sb_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_SWITCH\1.0.101\MSS_SWITCH.cxf,actgen_cxf"
 STATE="utd"
-TIME="1741797177"
+TIME="1748443585"
 SIZE="256"
 PARENT="<project>\component\work\prj_2_memory_sb_sb_MSS\prj_2_memory_sb_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\work\OSC_C0\OSC_C0.cxf,actgen_cxf"
 STATE="utd"
-TIME="1741797177"
+TIME="1748443585"
 SIZE="2518"
 ENDFILE
 VALUE "<project>\component\work\OSC_C0\OSC_C0.v,hdl"
 STATE="utd"
-TIME="1741797177"
+TIME="1748443585"
 SIZE="2908"
 PARENT="<project>\component\work\OSC_C0\OSC_C0.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1741797177"
+TIME="1748443585"
 SIZE="461"
 PARENT="<project>\component\work\OSC_C0\OSC_C0.cxf"
 ENDFILE
 VALUE "<project>\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v,hdl"
 STATE="utd"
-TIME="1741797177"
+TIME="1748443585"
 SIZE="825"
 PARENT="<project>\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\prj_2_memory_sb\prj_2_memory_sb.cxf,actgen_cxf"
 STATE="utd"
-TIME="1747401014"
+TIME="1748875849"
 SIZE="11390"
 ENDFILE
 VALUE "<project>\component\work\prj_2_memory_sb\prj_2_memory_sb.v,hdl"
 STATE="utd"
-TIME="1747402441"
+TIME="1782737706"
 SIZE="9782"
 PARENT="<project>\component\work\prj_2_memory_sb\prj_2_memory_sb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\prj_2_memory_sb_sb\CCC_0\prj_2_memory_sb_sb_CCC_0_FCCC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1741797177"
+TIME="1748443585"
 SIZE="723"
 PARENT="<project>\component\work\prj_2_memory_sb_sb\prj_2_memory_sb_sb.cxf"
 ENDFILE
 VALUE "<project>\component\work\prj_2_memory_sb_sb\CCC_0\prj_2_memory_sb_sb_CCC_0_FCCC.v,hdl"
 STATE="utd"
-TIME="1741797177"
+TIME="1748443585"
 SIZE="1793"
 PARENT="<project>\component\work\prj_2_memory_sb_sb\CCC_0\prj_2_memory_sb_sb_CCC_0_FCCC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\prj_2_memory_sb_sb\FABOSC_0\prj_2_memory_sb_sb_FABOSC_0_OSC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1741797177"
+TIME="1748443585"
 SIZE="485"
 PARENT="<project>\component\work\prj_2_memory_sb_sb\prj_2_memory_sb_sb.cxf"
 ENDFILE
 VALUE "<project>\component\work\prj_2_memory_sb_sb\FABOSC_0\prj_2_memory_sb_sb_FABOSC_0_OSC.v,hdl"
 STATE="utd"
-TIME="1741797177"
+TIME="1748443585"
 SIZE="837"
 PARENT="<project>\component\work\prj_2_memory_sb_sb\FABOSC_0\prj_2_memory_sb_sb_FABOSC_0_OSC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\prj_2_memory_sb_sb\prj_2_memory_sb_sb.cxf,actgen_cxf"
 STATE="utd"
-TIME="1741797177"
+TIME="1748443585"
 SIZE="5251"
 ENDFILE
 VALUE "<project>\component\work\prj_2_memory_sb_sb\prj_2_memory_sb_sb.v,hdl"
 STATE="utd"
-TIME="1741797177"
+TIME="1748443585"
 SIZE="11387"
 PARENT="<project>\component\work\prj_2_memory_sb_sb\prj_2_memory_sb_sb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\prj_2_memory_sb_sb_MSS\prj_2_memory_sb_sb_MSS.cxf,actgen_cxf"
 STATE="utd"
-TIME="1741797177"
+TIME="1748443585"
 SIZE="12086"
 ENDFILE
 VALUE "<project>\component\work\prj_2_memory_sb_sb_MSS\prj_2_memory_sb_sb_MSS.v,hdl"
 STATE="utd"
-TIME="1741797177"
+TIME="1748443585"
 SIZE="44928"
 PARENT="<project>\component\work\prj_2_memory_sb_sb_MSS\prj_2_memory_sb_sb_MSS.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\prj_2_memory_sb_sb_MSS\prj_2_memory_sb_sb_MSS_pre.v,hdl"
 STATE="utd"
-TIME="1741797177"
+TIME="1748443585"
 SIZE="58495"
 PARENT="<project>\component\work\prj_2_memory_sb_sb_MSS\prj_2_memory_sb_sb_MSS.cxf"
 BEGIN_USE_CONSTRAINT
@@ -292,7 +293,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\prj_2_memory_sb_sb_MSS\prj_2_memory_sb_sb_MSS_syn.v,hdl"
 STATE="utd"
-TIME="1741797177"
+TIME="1748443585"
 SIZE="51351"
 PARENT="<project>\component\work\prj_2_memory_sb_sb_MSS\prj_2_memory_sb_sb_MSS.cxf"
 BEGIN_USE_CONSTRAINT
@@ -304,93 +305,93 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\constraint\io\user.pdc,io_pdc"
 STATE="utd"
-TIME="1741797177"
+TIME="1748443585"
 SIZE="12627"
 IS_TARGET="TRUE"
 ENDFILE
 VALUE "<project>\hdl\design.sv,hdl"
 STATE="utd"
-TIME="1747402441"
-SIZE="2913"
+TIME="1748443585"
+SIZE="2909"
 ENDFILE
 VALUE "<project>\hdl\ecc_design.sv,hdl"
 STATE="utd"
-TIME="1747402441"
-SIZE="3018"
+TIME="1782737706"
+SIZE="3016"
 ENDFILE
 VALUE "<project>\hdl\MRSC_decoder.sv,hdl"
 STATE="utd"
-TIME="1741797178"
+TIME="1748443585"
 SIZE="2713"
 ENDFILE
 VALUE "<project>\hdl\MRSC_encoder.sv,hdl"
 STATE="utd"
-TIME="1741797178"
+TIME="1748443585"
 SIZE="1320"
 ENDFILE
 VALUE "<project>\hdl\TBEC_RSC_decoder.sv,hdl"
 STATE="utd"
-TIME="1741797178"
+TIME="1748443585"
 SIZE="3093"
 ENDFILE
 VALUE "<project>\hdl\TBEC_RSC_encoder.sv,hdl"
 STATE="utd"
-TIME="1741797178"
+TIME="1748443585"
 SIZE="1385"
 ENDFILE
 VALUE "<project>\simulation\CM3_compile_bfm.tcl,sim"
 STATE="utd"
-TIME="1741797178"
+TIME="1748443585"
 SIZE="504"
 PARENT="<project>\component\work\prj_2_memory_sb_sb_MSS\prj_2_memory_sb_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\simulation\peripheral_init.bfm,sim"
 STATE="utd"
-TIME="1741797178"
+TIME="1748443585"
 SIZE="8744"
 PARENT="<project>\component\Actel\SmartFusion2MSS\MSS\1.1.500\MSS.cxf"
 ENDFILE
 VALUE "<project>\simulation\subsystem.bfm,sim"
 STATE="utd"
-TIME="1747338028"
+TIME="1748443585"
 SIZE="602"
 PARENT="<project>\component\work\prj_2_memory_sb_sb\prj_2_memory_sb_sb.cxf"
 ENDFILE
 VALUE "<project>\simulation\test.bfm,sim"
 STATE="utd"
-TIME="1741797178"
+TIME="1748443585"
 SIZE="734"
 PARENT="<project>\component\work\prj_2_memory_sb_sb_MSS\prj_2_memory_sb_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\simulation\user.bfm,sim"
 STATE="utd"
-TIME="1741797178"
+TIME="1748443585"
 SIZE="555"
 PARENT="<project>\component\work\prj_2_memory_sb_sb_MSS\prj_2_memory_sb_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\synthesis\prj_2_memory_sb.so,so"
 STATE="utd"
-TIME="1747402441"
+TIME="1782737706"
 SIZE="257"
 ENDFILE
 VALUE "<project>\synthesis\prj_2_memory_sb.vm,syn_vm"
 STATE="utd"
-TIME="1747402441"
-SIZE="104659"
+TIME="1782737706"
+SIZE="107443"
 ENDFILE
 VALUE "<project>\synthesis\prj_2_memory_sb_syn.prj,prj"
 STATE="utd"
-TIME="1747402441"
+TIME="1782737706"
 SIZE="3660"
 ENDFILE
 VALUE "<project>\synthesis\prj_2_memory_sb_vm.sdc,syn_sdc"
 STATE="utd"
-TIME="1747402441"
+TIME="1782737706"
 SIZE="2157"
 ENDFILE
 VALUE "<project>\synthesis\synwork\layer0.so,so"
 STATE="utd"
-TIME="1747334666"
+TIME="1748443585"
 SIZE="159"
 ENDFILE
 ENDLIST
@@ -444,6 +445,16 @@ Used_File_List
 ENDUsed_File_List
 ENDLIST
 LIST Impl5
+ideSYNTHESIS(<project>\synthesis\prj_2_memory_sb.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl6
 ideSYNTHESIS(<project>\synthesis\prj_2_memory_sb.vm,syn_vm)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
@@ -551,7 +562,7 @@ EndProfile
 NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
-LOCATION="C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin\synplify_pro.exe"
+LOCATION="C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\bin\synplify_pro.exe"
 PARAM=""
 BATCH=0
 LICENSE=""
@@ -560,7 +571,7 @@ EndProfile
 NAME="ModelSim ME Pro"
 FUNCTION="Simulation"
 TOOL="ModelSim Pro Edition"
-LOCATION="C:\Microchip\Libero_SoC_v2024.1\ModelSimPro\win32acoem\modelsim.exe"
+LOCATION="C:\Microchip\Libero_SoC_2025.2\Libero_SoC\ModelSim_Pro\win32acoem\modelsim.exe"
 PARAM=""
 BATCH=0
 LICENSE=""
@@ -569,7 +580,7 @@ EndProfile
 NAME="Identify Debugger"
 FUNCTION="IdentifyDebugger"
 TOOL="Identify Debugger"
-LOCATION="C:\Microchip\Libero_SoC_v2024.1\Identify\bin\identify_debugger.exe"
+LOCATION="C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Identify\bin\identify_debugger.exe"
 PARAM=""
 BATCH=0
 LICENSE=""
@@ -619,6 +630,16 @@ Used_File_List
 ENDUsed_File_List
 ENDLIST
 LIST Impl5
+ideSYNTHESIS(<project>\synthesis\prj_2_memory_sb.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl6
 ideSYNTHESIS(<project>\synthesis\prj_2_memory_sb.vm,syn_vm)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE

@@ -1,9 +1,10 @@
+Option definition override for: enable_hydra_infer_clocks_from_latch_data
 
                                Synplify Pro (R) 
 
-                  Version V-2023.09M for win64 - Jan 04, 2024 
+               Version W-2025.03M-SP1-1 for win64 - Nov 18, 2025 
 
-                    Copyright (c) 1988 - 2024 Synopsys, Inc.
+                    Copyright (c) 1988 - 2025 Synopsys, Inc.
    This software and the associated documentation are proprietary to Synopsys,
  Inc. This software may only be used in accordance with the terms and conditions
  of a written license agreement with Synopsys, Inc. All other use, reproduction,
@@ -19,11 +20,11 @@
             Inclusivity and Diversity" (Refer to article 000036315 at
                         https://solvnetplus.synopsys.com)
 
-Starting:    C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\mbin\synbatch.exe
-Install:     C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
-Hostname:    LAPTOP-MLN7VOA0
-Date:        Fri May 16 10:52:43 2025
-Version:     V-2023.09M
+Starting:    C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\bin64\mbin\synbatch.exe
+Install:     C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro
+Hostname:    DESKTOP-RBAIS6T
+Date:        Mon Jun 29 09:55:45 2026
+Version:     W-2025.03M-SP1-1
 
 Arguments:   -product synplify_base -licensetype synplifypro_actel -batch -log synplify.log prj_2_memory_sb_syn.tcl
 ProductType: synplify_pro
@@ -36,70 +37,75 @@ License Option: actel_oem
 Running in Vendor Mode
 
 
-@W: UI147 |File already exists in project: "C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\MRSC_decoder.sv"
-@W: UI147 |File already exists in project: "C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\MRSC_encoder.sv"
-@W: UI147 |File already exists in project: "C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\TBEC_RSC_decoder.sv"
-@W: UI147 |File already exists in project: "C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\TBEC_RSC_encoder.sv"
-@W: UI147 |File already exists in project: "C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\ecc_design.sv"
-scm2hydra_preserve_rtl_sig is not supported in current product.
+
+
+@W: UI147 |File already exists in project: "C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\hdl\MRSC_decoder.sv"
+@W: UI147 |File already exists in project: "C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\hdl\MRSC_encoder.sv"
+@W: UI147 |File already exists in project: "C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\hdl\TBEC_RSC_decoder.sv"
+@W: UI147 |File already exists in project: "C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\hdl\TBEC_RSC_encoder.sv"
+@W: UI147 |File already exists in project: "C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\hdl\ecc_design.sv"
+"distributed_compile" is unrecognized option for current device
+"scm2hydra" is unrecognized option for current device
+"scm2hydra_preserve_rtl_sig" is unrecognized option for current device
 add_dut_hierarchy is not supported in current product.
 prepare_readback is not supported in current product.
+"slr_aware_debug" is unrecognized option for current device
 auto_infer_blackbox is not supported in current product.
-log file: "C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\synthesis\prj_2_memory_sb.srr"
+log file: "C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\synthesis\prj_2_memory_sb.srr"
 Running: synthesis in foreground
 
 Running prj_2_memory_sb_syn|synthesis
 
 Running Flow: compile (Compile) on prj_2_memory_sb_syn|synthesis
-# Fri May 16 10:52:44 2025
+# Mon Jun 29 09:55:46 2026
 
 Running Flow: compile_flow (Compile Process) on prj_2_memory_sb_syn|synthesis
-# Fri May 16 10:52:44 2025
+# Mon Jun 29 09:55:46 2026
 
 Running: compiler (Compile Input) on prj_2_memory_sb_syn|synthesis
-# Fri May 16 10:52:44 2025
-Copied C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\synthesis\synwork\prj_2_memory_sb_comp.srs to C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\synthesis\prj_2_memory_sb.srs
+# Mon Jun 29 09:55:46 2026
+Copied C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\synthesis\synwork\prj_2_memory_sb_comp.srs to C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\synthesis\prj_2_memory_sb.srs
 
 compiler completed
-# Fri May 16 10:52:51 2025
+# Mon Jun 29 09:55:53 2026
 
 Return Code: 0
 Run Time:00h:00m:06s
 
 Running: multi_srs_gen (Multi-srs Generator) on prj_2_memory_sb_syn|synthesis
-# Fri May 16 10:52:51 2025
+# Mon Jun 29 09:55:53 2026
 
 multi_srs_gen completed
-# Fri May 16 10:52:52 2025
+# Mon Jun 29 09:55:54 2026
 
 Return Code: 0
 Run Time:00h:00m:01s
-Copied C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\synthesis\synwork\prj_2_memory_sb_mult.srs to C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\synthesis\prj_2_memory_sb.srs
+Copied C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\synthesis\synwork\prj_2_memory_sb_mult.srs to C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\synthesis\prj_2_memory_sb.srs
 Complete: Compile Process on prj_2_memory_sb_syn|synthesis
 
 Running: premap (Premap) on prj_2_memory_sb_syn|synthesis
-# Fri May 16 10:52:52 2025
+# Mon Jun 29 09:55:54 2026
 
 premap completed with warnings
-# Fri May 16 10:52:55 2025
+# Mon Jun 29 09:55:56 2026
 
 Return Code: 1
-Run Time:00h:00m:03s
+Run Time:00h:00m:02s
 Complete: Compile on prj_2_memory_sb_syn|synthesis
 
 Running Flow: map (Map) on prj_2_memory_sb_syn|synthesis
-# Fri May 16 10:52:55 2025
+# Mon Jun 29 09:55:57 2026
 License granted for 4 parallel jobs
 
 Running: fpga_mapper (Map & Optimize) on prj_2_memory_sb_syn|synthesis
-# Fri May 16 10:52:55 2025
-Copied C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\synthesis\synwork\prj_2_memory_sb_m.srm to C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\synthesis\prj_2_memory_sb.srm
+# Mon Jun 29 09:55:57 2026
+Copied C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\synthesis\synwork\prj_2_memory_sb_m.srm to C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\synthesis\prj_2_memory_sb.srm
 
 fpga_mapper completed with warnings
-# Fri May 16 10:53:03 2025
+# Mon Jun 29 09:56:01 2026
 
 Return Code: 1
-Run Time:00h:00m:08s
+Run Time:00h:00m:04s
 Complete: Map on prj_2_memory_sb_syn|synthesis
 Complete: Logic Synthesis on prj_2_memory_sb_syn|synthesis
 TCL script complete: "prj_2_memory_sb_syn.tcl"

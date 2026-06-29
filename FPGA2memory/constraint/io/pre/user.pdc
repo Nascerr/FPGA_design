@@ -2,11 +2,11 @@
 
 # User I/O Constraints file 
 
-# Version: 2024.1 2024.1.0.3
+# Version: 2025.2 2025.2.0.14
 
 # Family: SmartFusion2 , Die: M2S025T , Package: 256 VF
 
-# Date generated: Wed Feb 12 15:32:02 2025 
+# Date generated: Mon Jun 29 09:58:43 2026 
 
 
 # 
@@ -356,13 +356,13 @@ set_io SRAM_WE         \
 
 
 set_io ecc_sel0       \
-    -pinname J12      \
+    -pinname G16      \
     -fixed yes        \
     -DIRECTION INPUT
 
 
 set_io ecc_sel1       \
-    -pinname K12      \
+    -pinname H15      \
     -fixed yes        \
     -DIRECTION INPUT
 

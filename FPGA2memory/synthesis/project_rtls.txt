@@ -1,0 +1,7 @@
+"C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\smartfusion2.v"
+"C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\component\syn_comps.v"
+"C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\component\Actel\SgCore\OSC\2.0.101\osc_comps.v"
+"C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v"
+"C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\component\work\OSC_C0\OSC_C0.v"
+"C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\hdl\design.sv"
+"C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v"

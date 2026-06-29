@@ -1,8 +1,8 @@
 ----------------------------------------------------------------
--Pin Report - Date: Fri May 16 10:53:47 2025 Pinchecksum: NOT-AVAILABLE
+-Pin Report - Date: Mon Jun 29 09:59:07 2026 Pinchecksum: NOT-AVAILABLE
 -Product: Designer
--Release: v2024.1
--Version: 2024.1.0.3
+-Release: 2025.2
+-Version: 2025.2.0.14
 -Design Name: prj_2_memory_sb
 -Family: SmartFusion2
 -Die: M2S025T
@@ -122,7 +122,7 @@ G12                          MSI32NB1/MMUART_0_TXD/GPIO_27_B             Unassig
 G13                          MSIO33PB1/MMUART_0_RXD/GPIO_28_B            Unassigned  
 G14                          MSIO15NB2/SPI_0_SS7/GPIO_22_A               Unassigned  
 G15                          VSS                                         Reserved    
-G16                          MSIO14NB2/SPI_0_SS5/GPIO_20_A               Unassigned  
+G16     ecc_sel0             MSIO14NB2/SPI_0_SS5/GPIO_20_A               Fixed       LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
 H1                           MSIOD103PB6/CCC_SW0_CLKI0                   Special     
 H2                           VDDI7                                       Reserved    
 H3      MCU_LB               MSIO99PB7/CCC_NW0_CLKI0                     Special     LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
@@ -137,7 +137,7 @@ H11                          FLASH_GOLDEN_N                              Reserve
 H12                          MSIO27NB1/MMUART_1_TXD/GPIO_24_B            Unassigned  
 H13                          MSIO28NB1/MMUART_1_RXD/GPIO_26_B            Unassigned  
 H14                          MSIO15PB2/SPI_0_SS6/GPIO_21_A               Unassigned  
-H15                          MSIO14PB2/SPI_0_SS4/GPIO_19_A               Unassigned  
+H15     ecc_sel1             MSIO14PB2/SPI_0_SS4/GPIO_19_A               Fixed       LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
 H16     flag0                MSIO11NB2/I2C_1_SCL/GPIO_1_A/CCC_NE1_CLKI0  Special     LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
 J1                           MSIOD118PB5/SERDES_0_REFCLK0_P              Unassigned  
 J2                           MSIOD118NB5/SERDES_0_REFCLK0_N              Unassigned  
@@ -150,7 +150,7 @@ J8                           VSS                                         Reserve
 J9                           VDD                                         Reserved    
 J10                          VSS                                         Reserved    
 J11                          VDDI2                                       Reserved    
-J12     ecc_sel0             MSIO13NB2/SPI_0_SS0/GPIO_7_A                Fixed       LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
+J12                          MSIO13NB2/SPI_0_SS0/GPIO_7_A                Unassigned  
 J13                          MSIO12NB2/SPI_0_SDI/GPIO_5_A                Unassigned  
 J14                          MSIO12PB2/SPI_0_CLK                         Unassigned  
 J15                          VDDI2                                       Reserved    
@@ -166,7 +166,7 @@ K8                           VDD                                         Reserve
 K9                           VSS                                         Reserved    
 K10                          VDD                                         Reserved    
 K11                          VPPNVM                                      Reserved    
-K12     ecc_sel1             MSIO13PB2/SPI_0_SDO/GPIO_6_A                Fixed       LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
+K12                          MSIO13PB2/SPI_0_SDO/GPIO_6_A                Unassigned  
 K13                          VSS                                         Reserved    
 K14                          MSIO6PB2/USB_DATA6_B                        Unassigned  
 K15     MCU_UB               MSIO6NB2                                    Fixed       LVCMOS25  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               

@@ -5,11 +5,11 @@ The file contains the area information from mapper to be displayed as part of th
 *******************************************************************************************-->
 <report_table display_priority="1" name="Area Summary">
 <report_link name="Detailed report">
-<data>C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\synthesis\synlog\report\prj_2_memory_sb_fpga_mapper_resourceusage.rpt</data>
+<data>C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\synthesis\synlog\report\prj_2_memory_sb_fpga_mapper_resourceusage.rpt</data>
 <title>Resource Usage</title>
 </report_link>
 <report_link name="Hierarchical Area report">
-<data>C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\synthesis\synlog\report\prj_2_memory_sb_fpga_mapper_hier_area_report.xml</data>
+<data>C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\synthesis\synlog\report\prj_2_memory_sb_fpga_mapper_hier_area_report.xml</data>
 <title>Hierarchical Area Report</title>
 </report_link>
 <parameter tooltip="Total Sequential Cells used" name="Sequential Cells">
@@ -25,6 +25,6 @@ The file contains the area information from mapper to be displayed as part of th
 <data>1</data>
 </parameter>
 <parameter tcl_name="total_luts" tooltip="Total LUTs used" name="LUTs">
-<data>291</data>
+<data>301</data>
 </parameter>
 </report_table>

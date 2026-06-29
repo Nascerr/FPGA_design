@@ -1,8 +1,8 @@
 ----------------------------------------------------------------
--Pin Report - Date: Fri May 16 10:53:47 2025 Pinchecksum: NOT-AVAILABLE
+-Pin Report - Date: Mon Jun 29 09:59:07 2026 Pinchecksum: NOT-AVAILABLE
 -Product: Designer
--Release: v2024.1
--Version: 2024.1.0.3
+-Release: 2025.2
+-Version: 2025.2.0.14
 -Design Name: prj_2_memory_sb
 -Family: SmartFusion2
 -Die: M2S025T
@@ -11,8 +11,8 @@
 
 Port                |Pin |Fixed |Function                                   |Bank     |I/O Std   |Direction                      |I/O state in Flash*Freeze mode |Resistor Pull                      |I/O available in Flash*Freeze mode |Schmitt Trigger |Odt_Static    |Odt Imp (Ohm)  |Low Power Exit |Input Delay |Slew         |Pre-Emphasis      |Output Drive (mA) |Output Load (pF) |
 --------------------|----|------|-------------------------------------------|---------|----------|-------------------------------|-------------------------------|-----------------------------------|-----------------------------------|----------------|--------------|---------------|---------------|------------|-------------|------------------|------------------|-----------------|
-ecc_sel0             J12  Yes    MSIO13NB2/SPI_0_SS0/GPIO_7_A                Bank2     LVCMOS25   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
-ecc_sel1             K12  Yes    MSIO13PB2/SPI_0_SDO/GPIO_6_A                Bank2     LVCMOS25   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
+ecc_sel0             G16  Yes    MSIO14NB2/SPI_0_SS5/GPIO_20_A               Bank2     LVCMOS25   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
+ecc_sel1             H15  Yes    MSIO14PB2/SPI_0_SS4/GPIO_19_A               Bank2     LVCMOS25   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
 ecc_sel2             G5   Yes    MSIO95PB7                                   Bank7     LVCMOS25   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
 flag0                H16  Yes    MSIO11NB2/I2C_1_SCL/GPIO_1_A/CCC_NE1_CLKI0  Bank2     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 
 flag1                J16  Yes    MSIO11PB2/I2C_1_SDA/GPIO_0_A/CCC_NE0_CLKI0  Bank2     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 

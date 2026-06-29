@@ -1,65 +1,69 @@
-#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\Jmano\\Projetos_LESC\\FPGA_design\\FPGA2memory\\synthesis\\synwork\\prj_2_memory_sb_comp.srs|-top|prj_2_memory_sb|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|C:\\Users\\Jmano\\Projetos_LESC\\FPGA_design\\FPGA2memory\\hdl|-I|C:\\Users\\Jmano\\Projetos_LESC\\FPGA_design\\FPGA2memory\\hdl|-I|C:\\Users\\Jmano\\Projetos_LESC\\FPGA_design\\FPGA2memory\\hdl|-I|C:\\Users\\Jmano\\Projetos_LESC\\FPGA_design\\FPGA2memory\\hdl|-I|C:\\Users\\Jmano\\Projetos_LESC\\FPGA_design\\FPGA2memory\\hdl|-I|C:\\Users\\Jmano\\Projetos_LESC\\FPGA_design\\FPGA2memory\\synthesis\\|-I|C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib|-sysv|-devicelib|C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-fsysv|-lib|work"
-#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\bin64\\c_ver.exe":1704385142
-#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\generic\\smartfusion2.v":1704384662
-#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\hypermods.v":1704384280
-#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\umr_capim.v":1704384514
-#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1704384280
-#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1704384280
-#CUR:"C:\\Users\\Jmano\\Projetos_LESC\\FPGA_design\\FPGA2memory\\component\\Actel\\SgCore\\OSC\\2.0.101\\osc_comps.v":1741797177
-#CUR:"C:\\Users\\Jmano\\Projetos_LESC\\FPGA_design\\FPGA2memory\\component\\work\\OSC_C0\\OSC_C0_0\\OSC_C0_OSC_C0_0_OSC.v":1741797177
-#CUR:"C:\\Users\\Jmano\\Projetos_LESC\\FPGA_design\\FPGA2memory\\component\\work\\OSC_C0\\OSC_C0.v":1741797177
-#CUR:"C:\\Users\\Jmano\\Projetos_LESC\\FPGA_design\\FPGA2memory\\hdl\\design.sv":1747403001
-#CUR:"C:\\Users\\Jmano\\Projetos_LESC\\FPGA_design\\FPGA2memory\\hdl\\ecc_design.sv":1747403534
-#CUR:"C:\\Users\\Jmano\\Projetos_LESC\\FPGA_design\\FPGA2memory\\hdl\\TBEC_RSC_encoder.sv":1741797178
-#CUR:"C:\\Users\\Jmano\\Projetos_LESC\\FPGA_design\\FPGA2memory\\hdl\\TBEC_RSC_decoder.sv":1741797178
-#CUR:"C:\\Users\\Jmano\\Projetos_LESC\\FPGA_design\\FPGA2memory\\hdl\\MRSC_encoder.sv":1741797178
-#CUR:"C:\\Users\\Jmano\\Projetos_LESC\\FPGA_design\\FPGA2memory\\hdl\\MRSC_decoder.sv":1741797178
-#CUR:"C:\\Users\\Jmano\\Projetos_LESC\\FPGA_design\\FPGA2memory\\component\\work\\prj_2_memory_sb\\prj_2_memory_sb.v":1747403539
-0			"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\Actel\SgCore\OSC\2.0.101\osc_comps.v" verilog
-1			"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v" verilog
-2			"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\OSC_C0\OSC_C0.v" verilog
-3			"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\design.sv" verilog
-4		*	"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\ecc_design.sv" verilog
-5		*	"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\TBEC_RSC_encoder.sv" verilog
-6		*	"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\TBEC_RSC_decoder.sv" verilog
-7		*	"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\MRSC_encoder.sv" verilog
-8		*	"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\hdl\MRSC_decoder.sv" verilog
-9			"C:\Users\Jmano\Projetos_LESC\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v" verilog
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\Acacio\\Documents\\GitHub\\FPGA_design\\FPGA2memory\\synthesis\\synwork\\prj_2_memory_sb_comp.srs|-top|prj_2_memory_sb|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|C:\\Users\\Acacio\\Documents\\GitHub\\FPGA_design\\FPGA2memory\\hdl|-I|C:\\Users\\Acacio\\Documents\\GitHub\\FPGA_design\\FPGA2memory\\hdl|-I|C:\\Users\\Acacio\\Documents\\GitHub\\FPGA_design\\FPGA2memory\\hdl|-I|C:\\Users\\Acacio\\Documents\\GitHub\\FPGA_design\\FPGA2memory\\hdl|-I|C:\\Users\\Acacio\\Documents\\GitHub\\FPGA_design\\FPGA2memory\\hdl|-I|C:\\Users\\Acacio\\Documents\\GitHub\\FPGA_design\\FPGA2memory\\synthesis\\|-I|C:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib|-sysv|-devicelib|C:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-fsysv|-lib|work"
+#CUR:"C:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\bin64\\c_ver.exe":1763485870
+#CUR:"C:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\generic\\smartfusion2.v":1763475254
+#CUR:"C:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vlog\\hypermods.v":1763485104
+#CUR:"C:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vlog\\scemi_objects.v":1763485104
+#CUR:"C:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vlog\\scemi_pipes.svh":1763485104
+#CUR:"C:\\Users\\Acacio\\Documents\\GitHub\\FPGA_design\\FPGA2memory\\component\\syn_comps.v":1782737740
+#CUR:"C:\\Users\\Acacio\\Documents\\GitHub\\FPGA_design\\FPGA2memory\\component\\Actel\\SgCore\\OSC\\2.0.101\\osc_comps.v":1748443585
+#CUR:"C:\\Users\\Acacio\\Documents\\GitHub\\FPGA_design\\FPGA2memory\\component\\work\\OSC_C0\\OSC_C0_0\\OSC_C0_OSC_C0_0_OSC.v":1748443585
+#CUR:"C:\\Users\\Acacio\\Documents\\GitHub\\FPGA_design\\FPGA2memory\\component\\work\\OSC_C0\\OSC_C0.v":1748443585
+#CUR:"C:\\Users\\Acacio\\Documents\\GitHub\\FPGA_design\\FPGA2memory\\hdl\\design.sv":1748443585
+#CUR:"C:\\Users\\Acacio\\Documents\\GitHub\\FPGA_design\\FPGA2memory\\hdl\\ecc_design.sv":1782737706
+#CUR:"C:\\Users\\Acacio\\Documents\\GitHub\\FPGA_design\\FPGA2memory\\hdl\\TBEC_RSC_encoder.sv":1748443585
+#CUR:"C:\\Users\\Acacio\\Documents\\GitHub\\FPGA_design\\FPGA2memory\\hdl\\TBEC_RSC_decoder.sv":1748443585
+#CUR:"C:\\Users\\Acacio\\Documents\\GitHub\\FPGA_design\\FPGA2memory\\hdl\\MRSC_encoder.sv":1748443585
+#CUR:"C:\\Users\\Acacio\\Documents\\GitHub\\FPGA_design\\FPGA2memory\\hdl\\MRSC_decoder.sv":1748443585
+#CUR:"C:\\Users\\Acacio\\Documents\\GitHub\\FPGA_design\\FPGA2memory\\component\\work\\prj_2_memory_sb\\prj_2_memory_sb.v":1782737706
+0			"C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\component\syn_comps.v" verilog
+1			"C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\component\Actel\SgCore\OSC\2.0.101\osc_comps.v" verilog
+2			"C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v" verilog
+3			"C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\component\work\OSC_C0\OSC_C0.v" verilog
+4			"C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\hdl\design.sv" verilog
+5		*	"C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\hdl\ecc_design.sv" verilog
+6		*	"C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\hdl\TBEC_RSC_encoder.sv" verilog
+7		*	"C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\hdl\TBEC_RSC_decoder.sv" verilog
+8		*	"C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\hdl\MRSC_encoder.sv" verilog
+9		*	"C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\hdl\MRSC_decoder.sv" verilog
+10			"C:\Users\Acacio\Documents\GitHub\FPGA_design\FPGA2memory\component\work\prj_2_memory_sb\prj_2_memory_sb.v" verilog
 #Dependency Lists(Uses List)
 0 -1
-1 0
+1 -1
 2 1
-3 8 7 6 5 4
-4 8 7 6 5 3
-5 8 7 6 4 3
-6 8 7 5 4 3
-7 8 6 5 4 3
-8 7 6 5 4 3
-9 2 8 7 6 5 4 3
+3 2
+4 9 8 7 6 5
+5 9 8 7 6 4
+6 9 8 7 5 4
+7 9 8 6 5 4
+8 9 7 6 5 4
+9 8 7 6 5 4
+10 3 9 8 7 6 5 4
 #Dependency Lists(Users Of)
-0 1
+0 -1
 1 2
-2 9
-3 9 8 7 6 5 4
-4 9 8 7 6 5 3
-5 9 8 7 6 4 3
-6 9 8 7 5 4 3
-7 9 8 6 5 4 3
-8 9 7 6 5 4 3
-9 -1
+2 3
+3 10
+4 10 9 8 7 6 5
+5 10 9 8 7 6 4
+6 10 9 8 7 5 4
+7 10 9 8 6 5 4
+8 10 9 7 6 5 4
+9 10 8 7 6 5 4
+10 -1
 #Design Unit to File Association
-module work prj_2_memory_sb 9
-module work fpga_top_design 3
-module work ecc_design 4
-module work MRSC_decoder 8
-module work MRSC_encoder 7
-module work TBEC_RSC_decoder 6
-module work TBEC_RSC_encoder 5
-module work OSC_C0 2
-module work OSC_C0_OSC_C0_0_OSC 1
-module work XTLOSC_FAB 0
-module work RCOSC_25_50MHZ_FAB 0
-module work RCOSC_1MHZ_FAB 0
-module work XTLOSC 0
-module work RCOSC_25_50MHZ 0
-module work RCOSC_1MHZ 0
+module work prj_2_memory_sb 10
+module work fpga_top_design 4
+module work ecc_design 5
+module work MRSC_decoder 9
+module work MRSC_encoder 8
+module work TBEC_RSC_decoder 7
+module work TBEC_RSC_encoder 6
+module work OSC_C0 3
+module work OSC_C0_OSC_C0_0_OSC 2
+module work XTLOSC_FAB 1
+module work RCOSC_25_50MHZ_FAB 1
+module work RCOSC_1MHZ_FAB 1
+module work XTLOSC 1
+module work RCOSC_25_50MHZ 1
+module work RCOSC_1MHZ 1
+module work MCHP_BLIC 0
